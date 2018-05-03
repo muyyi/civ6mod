@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- arthor: muyyi -->
+<!-- name: HappyFarming_Buildings -->
+<!-- update: 18/04/12 -->
+
+<GameInfo>
+	<BuildingModifiers>
+		<!-- Stronger INDUSTRIAL_ZONE building-->
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<ModifierId>BUILDING_WORKSHOP_FASTER_BUILDTIME_DISTRICT</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<ModifierId>BUILDING_WORKSHOP_FASTER_BUILDTIME_WONDER</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<ModifierId>BUILDING_FACTORY_FASTER_BUILDTIME_DISTRICT</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<ModifierId>BUILDING_FACTORY_FASTER_BUILDTIME_WONDER</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ELECTRONICS_FACTORY</BuildingType>
+			<ModifierId>BUILDING_ELECTRONICS_FACTORY_FASTER_BUILDTIME_DISTRICT</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ELECTRONICS_FACTORY</BuildingType>
+			<ModifierId>BUILDING_ELECTRONICS_FACTORY_FASTER_BUILDTIME_WONDER</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_POWER_PLANT</BuildingType>
+			<ModifierId>BUILDING_POWER_PLANT_FASTER_BUILDTIME_DISTRICT</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_POWER_PLANT</BuildingType>
+			<ModifierId>BUILDING_POWER_PLANT_FASTER_BUILDTIME_WONDER</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>BUILDING_WORKSHOP_FASTER_BUILDTIME_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>REQUIRES_CITY_HAS_WORKSHOP</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>BUILDING_WORKSHOP_FASTER_BUILDTIME_WONDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>REQUIRES_CITY_HAS_WORKSHOP</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_FACTORY_FASTER_BUILDTIME_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>REQUIRES_CITY_HAS_FACTORY</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>BUILDING_FACTORY_FASTER_BUILDTIME_WONDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>REQUIRES_CITY_HAS_FACTORY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_ELECTRONICS_FACTORY_FASTER_BUILDTIME_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>REQUIRES_CITY_HAS_ELECTRONICS_FACTORY</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>BUILDING_ELECTRONICS_FACTORY_FASTER_BUILDTIME_WONDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>REQUIRES_CITY_HAS_ELECTRONICS_FACTORY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_POWER_PLANT_FASTER_BUILDTIME_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>REQUIRES_CITY_HAS_POWER_PLANT</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>BUILDING_POWER_PLANT_FASTER_BUILDTIME_WONDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>REQUIRES_CITY_HAS_POWER_PLANT</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>BUILDING_WORKSHOP_FASTER_BUILDTIME_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_WORKSHOP_FASTER_BUILDTIME_WONDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>BUILDING_FACTORY_FASTER_BUILDTIME_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_FACTORY_FASTER_BUILDTIME_WONDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>BUILDING_ELECTRONICS_FACTORY_FASTER_BUILDTIME_WONDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_ELECTRONICS_FACTORY_FASTER_BUILDTIME_WONDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>BUILDING_FACTORY_FASTER_BUILDTIME_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_FACTORY_FASTER_BUILDTIME_WONDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>BUILDING_POWER_PLANT_FASTER_BUILDTIME_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_POWER_PLANT_FASTER_BUILDTIME_WONDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+
+ 	<RequirementSets>
+      <Row>
+          <RequirementSetId>REQUIRES_CITY_HAS_WORKSHOP</RequirementSetId>
+          <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+      </Row>
+      <Row>
+          <RequirementSetId>REQUIRES_CITY_HAS_FACTORY</RequirementSetId>
+          <RequirementSetType>REQUIREMENTSET_TEST_TEST</RequirementSetType>
+      </Row>
+      <Row>
+          <RequirementSetId>REQUIRES_CITY_HAS_ELECTRONICS_FACTORY</RequirementSetId>
+          <RequirementSetType>REQUIREMENTSET_TEST_TEST</RequirementSetType>
+      </Row>
+      <Row>
+          <RequirementSetId>REQUIRES_CITY_HAS_POWER_PLANT</RequirementSetId>
+          <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+      </Row>
+  </RequirementSets>
+
+  <RequirementSetRequirements>
+      <Row>
+          <RequirementSetId>REQUIRES_CITY_HAS_WORKSHOP</RequirementSetId>
+          <RequirementId>CITY_HAS_WORKSHOP</RequirementId>
+      </Row>
+      <Row>
+          <RequirementSetId>REQUIRES_CITY_HAS_FACTORY</RequirementSetId>
+          <RequirementId>CITY_HAS_FACTORY</RequirementId>
+      </Row>           
+      <Row>
+          <RequirementSetId>REQUIRES_CITY_HAS_ELECTRONICS_FACTORY</RequirementSetId>
+          <RequirementId>CITY_HAS_ELECTRONICS_FACTORY</RequirementId>
+      </Row>      
+      <Row>
+          <RequirementSetId>REQUIRES_CITY_HAS_POWER_PLANT</RequirementSetId>
+          <RequirementId>CITY_HAS_POWER_PLANT</RequirementId>
+      </Row>
+
+  </RequirementSetRequirements>
+
+  <Requirements>
+      <Row>
+          <RequirementId>CITY_HAS_WORKSHOP</RequirementId>
+          <RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+      </Row>
+            <Row>
+          <RequirementId>CITY_HAS_FACTORY</RequirementId>
+          <RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+      </Row>
+      <Row>
+          <RequirementId>CITY_HAS_ELECTRONICS_FACTORY</RequirementId>
+          <RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+      </Row>
+     	<Row>
+          <RequirementId>REQUIRES_CITY_HAS_POWER_PLANT</RequirementId>
+          <RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+      </Row>
+  </Requirements>
+
+  <RequirementArguments>
+      <Row>
+          <RequirementId>CITY_HAS_WORKSHOP</RequirementId>
+          <Name>BuildingType</Name>
+          <Value>BUILDING_WORKSHOP</Value>
+      </Row>
+            <Row>
+          <RequirementId>CITY_HAS_FACTORY</RequirementId>
+          <Name>BuildingType</Name>
+          <Value>BUILDING_FACTORY</Value>
+      </Row>
+            <Row>
+          <RequirementId>CITY_HAS_ELECTRONICS_FACTORY</RequirementId>
+          <Name>BuildingType</Name>
+          <Value>BUILDING_ELECTRONICS_FACTORY</Value>
+      </Row>
+      <Row>
+          <RequirementId>CITY_HAS_POWER_PLANT</RequirementId>
+          <Name>BuildingType</Name>
+          <Value>BUILDING_POWER_PLANT</Value>
+      </Row>
+  </RequirementArguments>
+</GameInfo>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yuuka_Leader -->
+<!-- Author: Muyyi -->
+<!-- Updated: 18/04/11 -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_YUUKA" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_THE_QUEEN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_LINGLAN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_IMPROVEMENT_FLOWER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_NONGJIAXIANG" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_YUUKA</LeaderType>
+			<Name>LOC_LEADER_YUUKA_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<Sex>Female</Sex>
+			<SceneLayers>LEADER_DEFAULT</SceneLayers>
+		</Row>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_YUUKA" TraitType="TRAIT_LEADER_THE_QUEEN"/>
+		<Row LeaderType="LEADER_YUUKA" TraitType="TRAIT_LEADER_UNIT_LINGLAN"/>
+	</LeaderTraits>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_YUUKA" Quote="LOC_LEADER_YUUKA_QUOTE"/>
+	</LeaderQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_THE_QUEEN" Name="LOC_TRAIT_LEADER_THE_QUEEN_NAME" Description="LOC_TRAIT_LEADER_THE_QUEEN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_LINGLAN" Name="LOC_UNIT_LINGLAN_NAME" Description="LOC_UNIT_LINGLAN_DESCRIPTION" />
+		<Row TraitType="TRAIT_AGENDA_NONGJIAXIANG" Name="LOC_AGENDA_NONGJIAXIANG_NAME" Description="LOC_AGENDA_NONGJIAXIANG_DESCRIPTION"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_PRODUCTION</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_MOVEMENT</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PRODUCTION</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PREREQ_OVERRIDE</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_MOVEMENT</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PRODUCTION</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_MOVEMENT</ModifierId>
+		</Row>
+
+		<!-- REINFORCEMENT_AND_PUNISHMENT -->
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_PRODUCTION</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_FAITH</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_GOLD</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_IDENTITYBONUS</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_LEADER_THE_QUEEN</TraitType>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_REDUCE_AMENITY</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<!-- leader skill -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PREREQ_OVERRIDE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_ACTION_OVERRIDE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_ACTION_OVERRIDE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER</ModifierType>
+		</Row>
+
+		<!-- 提升各项产出 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+
+		<!-- 提高忠诚度 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_IDENTITYBONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+
+		<!-- 降低宜居度 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_REDUCE_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!-- leader -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_PRODUCTION</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>WAR_DECLARATION_RECEIVED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_PRODUCTION</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_MOVEMENT</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>WAR_DECLARATION_RECEIVED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_MOVEMENT</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_DEFENSIVE_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<!-- TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PRODUCTION -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PRODUCTION</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>LIBERATION_WAR_INITIATED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PRODUCTION</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+		<!-- TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PREREQ_OVERRIDE -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PREREQ_OVERRIDE</ModifierId>
+			<Name>DiplomaticAction</Name>
+			<Value>DIPLOACTION_DECLARE_LIBERATION_WAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_PREREQ_OVERRIDE</ModifierId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_DEFENSIVE_TACTICS</Value>
+		</Row>
+
+		<!-- TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_MOVEMENT -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_MOVEMENT</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>LIBERATION_WAR_INITIATED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_MOVEMENT</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_LIBERATION_WAR_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<!-- TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PRODUCTION -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PRODUCTION</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>PROTECTORATE_WAR_INITIATED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PRODUCTION</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+		<!-- TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PREREQ_OVERRIDE -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+			<Name>DiplomaticAction</Name>
+			<Value>DIPLOACTION_DECLARE_PROTECTORATE_WAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_DEFENSIVE_TACTICS</Value>
+		</Row>
+
+		<!-- TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_MOVEMENT -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_MOVEMENT</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>PROTECTORATE_WAR_INITIATED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_MOVEMENT</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_PROTECTORATE_WAR_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_ADD_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_IDENTITYBONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_THE_QUEEN_RETAINERS_REDUCE_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- Agendas Info-->
+	<Agendas>
+		<Row AgendaType="AGENDA_NONGJIAXIANG" Name="LOC_AGENDA_NONGJIAXIANG_NAME" Description="LOC_AGENDA_NONGJIAXIANG_DESCRIPTION"/>
+	</Agendas>
+	<!-- 领袖和议程关联 -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_YUUKA" AgendaType="AGENDA_NONGJIAXIANG"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_NONGJIAXIANG" TraitType="TRAIT_AGENDA_NONGJIAXIANG"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_NONGJIAXIANG" AgendaTwo="AGENDA_EXPLOITATIVE"/>
+	</ExclusiveAgendas>
+	<!-- 待设置 -->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_NONGJIAXIANG" ModifierId="AGENDA_EXPLOITATION"/>
+	</TraitModifiers>
+	
+	<!-- 外交消息提示(待设置) -->
+<!-- 	<DiplomaticVisibilitySources>
+		<Row VisibilitySourceType="SOURCE_MOON_RABBITS" Description="LOC_VIZSOURCE_MOON_RABBITS" FromCitizen="true" ActionDescription="LOC_VIZSOURCE_ACTION_MOON_RABBITS" GossipString="LOC_GOSSIP_SOURCE_MOON_RABBITS"  TraitType="TRAIT_LEADER_THE_QUEEN"/>
+	</DiplomaticVisibilitySources> -->
+	
+	<!-- Ai Info -->
+	<AiListTypes>
+		<Row ListType="YUUKAWonders"/>
+		<Row ListType="YUUKACivics"/>
+		<Row ListType="YUUKATechs"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- 这里的LeaderType为什么是这个？ -->
+		<Row ListType="YUUKAWonders" LeaderType="TRAIT_LEADER_THE_QUEEN" System="Buildings"/>
+		<Row ListType="YUUKACivics" LeaderType="TRAIT_LEADER_THE_QUEEN" System="Civics"/>
+		<Row ListType="YUUKATechs" LeaderType="TRAIT_LEADER_THE_QUEEN" System="Technologies"/>
+	</AiLists>
+	<!-- 将civ和tec做相应修改 -->
+	<AiFavoredItems>
+		<Row ListType="YUUKAWonders" Item="BUILDING_HANGING_GARDENS"/>
+		<Row ListType="YUUKAWonders" Item="BUILDING_BIG_BEN"/>
+		<Row ListType="YUUKAWonders" Item="BUILDING_EIFFEL_TOWER"/>
+		<Row ListType="YUUKACivics" Item="CIVIC_DEFENSIVE_TACTICS"/>
+		<Row ListType="YUUKACivics" Item="CIVIC_FEUDALISM"/>
+		<Row ListType="YUUKACivics" Item="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ListType="YUUKATechs" Item="TECH_IRRIGATION"/>
+		<Row ListType="YUUKATechs" Item="TECH_IRON_WORKING"/>
+		<Row ListType="YUUKATechs" Item="TECH_FLIGHT"/>
+	</AiFavoredItems>
+</GameData>

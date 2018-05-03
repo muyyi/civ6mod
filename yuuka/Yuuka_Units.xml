@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yuuka_Units -->
+<!-- Author: muyyi -->
+<!-- Update: 18/04/11 -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_LINGLAN" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_LINGLAN" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_LINGLAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_LINGLAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_LINGLAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_LINGLAN" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_LINGLAN" ReplacesUnitType="UNIT_SWORDSMAN"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<!-- 方便测试，先替代勇士 -->
+		<Row Unit="UNIT_LINGLAN" UpgradeUnit="UNIT_MUSKETMAN"/>
+	</UnitUpgrades>
+	<Units>
+		<Row UnitType="UNIT_LINGLAN" BaseMoves="3" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_LINGLAN_NAME" Description="LOC_UNIT_LINGLAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="33" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_LEADER_UNIT_LINGLAN" PrereqTech="TECH_IRON_WORKING"/>
+	</Units>
+	<Tags>
+		<Row Tag="CLASS_LINGLAN" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="ABILITY_LINGLAN" Tag="CLASS_LINGLAN"/>
+		<Row Type="UNIT_LINGLAN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_LINGLAN" Tag="CLASS_LINGLAN"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_LINGLAN" Name="LOC_ABILITY_LINGLAN_NAME" Description="LOC_ABILITY_LINGLAN_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<!-- 最简单的办法是直接绑定印度战象的能力，不需要额外写，但我这里写了，是方便自定义参数 -->
+		<Row>
+			<UnitAbilityType>ABILITY_LINGLAN</UnitAbilityType>
+			<ModifierId>LINGLAN_NEGATIVE_COMBAT</ModifierId>	
+		</Row>
+
+		<Row>
+			<UnitAbilityType>ABILITY_LINGLAN</UnitAbilityType>
+			<ModifierId>LINGLAN_POISON_DAMAGE</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>	
+		<Row>
+			<ModifierId>LINGLAN_NEGATIVE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>LINGLAN_ADJACENT_AT_WAR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>LINGLAN_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>LINGLAN_POISON_DAMAGE</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>LINGLAN_ADJACENT_AT_WAR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>LINGLAN_POISON_DAMAGE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_DAMAGE</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+<!-- 		<Row>
+			<ModifierId>LINGLAN_POISON_DAMAGE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ADJUST_HEAL_PER_TURN</ModifierType>
+		</Row> -->
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 在ModifierArguments里，将2个modifier关联起来 -->
+		<Row>
+			<ModifierId>LINGLAN_NEGATIVE_COMBAT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>LINGLAN_NEGATIVE_COMBAT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>LINGLAN_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+		<!-- 实测该代码无效，待修复 -->
+		<Row>
+			<ModifierId>LINGLAN_POISON_DAMAGE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>LINGLAN_POISON_DAMAGE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>LINGLAN_POISON_DAMAGE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>LINGLAN_ADJACENT_AT_WAR_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>LINGLAN_ADJACENT_AT_WAR_REQUIREMENTS</RequirementSetId>
+			<RequirementId>LINGLAN_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>LINGLAN_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER_AT_WAR</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>LINGLAN_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>LINGLAN_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>1</Value>
+		</Row>
+	</RequirementArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="LINGLAN_NEGATIVE_COMBAT_MODIFIER" Context="Preview" Text="LOC_LINGLAN_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="LINGLAN_POISON_DAMAGE" Context="Preview" Text="LOC_LINGLAN_POISON_DAMAGE_DESCRIPTION"/>
+	</ModifierStrings>
+</GameData>

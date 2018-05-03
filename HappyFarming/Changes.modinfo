@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cca6c28a-980c-47fe-ak47-a0008381c134" version="1">
+  <Properties>
+    <Name>Happy Farming</Name>
+    <Description>update HF_Industrial.sql</Description>
+    <Teaser>This mod for you farming more happy.</Teaser>
+    <Authors>muyyi</Authors>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>HF_Global.sql</File>
+      <File>HF_Industrial.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>HF_Global.sql</File>
+    <File>HF_Industrial.sql</File>
+  </Files>
+</Mod>

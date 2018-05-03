@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yuuka_Improvements -->
+<!-- Author: Muyyi -->
+<!-- Updated: 18/04/11 -->
+
+<GameData>
+	<Types>
+		<Row Type="IMPROVEMENT_FLOWER" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_FLOWER" Name="LOC_IMPROVEMENT_FLOWER_NAME" Description="LOC_IMPROVEMENT_FLOWER_DESCRIPTION" Icon="ICON_IMPROVEMENT_FLOWER" PlunderType="PLUNDER_HEAL" PlunderAmount="100" Buildable="true" MinimumAppeal="2" PrereqTech="TECH_IRRIGATION" YieldFromAppeal="YIELD_GOLD" YieldFromAppealPercent="100" Housing="1" TilesRequired="2" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FLOWER" Appeal="1"/>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_FLOWER" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_FLOWER" TerrainType="TERRAIN_GRASS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_FLOWER" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_FLOWER" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_FLOWER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_FLOWER" TourismSource="TOURISMSOURCE_GOLD" PrereqTech="TECH_FLIGHT" ScalingFactor="50"/>
+	</Improvement_Tourism>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_FLOWER" YieldChangeId="Flower_Food"/>
+		<Row ImprovementType="IMPROVEMENT_FLOWER" YieldChangeId="Flower_Production"/>
+	</Improvement_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="Flower_Food" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_FLOWER" PrereqCivic="CIVIC_FEUDALISM"/>
+		<Row ID="Flower_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_FLOWER" PrereqCivic="CIVIC_FEUDALISM"/>
+	</Adjacency_YieldChanges>
+	<ImprovementModifiers>
+<!-- 		<Row>
+			<ImprovementType>IMPROVEMENT_FLOWER</ImprovementType>
+			<ModifierId>FLOWER_AMENITY</ModifierId>
+		</Row> -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FLOWER</ImprovementType>
+			<ModifierId>FLOWER_HOUSING_WITH_CIVIC_FEUDALISM</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<Modifiers>
+<!-- 		<Row>
+			<ModifierId>FLOWER_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+		</Row> -->
+		<Row>
+			<ModifierId>FLOWER_HOUSING_WITH_CIVIC_FEUDALISM</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+<!-- 		<Row>
+			<ModifierId>FLOWER_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row> -->
+		<Row>
+			<ModifierId>FLOWER_HOUSING_WITH_CIVIC_FEUDALISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIL_ENGINEERING</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIL_ENGINEERING</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIL_ENGINEERING</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CIVIL_ENGINEERING</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

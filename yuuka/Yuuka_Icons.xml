@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_YUUKA" IconSize="24"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_LD_24"/>
+		<Row Name="ICON_ATLAS_YUUKA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_LD_32"/>
+		<Row Name="ICON_ATLAS_YUUKA" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_LD_45"/>
+		<Row Name="ICON_ATLAS_YUUKA" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_LD_48"/>
+		<Row Name="ICON_ATLAS_YUUKA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_LD_50"/>
+		<Row Name="ICON_ATLAS_YUUKA" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_LD_55"/>
+		<Row Name="ICON_ATLAS_YUUKA" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_LD_64"/>
+		<Row Name="ICON_ATLAS_YUUKA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_LD_80"/>
+		<Row Name="ICON_ATLAS_YUUKA" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_LD_128"/>
+		<Row Name="ICON_ATLAS_YUUKA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_LD_256"/>
+
+		<Row Name="ICON_ATLAS_YUUKA_CIV" IconSize="24"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_CIV_24"/>
+		<Row Name="ICON_ATLAS_YUUKA_CIV" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_CIV_32"/>
+		<Row Name="ICON_ATLAS_YUUKA_CIV" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_CIV_45"/>
+		<Row Name="ICON_ATLAS_YUUKA_CIV" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_CIV_48"/>
+		<Row Name="ICON_ATLAS_YUUKA_CIV" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_CIV_50"/>
+		<Row Name="ICON_ATLAS_YUUKA_CIV" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_CIV_55"/>
+		<Row Name="ICON_ATLAS_YUUKA_CIV" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_CIV_64"/>
+		<Row Name="ICON_ATLAS_YUUKA_CIV" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_CIV_80"/>
+		<Row Name="ICON_ATLAS_YUUKA_CIV" IconSize="128"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_CIV_128"/>
+		<Row Name="ICON_ATLAS_YUUKA_CIV" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YUUKA_CIV_256"/>
+
+		<Row Name="ICON_ATLAS_MEDICINE" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_22"/>
+		<Row Name="ICON_ATLAS_MEDICINE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_32"/>
+		<Row Name="ICON_ATLAS_MEDICINE" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_38"/>
+		<Row Name="ICON_ATLAS_MEDICINE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_50"/>
+		<Row Name="ICON_ATLAS_MEDICINE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_80"/>
+		<Row Name="ICON_ATLAS_MEDICINE" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_256"/>
+
+		<Row Name="ICON_ATLAS_MEDICINE_PORTRAIT" IconSize="35"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_PORTRAIT_35"/>
+		<Row Name="ICON_ATLAS_MEDICINE_PORTRAIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_PORTRAIT_50"/>
+		<Row Name="ICON_ATLAS_MEDICINE_PORTRAIT" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_PORTRAIT_70"/>
+		<Row Name="ICON_ATLAS_MEDICINE_PORTRAIT" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_PORTRAIT_95"/>
+		<Row Name="ICON_ATLAS_MEDICINE_PORTRAIT" IconSize="200"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_PORTRAIT_200"/>
+		<Row Name="ICON_ATLAS_MEDICINE_PORTRAIT" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MEDICINE_PORTRAIT_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_YUUKA" Atlas="ICON_ATLAS_YUUKA" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_SUNFLOWERFARM" Atlas="ICON_ATLAS_YUUKA_CIV" Index="0"/>
+		<Row Name="ICON_UNIT_LINGLAN" Atlas="ICON_ATLAS_MEDICINE" Index="0"/>
+		<Row Name="ICON_UNIT_LINGLAN_PORTRAIT" Atlas="ICON_ATLAS_MEDICINE_PORTRAIT" Index="0"/>
+		<Row Name="ICON_IMPROVEMENT_FLOWER" Atlas="ICON_ATLAS_EXPANSION_1_IMPROVEMENTS" Index="2"/>
+	</IconDefinitions>
+</GameData>

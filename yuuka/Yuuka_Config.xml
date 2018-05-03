@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_SUNFLOWERFARM</CivilizationType>
+			<LeaderType>LEADER_YUUKA</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_SUNFLOWERFARM_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_SUNFLOWERFARM</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YUUKA_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YUUKA</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_JINKELA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_JINKELA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_SUNFLOWERFARM</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_THE_QUEEN_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_THE_QUEEN_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YUUKA</LeaderAbilityIcon>
+			<Portrait>LEADER_YUUKA_NEUTRAL</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_SUNFLOWERFARM</CivilizationType>
+			<LeaderType>LEADER_YUUKA</LeaderType>
+			<Type>UNIT_LINGLAN</Type>
+			<Name>LOC_UNIT_LINGLAN_NAME</Name>
+			<Description>LOC_UNIT_LINGLAN_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_LINGLAN</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_SUNFLOWERFARM</CivilizationType>
+			<LeaderType>LEADER_YUUKA</LeaderType>
+			<Type>IMPROVEMENT_FLOWER</Type>
+			<Name>LOC_IMPROVEMENT_FLOWER_NAME</Name>
+			<Description>LOC_IMPROVEMENT_FLOWER_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_FLOWER</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_22"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_30"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_32"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_36"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_44"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_45"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_48"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_50"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_64"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_80"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_128"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_200"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_CIV_256"/>
+			<m_ObjectName text="ICON_YUUKA_CIV_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_LD_24"/>
+			<m_ObjectName text="ICON_YUUKA_LD_24"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_LD_32"/>
+			<m_ObjectName text="ICON_YUUKA_LD_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_LD_45"/>
+			<m_ObjectName text="ICON_YUUKA_LD_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_LD_48"/>
+			<m_ObjectName text="ICON_YUUKA_LD_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_LD_50"/>
+			<m_ObjectName text="ICON_YUUKA_LD_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_LD_55"/>
+			<m_ObjectName text="ICON_YUUKA_LD_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_LD_64"/>
+			<m_ObjectName text="ICON_YUUKA_LD_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_LD_80"/>
+			<m_ObjectName text="ICON_YUUKA_LD_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_LD_128"/>
+			<m_ObjectName text="ICON_YUUKA_LD_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YUUKA_LD_256"/>
+			<m_ObjectName text="ICON_YUUKA_LD_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="bg_01"/>
+			<m_ObjectName text="bg_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_22"/>
+			<m_ObjectName text="ICON_MEDICINE_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_32"/>
+			<m_ObjectName text="ICON_MEDICINE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_38"/>
+			<m_ObjectName text="ICON_MEDICINE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_50"/>
+			<m_ObjectName text="ICON_MEDICINE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_80"/>
+			<m_ObjectName text="ICON_MEDICINE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_256"/>
+			<m_ObjectName text="ICON_MEDICINE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_PORTRAIT_35"/>
+			<m_ObjectName text="ICON_MEDICINE_PORTRAIT_35"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_MEDICINE_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_MEDICINE_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_MEDICINE_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_MEDICINE_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MEDICINE_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_MEDICINE_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_FLOWER"/>
+			<m_ObjectName text="MOMENT_FLOWER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_LINGLAN"/>
+			<m_ObjectName text="MOMENT_LINGLAN"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
