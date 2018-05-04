@@ -19,3 +19,16 @@ SELECT DynamicModifiers.*,Modifiers.ModifierId,Modifiers.SubjectRequirementSetId
 INNER JOIN Modifiers ON Modifiers.ModifierType = DynamicModifiers.ModifierType
 INNER JOIN ModifierArguments ON ModifierArguments.ModifierId = Modifiers.ModifierId
 WHERE DynamicModifiers.ModifierType LIKE '%BUILDING%PRODUCTION%' AND DynamicModifiers.CollectionType = 'COLLECTION_OWNER';
+
+SELECT * FROM Modifiers
+INNER JOIN ModifierArguments ON ModifierArguments.ModifierId = Modifiers.ModifierId
+WHERE Modifiers.ModifierId LIKE '%TEST_CITY_BUILDING_FASTER%' OR Modifiers.ModifierId IS 'MINOR_CIV_PRODUCTION_WALLS';
+
+-- 某个国家关联的modifier详情
+SELECT Modifiers.ModifierId,Modifiers.SubjectRequirementSetId,ModifierArguments.Name,ModifierArguments.Value FROM Civilizations
+INNER JOIN CivilizationTraits ON CivilizationTraits.CivilizationType = CivilizationTraits.CivilizationType
+INNER JOIN Traits ON Traits.TraitType = CivilizationTraits.TraitType
+INNER JOIN TraitModifiers ON TraitModifiers.TraitType = Traits.TraitType
+INNER JOIN Modifiers ON Modifiers.ModifierId = TraitModifiers.ModifierId
+INNER JOIN ModifierArguments ON ModifierArguments.ModifierId = Modifiers.ModifierId
+WHERE Civilizations.CivilizationType LIKE '%Georgia%';
