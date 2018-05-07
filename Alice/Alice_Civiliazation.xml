@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LoadingInfo>
+		<!-- Alice Margatroid -->
+		<!-- BackgroundImage = top left / ForegroundImage = middle right -->
+		<Row LeaderType="LEADER_ALICE" ForegroundImage="LEADER_ALICE_NEUTRAL" PlayDawnOfManAudio="0"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_ALICE" BackgroundImage="bg_01"/>
+	</DiplomacyInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_KAZAMI_ALICE_PRIMARY</Type>
+			<Red>0.102</Red>
+			<Green>0.737</Green>
+			<Blue>0.790</Blue>
+			<Alpha>0.8</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_KAZAMI_ALICE_SECONDARY</Type>
+			<Red>0.945</Red>
+			<Green>0.769</Green>
+			<Blue>0.059</Blue>
+			<Alpha>0.75</Alpha>
+			<!-- '0.945', '0.769', '0.059' -->
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_ALICE</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_KAZAMI_ALICE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_KAZAMI_ALICE_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_FLOWER" Texture="MOMENT_FLOWER"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LINGLAN" Texture="MOMENT_LINGLAN"/>
+	</MomentIllustrations>
+	
+	<Types>
+		<!-- 待改名 -->
+		<Row Type="CIVILIZATION_FOREST_OF_MAGIC" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_MAGIC_POWER" Kind="KIND_TRAIT"/>
+		<!-- <Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_FLOWER" Kind="KIND_TRAIT"/> -->
+		<Row Type="MODIFIER_ALICE_PLAYER_CITIES_RESOURCE_HARVEST_BONUS" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_ALICE_PLAYER_UNITS_ADJUST_ENTER_FOREIGN_LANDS" Kind="KIND_MODIFIER"/>
+	</Types>
+
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_ALICE_PLAYER_CITIES_RESOURCE_HARVEST_BONUS</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_RESOURCE_HARVEST_BONUS</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_ALICE_PLAYER_UNITS_ADJUST_ENTER_FOREIGN_LANDS</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_ENTER_FOREIGN_LANDS</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" Name="LOC_CIVILIZATION_FOREST_OF_MAGIC_NAME" Description="LOC_CIVILIZATION_FOREST_OF_MAGIC_DESCRIPTION" Adjective="LOC_CIVILIZATION_FOREST_OF_MAGIC_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="1"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" LeaderType="LEADER_ALICE" CapitalName="LOC_CITY_NAME_FOREST_OF_MAGIC"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_MAGIC_POWER" Name="LOC_TRAIT_MAGIC_POWER_NAME" Description="LOC_TRAIT_MAGIC_POWER_DESCRIPTION" />
+<!-- 		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FLOWER" Name="LOC_IMPROVEMENT_FLOWER_NAME" Description="LOC_IMPROVEMENT_FLOWER_DESCRIPTION" />	 -->
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" TraitType="TRAIT_MAGIC_POWER"/>
+		<!-- <Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FLOWER"/> -->
+	</CivilizationTraits>
+	<TraitModifiers>
+		<!-- 清理地貌和收获资源的产出增加 -->
+		<Row TraitType="TRAIT_MAGIC_POWER" ModifierId="MAGIC_POWER_BONUS_HARVEST_YIELDS" />
+		<!-- 单位无视森林/雨林地形 -->
+		<Row TraitType="TRAIT_MAGIC_POWER" ModifierId="MAGIC_POWER_MOVE_FASTER_IN_FOREST" />
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MAGIC_POWER_BONUS_HARVEST_YIELDS</ModifierId>
+			<ModifierType>MODIFIER_ALICE_PLAYER_CITIES_RESOURCE_HARVEST_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIC_POWER_MOVE_FASTER_IN_FOREST</ModifierId>
+			<ModifierType>MODIFIER_ALICE_PLAYER_UNITS_ADJUST_ENTER_FOREIGN_LANDS</ModifierType>
+		</Row>
+	</Modifiers>
+		
+	<ModifierArguments>
+		<!-- 清理地貌和收获资源的产出增加50%  -->
+		<Row>
+			<ModifierId>MAGIC_POWER_BONUS_HARVEST_YIELDS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIC_POWER_BONUS_HARVEST_YIELDS</ModifierId>
+			<Name>Enter</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- 城市名：待定 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_1"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_2"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_3"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_4"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_5"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_6"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_7"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_8"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_9"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_10"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_11"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_12"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_13"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_14"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_15"/>
+	</CityNames>
+</GameData>

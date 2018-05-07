@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Saigyouji_Districts -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 12/24/2017 3:19:13 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_DOLL_HOME" Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_DOLL_HOME" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_DOLL_HOME" Name="LOC_DISTRICT_DOLL_HOME_NAME" Description="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" PrereqCivic="CIVIC_CODE_OF_LAWS" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="40" Entertainment="1" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_DOLL_HOME"/>
+	</Districts>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="Mine_Production"/>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="Quarry_Production"/>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="District_Production"/>
+	</District_Adjacencies>
+	<District_GreatPersonPoints>
+		<!-- <Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/> -->
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+	</District_TradeRouteYields>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="SCIENCE" YieldChange="1"/>
+	</District_CitizenYieldChanges>
+	<District_CitizenGreatPersonPoints>
+		<Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</District_CitizenGreatPersonPoints>
+	<Adjacency_YieldChanges>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+	</Adjacency_YieldChanges>
+</GameData>
