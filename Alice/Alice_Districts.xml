@@ -85,4 +85,21 @@
 			<Value>2</Value>
 		</Row>
 	</ModifierArguments> -->
+
+	<Projects>
+		<Row ProjectType="PROJECT_MARISA_AND_SEVEN_MOGU" Name="LOC_MARISA_AND_SEVEN_MOGU_NAME" ShortName="LOC_MARISA_AND_SEVEN_MOGU_NAME" Description="LOC_MARISA_AND_SEVEN_MOGU_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" Cost="1" AdvisorType="ADVISOR_CULTURE"/>
+	</Projects>
+
+	<Project_GreatPersonPoints>
+		<Row ProjectType="MARISA_AND_SEVEN_MOGU" GreatPersonClassType="GREAT_PERSON_CLASS_TOUHOU_ALICE" Points="2000" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+	</Project_GreatPersonPoints>
+
+	<Project_YieldConversions>
+	</Project_YieldConversions>
+	
+	<ProjectPrereqs>
+<!-- 		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HAKUGYOKUROU_RESURRECTION_BUTTERFLY" PrereqProjectType="PROJECT_ENHANCE_DISTRICT_HAKUGYOKUROU_JOBUTSU" MinimumPlayerInstances="5"/>
+		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HAKUGYOKUROU_GARDENING_PREPARATION" PrereqProjectType="MARISA_AND_SEVEN_MOGU" MinimumPlayerInstances="10"/>
+		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HAKUGYOKUROU_GARDENING_PREPARATION_2" PrereqProjectType="MARISA_AND_SEVEN_MOGU" MinimumPlayerInstances="20"/> -->
+	</ProjectPrereqs>
 </GameData>
