@@ -32,7 +32,7 @@
 		<!-- 不可主动生产，不可购买 -->
 		<Row UnitType="UNIT_SHANGHAI" Cost="9999" CanTrain="0" BuildCharges="2" Maintenance="1" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND"  Combat="25" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Name="LOC_UNIT_SHANGHAI_NAME" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" TraitType="TRAIT_LEADER_UNIT_SHANGHAI"/>
 
-		<Row UnitType="UNIT_PENGLAI" Cost="9999" CanTrain="0" BuildCharges="3" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="10" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_PENGLAI_NAME" Description="LOC_UNIT_PENGLAI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/>
+		<Row UnitType="UNIT_PENGLAI" Cost="9999" CanTrain="0" BuildCharges="3" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="15" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_PENGLAI_NAME" Description="LOC_UNIT_PENGLAI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/>
 	</Units>
 	<Tags>
 		<Row Tag="CLASS_SHANGHAI" Vocabulary="ABILITY_CLASS"/>
@@ -46,104 +46,18 @@
 
 		<Row Type="ABILITY_PENGLAI" Tag="CLASS_PENGLAI"/>
 		<Row Type="UNIT_PENGLAI" Tag="CLASS_RECON"/>
-		<Row Type="UNIT_PENGLAI" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_PENGLAI" Tag="CLASS_STEALTH"/>
 		<Row Type="UNIT_PENGLAI" Tag="CLASS_PENGLAI"/>
 		<Row Type="UNIT_PENGLAI" Tag="CLASS_DOLL"/>
 	</TypeTags>
 	
-<!-- 	<UnitAbilities>
+	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_SHANGHAI" Name="LOC_ABILITY_SHANGHAI_NAME" Description="LOC_ABILITY_SHANGHAI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PENGLAI" Name="LOC_ABILITY_PENGLAI_NAME" Description="LOC_ABILITY_PENGLAI_DESCRIPTION"/>
 	</UnitAbilities>
-	<UnitAbilityModifiers>
-		<Row>
-			<UnitAbilityType>ABILITY_SHANGHAI</UnitAbilityType>
-			<ModifierId>SHANGHAI_NEGATIVE_COMBAT</ModifierId>	
-		</Row>
 
-		<Row>
-			<UnitAbilityType>ABILITY_SHANGHAI</UnitAbilityType>
-			<ModifierId>SHANGHAI_POISON_DAMAGE</ModifierId>
-		</Row>
-	</UnitAbilityModifiers>
-	<Modifiers>	
-		<Row>
-			<ModifierId>SHANGHAI_NEGATIVE_COMBAT</ModifierId>
-			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>SHANGHAI_ADJACENT_AT_WAR_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>SHANGHAI_NEGATIVE_COMBAT_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>SHANGHAI_POISON_DAMAGE</ModifierId>
-			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>SHANGHAI_ADJACENT_AT_WAR_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>SHANGHAI_POISON_DAMAGE_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_DAMAGE</ModifierType>
-			<Permanent>true</Permanent>
-			<RunOnce>true</RunOnce>
-		</Row>
-
-	</Modifiers>
-	<ModifierArguments>
-		<Row>
-			<ModifierId>SHANGHAI_NEGATIVE_COMBAT</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>SHANGHAI_NEGATIVE_COMBAT_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>SHANGHAI_NEGATIVE_COMBAT_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>-5</Value>
-		</Row>
-		<Row>
-			<ModifierId>SHANGHAI_POISON_DAMAGE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>SHANGHAI_POISON_DAMAGE_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>SHANGHAI_POISON_DAMAGE_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>15</Value>
-		</Row>
-	</ModifierArguments>
-
-	<RequirementSets>
-		<Row>
-			<RequirementSetId>SHANGHAI_ADJACENT_AT_WAR_REQUIREMENTS</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-	</RequirementSets>
-	<RequirementSetRequirements>
-		<Row>
-			<RequirementSetId>SHANGHAI_ADJACENT_AT_WAR_REQUIREMENTS</RequirementSetId>
-			<RequirementId>SHANGHAI_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
-		</Row>
-	</RequirementSetRequirements>
-	<Requirements>
-		<Row>
-			<RequirementId>SHANGHAI_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER_AT_WAR</RequirementType>
-		</Row>
-	</Requirements>
-	<RequirementArguments>
-		<Row>
-			<RequirementId>SHANGHAI_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
-			<Name>MinDistance</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<RequirementId>SHANGHAI_ADJACENT_UNIT_AT_WAR_REQUIREMENT</RequirementId>
-			<Name>MaxDistance</Name>
-			<Value>1</Value>
-		</Row>
-	</RequirementArguments>
-
-	<ModifierStrings>
-		<Row ModifierId="SHANGHAI_NEGATIVE_COMBAT_MODIFIER" Context="Preview" Text="LOC_SHANGHAI_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
-		<Row ModifierId="SHANGHAI_POISON_DAMAGE" Context="Preview" Text="LOC_SHANGHAI_POISON_DAMAGE_DESCRIPTION"/>
-	</ModifierStrings> -->
+<!-- 	<ModifierStrings>
+	<Row ModifierId="SHANGHAI_NEGATIVE_COMBAT_MODIFIER" Context="Preview" Text="LOC_SHANGHAI_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
+	<Row ModifierId="SHANGHAI_POISON_DAMAGE" Context="Preview" Text="LOC_SHANGHAI_POISON_DAMAGE_DESCRIPTION"/>
+</ModifierStrings> -->
 </GameData>

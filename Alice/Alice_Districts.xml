@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Saigyouji_Districts -->
-<!-- Author: Administrator -->
-<!-- DateCreated: 12/24/2017 3:19:13 PM -->
+<!-- DISTRICT_DOLL_HOME -->
+<!-- Author: muyyi -->
+<!-- Update: 2018/5/8 10:35 AM-->
 <GameData>
 	<Types>
 		<Row Type="DISTRICT_DOLL_HOME" Kind="KIND_DISTRICT"/>
@@ -18,7 +18,7 @@
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="District_Production"/>
 	</District_Adjacencies>
 	<District_GreatPersonPoints>
-		<!-- <Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/> -->
+		<Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
 	<District_TradeRouteYields>
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
@@ -26,12 +26,63 @@
 	<District_CitizenYieldChanges>
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="SCIENCE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	<District_CitizenGreatPersonPoints>
 		<Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</District_CitizenGreatPersonPoints>
-	<Adjacency_YieldChanges>
-		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
-	</Adjacency_YieldChanges>
+
+<!-- 	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_DOLL_HOME" ModifierId="DISTRICT_DOLL_HOME_PRODUCTION" />
+		<Row DistrictType="DISTRICT_DOLL_HOME" ModifierId="DISTRICT_DOLL_HOME_CULTURE" />
+		<Row DistrictType="DISTRICT_DOLL_HOME" ModifierId="DISTRICT_DOLL_HOME_SCIENCE" />
+	</DistrictModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>DISTRICT_DOLL_HOME_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>	
+		<Row>
+			<ModifierId>DISTRICT_DOLL_HOME_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>		
+		<Row>
+			<ModifierId>DISTRICT_DOLL_HOME_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DISTRICT_DOLL_HOME_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_DOLL_HOME_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_DOLL_HOME_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_DOLL_HOME_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_DOLL_HOME_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_DOLL_HOME_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments> -->
 </GameData>

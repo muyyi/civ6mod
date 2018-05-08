@@ -3,7 +3,8 @@
 SELECT DynamicModifiers.*,Modifiers.ModifierId,Modifiers.SubjectRequirementSetId,ModifierArguments.Name,ModifierArguments.Value FROM DynamicModifiers
 INNER JOIN Modifiers ON Modifiers.ModifierType = DynamicModifiers.ModifierType
 INNER JOIN ModifierArguments ON ModifierArguments.ModifierId = Modifiers.ModifierId
-WHERE DynamicModifiers.ModifierType LIKE '%DISTRICT%PRODUCTION%';
+WHERE Modifiers.ModifierType LIKE '%DISTRICT%PRODUCTION%';
+
 
 -- 获取modifier所绑定的对象(注意，不一定有结果，需要优化)
 SELECT * FROM Modifiers
@@ -32,3 +33,19 @@ INNER JOIN TraitModifiers ON TraitModifiers.TraitType = Traits.TraitType
 INNER JOIN Modifiers ON Modifiers.ModifierId = TraitModifiers.ModifierId
 INNER JOIN ModifierArguments ON ModifierArguments.ModifierId = Modifiers.ModifierId
 WHERE Civilizations.CivilizationType LIKE '%Georgia%';
+
+-- 某个领袖关联的modifier详情
+SELECT Modifiers.ModifierId,Modifiers.SubjectRequirementSetId,ModifierArguments.Name,ModifierArguments.Value FROM Leaders
+INNER JOIN LeaderTraits ON LeaderTraits.LeaderType = Leaders.LeaderType
+INNER JOIN Traits ON Traits.TraitType = LeaderTraits.TraitType
+INNER JOIN TraitModifiers ON TraitModifiers.TraitType = Traits.TraitType
+INNER JOIN Modifiers ON Modifiers.ModifierId = TraitModifiers.ModifierId
+INNER JOIN ModifierArguments ON ModifierArguments.ModifierId = Modifiers.ModifierId
+WHERE Leaders.LeaderType LIKE '%QIN%';
+
+-- 查找某个人文/科技
+SELECT * FROM Civics
+WHERE CivicType LIKE '%Training%'
+
+SELECT * FROM Technologies
+WHERE TechnologyType LIKE '%Training%'
