@@ -5,9 +5,9 @@
 		<!-- BackgroundImage = top left / ForegroundImage = middle right -->
 		<Row LeaderType="LEADER_ALICE" ForegroundImage="LEADER_ALICE_NEUTRAL" PlayDawnOfManAudio="0"/>
 	</LoadingInfo>
-	<DiplomacyInfo>
+<!-- 	<DiplomacyInfo>
 		<Row Type="LEADER_ALICE" BackgroundImage="bg_01"/>
-	</DiplomacyInfo>
+	</DiplomacyInfo> -->
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_KAZAMI_ALICE_PRIMARY</Type>
@@ -34,10 +34,10 @@
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 	</PlayerColors>
-	<MomentIllustrations>
+<!-- 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_FLOWER" Texture="MOMENT_FLOWER"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LINGLAN" Texture="MOMENT_LINGLAN"/>
-	</MomentIllustrations>
+	</MomentIllustrations> -->
 	
 	<Types>
 		<!-- 待改名 -->
@@ -69,11 +69,9 @@
 	</CivilizationLeaders>
 	<Traits>
 		<Row TraitType="TRAIT_MAGIC_POWER" Name="LOC_TRAIT_MAGIC_POWER_NAME" Description="LOC_TRAIT_MAGIC_POWER_DESCRIPTION" />
-<!-- 		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FLOWER" Name="LOC_IMPROVEMENT_FLOWER_NAME" Description="LOC_IMPROVEMENT_FLOWER_DESCRIPTION" />	 -->
 	</Traits>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" TraitType="TRAIT_MAGIC_POWER"/>
-		<!-- <Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FLOWER"/> -->
 	</CivilizationTraits>
 	<TraitModifiers>
 		<!-- 清理地貌和收获资源的产出增加 -->
@@ -90,6 +88,10 @@
 			<ModifierId>MAGIC_POWER_MOVE_FASTER_IN_FOREST</ModifierId>
 			<ModifierType>MODIFIER_ALICE_PLAYER_UNITS_ADJUST_ENTER_FOREIGN_LANDS</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>MAGIC_POWER_ALICE_CAN_SEE_MUSHROOM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_FREE_RESOURCE_VISIBILITY</ModifierType>
+		</Row>
 	</Modifiers>
 		
 	<ModifierArguments>
@@ -100,9 +102,14 @@
 			<Value>50</Value>
 		</Row>
 		<Row>
-			<ModifierId>MAGIC_POWER_BONUS_HARVEST_YIELDS</ModifierId>
+			<ModifierId>MAGIC_POWER_MOVE_FASTER_IN_FOREST</ModifierId>
 			<Name>Enter</Name>
 			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIC_POWER_ALICE_CAN_SEE_MUSHROOM</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_MAGIC_MASHROOM</Value>
 		</Row>
 	</ModifierArguments>
 
@@ -124,4 +131,10 @@
 		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_14"/>
 		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_15"/>
 	</CityNames>
+
+	<!-- 文明关联树林和森林 -->
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" FeatureType="FEATURE_JUNGLE" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" FeatureType="FEATURE_FOREST" Tier="5"/>
+	</StartBiasFeatures>
 </GameData>

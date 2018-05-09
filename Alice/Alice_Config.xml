@@ -3,41 +3,51 @@
 	<Players>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_SUNFLOWERFARM</CivilizationType>
-			<LeaderType>LEADER_YUUKA</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_SUNFLOWERFARM_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_SUNFLOWERFARM</CivilizationIcon>
-			<LeaderName>LOC_LEADER_YUUKA_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_YUUKA</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_JINKELA_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_JINKELA_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_SUNFLOWERFARM</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_THE_QUEEN_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_THE_QUEEN_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_YUUKA</LeaderAbilityIcon>
-			<Portrait>LEADER_YUUKA_NEUTRAL</Portrait>
+			<CivilizationType>CIVILIZATION_FOREST_OF_MAGIC</CivilizationType>
+			<LeaderType>LEADER_ALICE</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_FOREST_OF_MAGIC_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_FOREST_OF_MAGIC</CivilizationIcon>
+			<LeaderName>LOC_LEADER_ALICE_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ALICE</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_MAGIC_POWER_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_MAGIC_POWER_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_FOREST_OF_MAGIC</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_DOLL_MASTER_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_ALICE</LeaderAbilityIcon>
+			<Portrait>LEADER_ALICE_NEUTRAL</Portrait>
 		</Row>
 	</Players>
 	<PlayerItems>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_SUNFLOWERFARM</CivilizationType>
-			<LeaderType>LEADER_YUUKA</LeaderType>
-			<Type>UNIT_LINGLAN</Type>
-			<Name>LOC_UNIT_LINGLAN_NAME</Name>
-			<Description>LOC_UNIT_LINGLAN_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_LINGLAN</Icon>
+			<CivilizationType>CIVILIZATION_FOREST_OF_MAGIC</CivilizationType>
+			<LeaderType>LEADER_ALICE</LeaderType>
+			<Type>UNIT_SHANGHAI</Type>
+			<Name>LOC_UNIT_SHANGHAI_NAME</Name>
+			<Description>LOC_UNIT_SHANGHAI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SHANGHAI</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_SUNFLOWERFARM</CivilizationType>
-			<LeaderType>LEADER_YUUKA</LeaderType>
-			<Type>IMPROVEMENT_FLOWER</Type>
-			<Name>LOC_IMPROVEMENT_FLOWER_NAME</Name>
-			<Description>LOC_IMPROVEMENT_FLOWER_DESCRIPTION</Description>
-			<Icon>ICON_IMPROVEMENT_FLOWER</Icon>
+			<CivilizationType>CIVILIZATION_FOREST_OF_MAGIC</CivilizationType>
+			<LeaderType>LEADER_ALICE</LeaderType>
+			<Type>UNIT_PENGLAI</Type>
+			<Name>LOC_UNIT_PENGLAI_NAME</Name>
+			<Description>LOC_UNIT_PENGLAI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_PENGLAI</Icon>
 			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FOREST_OF_MAGIC</CivilizationType>
+			<LeaderType>LEADER_ALICE</LeaderType>
+			<Type>DISTRICT_DOLL_HOME</Type>
+			<Name>LOC_DISTRICT_DOLL_HOME_NAME</Name>
+			<Description>LOC_DISTRICT_DOLL_HOME_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_DOLL_HOME</Icon>
+			<SortIndex>30</SortIndex>
 		</Row>
 	</PlayerItems>
 </GameData>

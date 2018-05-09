@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="RESOURCE_MAGIC_MASHROOM" Kind="KIND_RESOURCE"/>
+	</Types>
+
+	<TypeTags>
+		<Row Type="RESOURCE_MAGIC_MASHROOM" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_MAGIC_MASHROOM" Tag="CLASS_GODDESS_OF_FESTIVALS"/>
+		<Row Type="RESOURCE_MAGIC_MASHROOM" Tag="CLASS_ORAL_TRADITION"/>
+	</TypeTags>
+
+	<Resources>
+		<!-- 暂时先做成隐藏的战略资源，给爱丽丝一个提前发现它的技能 -->
+		<!-- 测试时，先提高该资源出现的频率 -->
+		<Row ResourceType="RESOURCE_MAGIC_MASHROOM" Name="LOC_RESOURCE_MAGIC_MASHROOM_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="12" Happiness="6" PrereqCivic="CIVIC_FUTURE_CIVIC"/>
+	</Resources>
+
+	<Resource_ValidTerrains>
+	</Resource_ValidTerrains>
+
+	<Resource_ValidFeatures>
+		<Row ResourceType="RESOURCE_MAGIC_MASHROOM" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_MAGIC_MASHROOM" FeatureType="FEATURE_FOREST"/>
+	</Resource_ValidFeatures>
+
+
+	<Resource_YieldChanges>
+		<Row ResourceType="RESOURCE_MAGIC_MASHROOM" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_MAGIC_MASHROOM" YieldType="YIELD_FAITH" YieldChange="2"/>
+	</Resource_YieldChanges>
+
+	<Resource_TradeRouteYields>
+		<Row ResourceType="RESOURCE_MAGIC_MASHROOM" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_MAGIC_MASHROOM" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Resource_TradeRouteYields>
+
+	<Resource_Distribution>
+		<Row Continents="1" Scarce="0" Average="7" Plentiful="0" PercentAdjusted="25"/>
+		<Row Continents="2" Scarce="4" Average="3" Plentiful="0" PercentAdjusted="25"/>
+		<Row Continents="3" Scarce="1" Average="1" Plentiful="1" PercentAdjusted="25"/>
+		<Row Continents="4" Scarce="1" Average="2" Plentiful="1" PercentAdjusted="25"/>
+		<Row Continents="5" Scarce="2" Average="1" Plentiful="2" PercentAdjusted="25"/>
+		<Row Continents="6" Scarce="2" Average="2" Plentiful="2" PercentAdjusted="25"/>
+		<Row Continents="7" Scarce="3" Average="1" Plentiful="3" PercentAdjusted="25"/>
+		<Row Continents="8" Scarce="3" Average="2" Plentiful="3" PercentAdjusted="25"/>
+	</Resource_Distribution>
+	<Resource_SeaLuxuries>
+		<Row MapArgument="1" Duel="0" Tiny="0" Small="0" Standard="0" Large="0" Huge="0"/>
+		<Row MapArgument="2" Duel="1" Tiny="1" Small="1" Standard="2" Large="2" Huge="2"/>
+		<Row MapArgument="3" Duel="1" Tiny="2" Small="2" Standard="2" Large="2" Huge="2"/>
+		<Row MapArgument="4" Duel="2" Tiny="2" Small="2" Standard="2" Large="2" Huge="2"/>
+	</Resource_SeaLuxuries>
+	<Resource_SeaStrategics>
+		<Row MapArgument="1" Duel="0" Tiny="0" Small="0" Standard="0" Large="0" Huge="0"/>
+		<Row MapArgument="2" Duel="1" Tiny="1" Small="1" Standard="1" Large="1" Huge="1"/>
+		<Row MapArgument="3" Duel="1" Tiny="1" Small="1" Standard="1" Large="1" Huge="1"/>
+		<Row MapArgument="4" Duel="1" Tiny="1" Small="1" Standard="1" Large="1" Huge="1"/>
+	</Resource_SeaStrategics>
+</GameInfo>

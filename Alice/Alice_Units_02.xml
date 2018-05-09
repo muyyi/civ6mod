@@ -29,10 +29,14 @@
 		<Row Unit="UNIT_PENGLAI" UpgradeUnit="UNIT_RANGER"/>
 	</UnitUpgrades>
 	<Units>
-		<!-- 不可主动生产，不可购买 -->
-		<Row UnitType="UNIT_SHANGHAI" Cost="9999" CanTrain="0" BuildCharges="2" Maintenance="1" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND"  Combat="25" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Name="LOC_UNIT_SHANGHAI_NAME" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" TraitType="TRAIT_LEADER_UNIT_SHANGHAI"/>
+<!-- 		<Row UnitType="UNIT_SHANGHAI" BaseMoves="3" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SHANGHAI_NAME" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="33" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_LEADER_UNIT_SHANGHAI" PrereqTech="TECH_IRON_WORKING"/>
 
-		<Row UnitType="UNIT_PENGLAI" Cost="9999" CanTrain="0" BuildCharges="3" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="15" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_PENGLAI_NAME" Description="LOC_UNIT_PENGLAI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" TraitType="TRAIT_LEADER_UNIT_PENGLAI"/>
+		<Row UnitType="UNIT_PENGLAI" BuildCharges="2" BaseMoves="3" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PENGLAI_NAME" Description="LOC_UNIT_PENGLAI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="33" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_LEADER_UNIT_PENGLAI" PrereqTech="TECH_IRON_WORKING"/> -->
+
+		<!-- 不可主动生产，不可购买 -->
+		<Row UnitType="UNIT_SHANGHAI" Cost="100" BuildCharges="2" Maintenance="1" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND"  Combat="25" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Name="LOC_UNIT_SHANGHAI_NAME" PurchaseYield="YIELD_GOLD" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" TraitType="TRAIT_LEADER_UNIT_SHANGHAI" AdvisorType="ADVISOR_CONQUEST" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqCivic="CIVIC_CODE_OF_LAWS"/ >
+
+		<Row UnitType="UNIT_PENGLAI" Cost="100" BuildCharges="3" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="15" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_PENGLAI_NAME" PurchaseYield="YIELD_GOLD" Description="LOC_UNIT_PENGLAI_DESCRIPTION" TraitType="TRAIT_LEADER_UNIT_PENGLAI" Maintenance="1" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqCivic="CIVIC_CODE_OF_LAWS"/>
 	</Units>
 	<Tags>
 		<Row Tag="CLASS_SHANGHAI" Vocabulary="ABILITY_CLASS"/>

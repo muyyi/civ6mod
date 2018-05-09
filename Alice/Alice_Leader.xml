@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- ALICE_Leader -->
 <!-- Author: Muyyi -->
-<!-- Updated: 18/04/11 -->
+<!-- Updated: 18/05/09 -->
 <GameData>
 	<Types>
 		<Row Type="LEADER_ALICE" Kind="KIND_LEADER" />
@@ -10,7 +10,7 @@
 		<Row Type="TRAIT_LEADER_UNIT_PENGLAI" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_DISTRICT_DOLL_HOME" Kind="KIND_TRAIT"/>
 		<!-- <Row Type="TRAIT_AGENDA_NONGJIAXIANG" Kind="KIND_TRAIT"/> -->
-		<Row Type="MODIFIER_ALICE_PLAYER_CITIES_GRANT_UNIT" Kind="KIND_TRAIT"/>
+		<Row Type="MODIFIER_ALICE_PLAYER_CITIES_GRANT_UNIT" Kind="KIND_MODIFIER"/>
 	</Types>
 
 	<DynamicModifiers>
@@ -34,6 +34,7 @@
 		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_DOLL_MASTER"/>
 		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_UNIT_SHANGHAI"/>
 		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_UNIT_PENGLAI"/>
+		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME"/>
 	</LeaderTraits>
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_ALICE" Quote="LOC_LEADER_ALICE_QUOTE"/>
@@ -42,6 +43,7 @@
 		<Row TraitType="TRAIT_LEADER_DOLL_MASTER" Name="LOC_TRAIT_LEADER_DOLL_MASTER_NAME" Description="LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_SHANGHAI" Name="LOC_UNIT_SHANGHAI_NAME" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" />
 		<Row TraitType="TRAIT_LEADER_UNIT_PENGLAI" Name="LOC_UNIT_PENGLAI_NAME" Description="LOC_UNIT_PENGLAI_DESCRIPTION" />
+		<Row TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME" Name="LOC_DISTRICT_DOLL_HOME_NAME" Description="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" />
 <!-- 		<Row TraitType="TRAIT_AGENDA_NONGJIAXIANG" Name="LOC_AGENDA_NONGJIAXIANG_NAME" Description="LOC_AGENDA_NONGJIAXIANG_DESCRIPTION"/> -->
 	</Traits>
 
@@ -58,7 +60,6 @@
 	</TraitModifiers>
 
 	<Modifiers>
-		<!-- leader skill -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_SHANGHAI</ModifierId>
 			<ModifierType>MODIFIER_ALICE_PLAYER_CITIES_GRANT_UNIT</ModifierType>
@@ -70,7 +71,6 @@
 	</Modifiers>
 
 	<ModifierArguments>
-		<!-- leader -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_SHANGHAI</ModifierId>
 			<Name>Amount</Name>

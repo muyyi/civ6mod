@@ -31,6 +31,12 @@ VALUES	('TRAIT_LEADER_DOLL_MASTER',	'TRAIT_DOLL_WONDER_PERCENT') ,
 		('TRAIT_LEADER_DOLL_MASTER',	'TRAIT_DOLL_DISTRICT_PERCENT') ;
 
 -- Unit SHANGHAI/PENGLAI
+-- 修建任意改造设施
+INSERT INTO Improvement_ValidBuildUnits
+(ImprovementType, UnitType)
+SELECT ImprovementType, 'UNIT_PENGLAI'
+FROM Improvement_ValidBuildUnits WHERE UnitType = 'UNIT_BUILDER'
+
 INSERT INTO Modifiers 
 		(ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES	('TRAIT_SHANGHAI_CORPS_STRENGTH', 'MODIFIER_PLAYER_CORPS_ARMY_MODIFIED_STRENGTH', NULL) ,
@@ -167,3 +173,27 @@ INSERT INTO DistrictModifiers
 VALUES	('DISTRICT_DOLL_HOME',	'DOLL_HOME_BASIC_PRODUCTION') ,
 		('DISTRICT_DOLL_HOME',	'DOLL_HOME_BASIC_CULTURE') ,
 		('DISTRICT_DOLL_HOME',	'DOLL_HOME_BASIC_SCIENCE') ;
+
+-- Great People
+-- God SHENQI
+CREATE TABLE IF NOT EXISTS HiddenStrategics AS 
+	SELECT ResourceType FROM Resources 
+	WHERE ResourceClassType="RESOURCECLASS_STRATEGIC" AND PrereqTech IS NOT NULL ;
+
+
+INSERT INTO Modifiers 
+	(ModifierId, 	ModifierType, 	RunOnce, Permanent, OwnerRequirementSetId, SubjectRequirementSetId)
+SELECT	'ALICE_PLAYER_CAN_SEE' || HiddenStrategics.ResourceType, 	'MODIFIER_PLAYER_GRANT_FREE_RESOURCE_VISIBILITY', 1, 1, NULL, NULL
+	FROM HiddenStrategics;
+
+
+INSERT INTO ModifierArguments
+	(ModifierId, Name, Value)
+SELECT 'ALICE_PLAYER_CAN_SEE' || HiddenStrategics.ResourceType, 'ResourceType', HiddenStrategics.ResourceType	
+	FROM HiddenStrategics;
+
+-- 这里要绑定的是神绮的激活能力1
+-- INSERT INTO TraitModifiers
+-- 	(TraitType, 		ModifierId)
+-- SELECT 'TRAIT_CIVILIZATION_MAPUCHE_TOQUI',	'ALICE_PLAYER_CAN_SEE' || HiddenStrategics.ResourceType 
+-- 	FROM HiddenStrategics;
