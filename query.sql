@@ -27,7 +27,7 @@ WHERE Modifiers.ModifierId LIKE '%TEST_CITY_BUILDING_FASTER%' OR Modifiers.Modif
 
 -- 某个国家关联的modifier详情
 SELECT Modifiers.ModifierId,Modifiers.SubjectRequirementSetId,ModifierArguments.Name,ModifierArguments.Value FROM Civilizations
-INNER JOIN CivilizationTraits ON CivilizationTraits.CivilizationType = CivilizationTraits.CivilizationType
+INNER JOIN CivilizationTraits ON Civilization.CivilizationType = CivilizationTraits.CivilizationType
 INNER JOIN Traits ON Traits.TraitType = CivilizationTraits.TraitType
 INNER JOIN TraitModifiers ON TraitModifiers.TraitType = Traits.TraitType
 INNER JOIN Modifiers ON Modifiers.ModifierId = TraitModifiers.ModifierId
@@ -49,3 +49,11 @@ WHERE CivicType LIKE '%Training%'
 
 SELECT * FROM Technologies
 WHERE TechnologyType LIKE '%Training%'
+
+-- 根据某个条件查找完整条件集
+SELECT * FROM RequirementSets
+INNER JOIN RequirementSetRequirements ON RequirementSetRequirements.RequirementSetId = RequirementSets.RequirementSetId
+INNER JOIN Requirements ON Requirements.RequirementId = RequirementSetRequirements.RequirementId
+INNER JOIN RequirementArguments ON RequirementArguments.RequirementId = Requirements.RequirementId
+WHERE RequirementSets.RequirementSetId LIKE '%HOPLITE_PLOT_IS_HOPLITE_REQUIREMENTS%';
+
