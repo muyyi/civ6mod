@@ -158,6 +158,27 @@
 			<Text>魔理沙最高</Text>
 		</Replace>
 
+		<Replace Tag="LOC_SPY_QUARTERMASTER" Language="zh_Hans_CN">
+			<Text>你所有的间谍在执行任务时等级+1，间谍可以从所有的选项里选择升级而非随机的升级。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GOD_SHENQI_MAIMENG" Language="zh_Hans_CN">
+			<Text>卖萌</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLOMAT_KIRISAME_MARISA_ACTIVE_DIPLOMATIC_GOVERNMENT_SLOT" Language="zh_Hans_CN">
+			<Text>生成3个使者，获得一个额外的外交槽。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SPY_KIRISAME_MARISA" Language="zh_Hans_CN">
+			<Text>生成一个间谍并增加一个间谍容量，所有间谍初始获得一次等级晋升。</Text>
+		</Replace>
+
+		<Replace Tag="SHENQI_GOD_ACTIVE_THREE_RELIC" Language="zh_Hans_CN">
+			<Text>生成3个圣遗物，所有城市遗物的信仰和旅游业产出翻倍，同时从城市的每个遗物获得250文化和科技。</Text>
+		</Replace>		
+
+
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>与其它好战的文明不同，幽香只想好好耕耘自己的花田。但如果你胆敢打扰她，或许你才会真正明白，为什么她的花田总是开的那么鲜艳。</Text>
 		</Replace>

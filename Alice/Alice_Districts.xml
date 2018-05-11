@@ -19,6 +19,7 @@
 	</District_Adjacencies>
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_TOUHOU_ALICE" PointsPerTurn="2"/>
 	</District_GreatPersonPoints>
 	<District_TradeRouteYields>
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>

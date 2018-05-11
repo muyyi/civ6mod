@@ -3,7 +3,7 @@
 SELECT DynamicModifiers.*,Modifiers.ModifierId,Modifiers.SubjectRequirementSetId,ModifierArguments.Name,ModifierArguments.Value FROM DynamicModifiers
 INNER JOIN Modifiers ON Modifiers.ModifierType = DynamicModifiers.ModifierType
 INNER JOIN ModifierArguments ON ModifierArguments.ModifierId = Modifiers.ModifierId
-WHERE Modifiers.ModifierType LIKE '%DISTRICT%PRODUCTION%';
+WHERE Modifiers.ModifierType LIKE '%PRODUCTION%';
 
 
 -- 获取modifier所绑定的对象(注意，不一定有结果，需要优化)
