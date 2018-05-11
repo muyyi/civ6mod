@@ -57,6 +57,7 @@
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_SHANGHAI" Name="LOC_ABILITY_SHANGHAI_NAME" Description="LOC_ABILITY_SHANGHAI_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_PENGLAI" Name="LOC_ABILITY_PENGLAI_NAME" Description="LOC_ABILITY_PENGLAI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DOLL" Name="LOC_ABILITY_DOLL_NAME" Description="LOC_ABILITY_DOLL_DESCRIPTION"/>
 	</UnitAbilities>
 
 <!-- 	<ModifierStrings>

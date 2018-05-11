@@ -27,7 +27,7 @@ WHERE Modifiers.ModifierId LIKE '%TEST_CITY_BUILDING_FASTER%' OR Modifiers.Modif
 
 -- 某个国家关联的modifier详情
 SELECT Modifiers.ModifierId,Modifiers.SubjectRequirementSetId,ModifierArguments.Name,ModifierArguments.Value FROM Civilizations
-INNER JOIN CivilizationTraits ON Civilization.CivilizationType = CivilizationTraits.CivilizationType
+INNER JOIN CivilizationTraits ON Civilizations.CivilizationType = CivilizationTraits.CivilizationType
 INNER JOIN Traits ON Traits.TraitType = CivilizationTraits.TraitType
 INNER JOIN TraitModifiers ON TraitModifiers.TraitType = Traits.TraitType
 INNER JOIN Modifiers ON Modifiers.ModifierId = TraitModifiers.ModifierId
