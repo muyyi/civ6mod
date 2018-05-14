@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DS_Promotions -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 6/22/2017 10:30:10 PM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_KIRISAME_MARISA" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GOD_SHINKI" Kind="KIND_UNIT"/>
+	</Types>
+
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_MARISA" Name="LOC_PROMOTION_CLASS_KIRISAME_MARISA_NAME"/>
+		<Row PromotionClassType="PROMOTION_CLASS_SHINKI" Name="LOC_PROMOTION_CLASS_GOD_SHINKI_NAME"/>
+	</UnitPromotionClasses>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_KIRISAME_MARISA" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_GOD_SHINKI" AiType="UNITTYPE_CIVILIAN"/>
+	</UnitAiInfos>
+
+	<Units>
+		<!-- NumRandomChoices属性不知道是干嘛的，暂时保留 -->
+		<Row UnitType="UNIT_KIRISAME_MARISA" BaseMoves="4" Cost="1" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_KIRISAME_MARISA_NAME" Description="LOC_UNIT_KIRISAME_MARISA_DESCRIPTION" CanCapture="False" PromotionClass="PROMOTION_CLASS_MARISA" InitialLevel="1" NumRandomChoices="4" CanTrain="False"/>
+		<Row UnitType="UNIT_GOD_SHINKI" BaseMoves="4" Cost="1" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GOD_SHINKI_NAME" Description="LOC_UNIT_GOD_SHINKI_DESCRIPTION" CanCapture="False" PromotionClass="PROMOTION_CLASS_SHINKI" InitialLevel="1" NumRandomChoices="4" CanTrain="False"/>
+	</Units>
+
+<!-- 	<Tags>
+		<Row Tag="CLASS_GOD_OF_WAR_TOKEN" Vocabulary="ABILITY_CLASS"/>
+	</Tags> -->
+
+	<TypeTags>
+		<Row Type="UNIT_KIRISAME_MARISA" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_GOD_SHINKI" Tag="CLASS_LANDCIVILIAN"/>
+	</TypeTags>
+
+	<UnitPromotions>
+		<!-- Marisa -->
+		<Row UnitPromotionType="PROMOTION_MARISA_L1L" Name="LOC_PROMOTION_MARISA_L1L_NAME" Description="LOC_PROMOTION_MARISA_L1L_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_MARISA"/>
+		<Row UnitPromotionType="PROMOTION_MARISA_L1R" Name="LOC_PROMOTION_MARISA_L1R_NAME" Description="LOC_PROMOTION_MARISA_L1R_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_MARISA"/>
+		<Row UnitPromotionType="PROMOTION_MARISA_L2L" Name="LOC_PROMOTION_MARISA_L2L_NAME" Description="LOC_PROMOTION_MARISA_L2L_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_MARISA"/>
+		<Row UnitPromotionType="PROMOTION_MARISA_L2R" Name="LOC_PROMOTION_MARISA_L2R_NAME" Description="LOC_PROMOTION_MARISA_L2R_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_MARISA"/>
+		<Row UnitPromotionType="PROMOTION_MARISA_L3L" Name="LOC_PROMOTION_MARISA_L3L_NAME" Description="LOC_PROMOTION_MARISA_L3L_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_MARISA"/>
+		<Row UnitPromotionType="PROMOTION_MARISA_L3R" Name="LOC_PROMOTION_MARISA_L3R_NAME" Description="LOC_PROMOTION_MARISA_L3R_DESCRIPTION" Level="3" Column="3" PromotionClass="PROMOTION_CLASS_MARISA"/>
+		<Row UnitPromotionType="PROMOTION_MARISA_L4" Name="LOC_PROMOTION_MARISA_L4_NAME" Description="LOC_PROMOTION_MARISA_L4_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_MARISA"/>
+		<!-- Shinki -->
+		<Row UnitPromotionType="PROMOTION_SHINKI_L1" Name="LOC_PROMOTION_SHINKI_L1_NAME" Description="LOC_PROMOTION_SHINKI_L1_DESCRIPTION" Level="1" Column="2" PromotionClass="PROMOTION_CLASS_SHINKI"/>
+		<Row UnitPromotionType="PROMOTION_SHINKI_L2" Name="LOC_PROMOTION_SHINKI_L2_NAME" Description="LOC_PROMOTION_SHINKI_L2_DESCRIPTION" Level="2" Column="2" PromotionClass="PROMOTION_CLASS_SHINKI"/>
+		<Row UnitPromotionType="PROMOTION_SHINKI_L3" Name="LOC_PROMOTION_SHINKI_L3_NAME" Description="LOC_PROMOTION_SHINKI_L3_DESCRIPTION" Level="3" Column="2" PromotionClass="PROMOTION_CLASS_SHINKI"/>
+		<Row UnitPromotionType="PROMOTION_SHINKI_L4" Name="LOC_PROMOTION_SHINKI_L4_NAME" Description="LOC_PROMOTION_SHINKI_L4_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_SHINKI"/>
+	</UnitPromotions>
+
+	<UnitPromotionPrereqs>
+		<!--Marisa-->
+		<Row UnitPromotion="PROMOTION_MARISA_L2L" PrereqUnitPromotion="PROMOTION_MARISA_L1L"/>
+		<Row UnitPromotion="PROMOTION_MARISA_L3L" PrereqUnitPromotion="PROMOTION_MARISA_L2L"/>
+		<Row UnitPromotion="PROMOTION_MARISA_L2R" PrereqUnitPromotion="PROMOTION_MARISA_L1R"/>
+		<Row UnitPromotion="PROMOTION_MARISA_L3R" PrereqUnitPromotion="PROMOTION_MARISA_L2R"/>
+		<Row UnitPromotion="PROMOTION_MARISA_L4" PrereqUnitPromotion="PROMOTION_MARISA_L3L"/>
+		<Row UnitPromotion="PROMOTION_MARISA_L4" PrereqUnitPromotion="PROMOTION_MARISA_L3R"/>
+		<!-- Shinki -->
+		<Row UnitPromotion="PROMOTION_SHINKI_L2" PrereqUnitPromotion="PROMOTION_SHINKI_L1"/>
+		<Row UnitPromotion="PROMOTION_SHINKI_L3" PrereqUnitPromotion="PROMOTION_SHINKI_L2"/>
+		<Row UnitPromotion="PROMOTION_SHINKI_L4" PrereqUnitPromotion="PROMOTION_SHINKI_L3"/>
+	</UnitPromotionPrereqs>
+	<!-- modifier的代码写在modifier.sql里 -->
+</GameData>

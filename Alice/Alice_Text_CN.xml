@@ -158,25 +158,122 @@
 			<Text>魔理沙最高</Text>
 		</Replace>
 
-		<Replace Tag="LOC_SPY_QUARTERMASTER" Language="zh_Hans_CN">
-			<Text>你所有的间谍在执行任务时等级+1，间谍可以从所有的选项里选择升级而非随机的升级。</Text>
+		<Replace Tag="LOC_PROMOTION_CLASS_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
+			<Text>魔理沙的升级</Text>
 		</Replace>
 
-		<Replace Tag="LOC_GOD_SHENQI_MAIMENG" Language="zh_Hans_CN">
-			<Text>卖萌</Text>
+		<Replace Tag="LOC_PROMOTION_CLASS_GOD_SHINKI_NAME" Language="zh_Hans_CN">
+			<Text>神绮的升级</Text>
 		</Replace>
 
-		<Replace Tag="LOC_DIPLOMAT_KIRISAME_MARISA_ACTIVE_DIPLOMATIC_GOVERNMENT_SLOT" Language="zh_Hans_CN">
-			<Text>生成3个使者，获得一个额外的外交槽。</Text>
+		<Replace Tag="LOC_UNIT_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
+			<Text>雾雨魔理沙</Text>
 		</Replace>
 
-		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SPY_KIRISAME_MARISA" Language="zh_Hans_CN">
-			<Text>生成一个间谍并增加一个间谍容量，所有间谍初始获得一次等级晋升。</Text>
+		<Replace Tag="LOC_UNIT_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
+			<Text>雾雨魔理沙</Text>
 		</Replace>
 
-		<Replace Tag="SHENQI_GOD_ACTIVE_THREE_RELIC" Language="zh_Hans_CN">
-			<Text>生成3个圣遗物，所有城市遗物的信仰和旅游业产出翻倍，同时从城市的每个遗物获得250文化和科技。</Text>
+		<Replace Tag="LOC_UNIT_KIRISAME_MARISA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>爱丽丝的好姬♀友，擅长开后宫和偷盗。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_GOD_SHINKI_NAME" Language="zh_Hans_CN">
+			<Text>神绮</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_GOD_SHINKI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有强大力量的魔界之神，但也是一个溺爱女儿的笨蛋母亲。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L1L_NAME" Language="zh_Hans_CN">
+			<Text>魔炮外交</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L1L_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开放所有城邦边境，且每回合+4影响力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L2L_NAME" Language="zh_Hans_CN">
+			<Text>万人迷</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L1L_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对所有文明的可见度+1，与其它文明宣布友好时，获得一条额外的贸易路线和一个免费商人</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L3L_NAME" Language="zh_Hans_CN">
+			<Text>外交家</Text>
 		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L3L_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得一个额外的外交槽，若处于黄金时代，改为获得一个通用槽</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L1R_NAME" Language="zh_Hans_CN">
+			<Text>情报搜集</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L1R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>间谍容量+1，你所有的间谍在执行任务时等级+1</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L2R_NAME" Language="zh_Hans_CN">
+			<Text>大盗魔理沙</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L2R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你的间谍初始获得一次额外晋升，同时升级效果可以从所有效果里面选</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L3L_NAME" Language="zh_Hans_CN">
+			<Text>专偷金坷垃</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L3L_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在首都生成【大盗魔理沙】，该间谍自带偷窃金钱，偷窃巨作和逃跑的提升。</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L4_NAME" Language="zh_Hans_CN">
+			<Text>和平幻想乡</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>若你处于和平状态，所有城市所有产出提升10%。</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_SHINKI_L1_NAME" Language="zh_Hans_CN">
+			<Text>千里眼</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_SHINKI_L1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁所有隐藏的资源。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHINKI_L2_NAME" Language="zh_Hans_CN">
+			<Text>造物</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_SHINKI_L2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁所有改良设施。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHINKI_L3_NAME" Language="zh_Hans_CN">
+			<Text>神迹</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_SHINKI_L3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>部分奇观的效果将作用于全国。</Text>
+		</Replace>	
+		
+		<Replace Tag="LOC_PROMOTION_SHINKI_L4_NAME" Language="zh_Hans_CN">
+			<Text>卖萌</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_SHINKI_L4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>什么都不干。</Text>
+		</Replace>	
+
 
 
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">

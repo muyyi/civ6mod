@@ -10,28 +10,25 @@
 	</DiplomacyInfo> -->
 	<Colors>
 		<Row>
-			<Type>COLOR_PLAYER_KAZAMI_ALICE_PRIMARY</Type>
-			<Red>0.102</Red>
-			<Green>0.737</Green>
-			<Blue>0.790</Blue>
-			<Alpha>0.8</Alpha>
+			<Type>COLOR_PLAYER_ALICE_PRIMARY</Type>
+			<Color>229,23,23,255</Color>
 		</Row>
 		<Row>
-			<Type>COLOR_PLAYER_KAZAMI_ALICE_SECONDARY</Type>
-			<Red>0.945</Red>
-			<Green>0.769</Green>
-			<Blue>0.059</Blue>
-			<Alpha>0.75</Alpha>
-			<!-- '0.945', '0.769', '0.059' -->
+			<Type>COLOR_PLAYER_ALICE_SECONDARY</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_ALICE_TEXT</Type>
+			<Color>255,51,51,255</Color>
 		</Row>
 	</Colors>
 	<PlayerColors>
 		<Row>
 			<Type>LEADER_ALICE</Type>
 			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_KAZAMI_ALICE_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_KAZAMI_ALICE_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+			<PrimaryColor>COLOR_PLAYER_ALICE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_ALICE_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_ALICE_TEXT</TextColor>
 		</Row>
 	</PlayerColors>
 <!-- 	<MomentIllustrations>

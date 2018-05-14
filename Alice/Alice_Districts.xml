@@ -33,71 +33,55 @@
 		<Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</District_CitizenGreatPersonPoints>
 
-<!-- 	<DistrictModifiers>
-		<Row DistrictType="DISTRICT_DOLL_HOME" ModifierId="DISTRICT_DOLL_HOME_PRODUCTION" />
-		<Row DistrictType="DISTRICT_DOLL_HOME" ModifierId="DISTRICT_DOLL_HOME_CULTURE" />
-		<Row DistrictType="DISTRICT_DOLL_HOME" ModifierId="DISTRICT_DOLL_HOME_SCIENCE" />
-	</DistrictModifiers>
-
-	<Modifiers>
-		<Row>
-			<ModifierId>DISTRICT_DOLL_HOME_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
-		</Row>	
-		<Row>
-			<ModifierId>DISTRICT_DOLL_HOME_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
-		</Row>		
-		<Row>
-			<ModifierId>DISTRICT_DOLL_HOME_SCIENCE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
-		</Row>
-	</Modifiers>
-
-	<ModifierArguments>
-		<Row>
-			<ModifierId>DISTRICT_DOLL_HOME_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>DISTRICT_DOLL_HOME_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>DISTRICT_DOLL_HOME_CULTURE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
-		<Row>
-			<ModifierId>DISTRICT_DOLL_HOME_CULTURE</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>DISTRICT_DOLL_HOME_SCIENCE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_SCIENCE</Value>
-		</Row>
-		<Row>
-			<ModifierId>DISTRICT_DOLL_HOME_SCIENCE</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-	</ModifierArguments> -->
-
-<!-- 	<Projects>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM" Name="LOC_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" Cost="1" AdvisorType="ADVISOR_CULTURE"/>
+	<Projects>
+		<!-- 暂时没有加任何时代限制条件和需要蘑菇的条件，方便测试 -->
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM" Name="LOC_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" Cost="1"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_1" Name="LOC_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" Cost="1"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_2" Name="LOC_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" Cost="1"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_3" Name="LOC_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" Cost="1"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_4" Name="LOC_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" Cost="1"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_5" Name="LOC_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" Cost="1"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_6" Name="LOC_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" Cost="1"/>
 	</Projects>
 
-	<Project_GreatPersonPoints>
-		<Row ProjectType="MARISA_AND_SEX_MUSHROOM" GreatPersonClassType="GREAT_PERSON_CLASS_TOUHOU_ALICE" Points="2000" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
-	</Project_GreatPersonPoints>
+	<ProjectPrereqs>
+		<Row>
+			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_1</ProjectType>
+			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM</PrereqProjectType>
+			<MinimumPlayerInstances>1</MinimumPlayerInstances>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_2</ProjectType>
+			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_1</PrereqProjectType>
+			<MinimumPlayerInstances>1</MinimumPlayerInstances>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_3</ProjectType>
+			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_2</PrereqProjectType>
+			<MinimumPlayerInstances>1</MinimumPlayerInstances>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_4</ProjectType>
+			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_3</PrereqProjectType>
+			<MinimumPlayerInstances>1</MinimumPlayerInstances>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_5</ProjectType>
+			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_4</PrereqProjectType>
+			<MinimumPlayerInstances>1</MinimumPlayerInstances>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_6</ProjectType>
+			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_5</PrereqProjectType>
+			<MinimumPlayerInstances>1</MinimumPlayerInstances>
+		</Row>
+	</ProjectPrereqs>
+
+
 
 	<Project_YieldConversions>
 	</Project_YieldConversions>
 	
 	<ProjectPrereqs>
-	</ProjectPrereqs> -->
+	</ProjectPrereqs>
 </GameData>
