@@ -50,7 +50,7 @@
 		<Row TraitType="TRAIT_LEADER_UNIT_GOD_SHINKI" Name="LOC_UNIT_GOD_SHINKI_NAME" Description="LOC_UNIT_GOD_SHINKI_DESCRIPTION"/>
 	</Traits>
 
-	<TraitModifiers>
+<!-- 	<TraitModifiers>
 		<Row>
 			<TraitType>TRAIT_LEADER_DOLL_MASTER</TraitType>
 			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_SHANGHAI</ModifierId>
@@ -60,7 +60,7 @@
 			<TraitType>TRAIT_LEADER_DOLL_MASTER</TraitType>
 			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_PENGLAI</ModifierId>
 		</Row>
-	</TraitModifiers>
+	</TraitModifiers> -->
 
 	<Modifiers>
 		<Row>

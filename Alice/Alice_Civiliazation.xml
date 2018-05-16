@@ -12,6 +12,7 @@
 		<Row>
 			<Type>COLOR_PLAYER_ALICE_PRIMARY</Type>
 			<Color>229,23,23,255</Color>
+
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_ALICE_SECONDARY</Type>
@@ -19,7 +20,8 @@
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_ALICE_TEXT</Type>
-			<Color>255,51,51,255</Color>
+			<Color>243,124,92,255</Color>
+			<!-- <Color>246,204,205,255</Color> -->
 		</Row>
 	</Colors>
 	<PlayerColors>
@@ -54,7 +56,7 @@
 		<Row>
 			<ModifierType>MODIFIER_ALICE_PLAYER_UNITS_ADJUST_ENTER_FOREIGN_LANDS</ModifierType>
 			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
-			<EffectType>EFFECT_ADJUST_UNIT_ENTER_FOREIGN_LANDS</EffectType>
+			<EffectType>EFFECT_ADJUST_UNIT_IGNORE_TERRAIN_COST</EffectType>
 		</Row>
 	</DynamicModifiers>
 
@@ -85,10 +87,10 @@
 			<ModifierId>MAGIC_POWER_MOVE_FASTER_IN_FOREST</ModifierId>
 			<ModifierType>MODIFIER_ALICE_PLAYER_UNITS_ADJUST_ENTER_FOREIGN_LANDS</ModifierType>
 		</Row>
-		<Row>
+<!-- 		<Row>
 			<ModifierId>MAGIC_POWER_ALICE_CAN_SEE_MUSHROOM</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_FREE_RESOURCE_VISIBILITY</ModifierType>
-		</Row>
+		</Row> -->
 	</Modifiers>
 		
 	<ModifierArguments>
@@ -100,14 +102,19 @@
 		</Row>
 		<Row>
 			<ModifierId>MAGIC_POWER_MOVE_FASTER_IN_FOREST</ModifierId>
-			<Name>Enter</Name>
+			<Name>Ignore</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
+			<ModifierId>MAGIC_POWER_MOVE_FASTER_IN_FOREST</ModifierId>
+			<Name>Type</Name>
+			<Value>FOREST</Value>
+		</Row>
+<!-- 		<Row>
 			<ModifierId>MAGIC_POWER_ALICE_CAN_SEE_MUSHROOM</ModifierId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_MAGIC_MASHROOM</Value>
-		</Row>
+		</Row> -->
 	</ModifierArguments>
 
 	<!-- 城市名：待定 -->

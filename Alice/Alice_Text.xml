@@ -55,6 +55,32 @@
 			</Text>
 		</Row>
 
+		<Row Tag="LOC_ABILITY_DOLL_NAME">
+			<Text>LOC_ABILITY_DOLL_NAME</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_DOLL_DESCRIPTION">
+			<Text>LOC_ABILITY_DOLL_DESCRIPTION</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SHANGHAI_NAME">
+			<Text>LOC_ABILITY_SHANGHAI_NAME</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SHANGHAI_DESCRIPTION">
+			<Text>LOC_ABILITY_SHANGHAI_DESCRIPTION</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_PENGLAI_NAME">
+			<Text>LOC_ABILITY_PENGLAI_NAME</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_PENGLAI_DESCRIPTION">
+			<Text>LOC_ABILITY_PENGLAI_DESCRIPTION</Text>
+		</Row>
+
+
+
 		<Row Tag="LOC_DISTRICT_DOLL_HOME_NAME">
 			<Text>Medicine Doll</Text>
 		</Row>

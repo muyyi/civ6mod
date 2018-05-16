@@ -65,14 +65,12 @@
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GOD_SHENQI" ModifierId="SHENQI_GOD_ACTIVE_RELIC_SCIENCE_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 	</GreatPersonIndividualActionModifiers>
 
-	<ModifierStrings>
-		<!-- Birth Modifiers -->
+<!-- 	<ModifierStrings>
 		<Row ModifierId="SPY_QUARTERMASTER" Context="Summary" Text="LOC_SPY_QUARTERMASTER"/>
 		<Row ModifierId="GOD_SHENQI_MAIMENG" Context="Summary" Text="LOC_GOD_SHENQI_MAIMENG"/>
 
-		<!-- Unique Action Modifiers, different for each individual -->
 		<Row ModifierId="DIPLOMAT_KIRISAME_MARISA_ACTIVE_DIPLOMATIC_GOVERNMENT_SLOT" Context="Summary" Text="LOC_DIPLOMAT_KIRISAME_MARISA_ACTIVE_DIPLOMATIC_GOVERNMENT_SLOT"/>
 		<Row ModifierId="MARISA_SPY_ACTIVE_ADD_SPY_CAPACITY" Context="Summary" Text="LOC_GREAT_PERSON_INDIVIDUAL_SPY_KIRISAME_MARISA"/>
 		<Row ModifierId="SHENQI_GOD_ACTIVE_THREE_RELIC" Context="Summary" Text="LOC_SHENQI_GOD_ACTIVE_THREE_RELIC"/>
-	</ModifierStrings>
+	</ModifierStrings> -->
 </GameData>

@@ -21,8 +21,9 @@
 		<Replace Tag="LOC_TRAIT_MAGIC_POWER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>砍伐资源或清除地貌时，获得额外的50%收益。
 			[NEWLINE][NEWLINE]你的所有单位无视雨林和丛林的影响。
+			[NEWLINE][NEWLINE]你可以看到所有未解锁的资源(测试)。
 			[NEWLINE][NEWLINE]蘑菇：一种特殊的奢侈资源，只有魔法之森的爱丽丝才可以看到它。可以在上面种植园改良设施。
-			[NEWLINE][NEWLINE]集齐7个后，可以通过【魔理沙和七个蘑菇】项目，召唤特殊伟人魔理沙。
+			[NEWLINE][NEWLINE]集齐6个后，可以通过【魔理沙和六个蘑菇】项目，召唤特殊伟人魔理沙。
 			</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DOLL_MASTER_NAME" Language="zh_Hans_CN">
@@ -35,7 +36,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_SHANGHAI_NAME" Language="zh_Hans_CN">
-			<Text>上海</Text>
+			<Text>上海人形</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_SHANGHAI_DESCRIPTION" Language="zh_Hans_CN">
@@ -43,11 +44,35 @@
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_PENGLAI_NAME" Language="zh_Hans_CN">
-			<Text>蓬莱</Text>
+			<Text>蓬莱人形</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_PENGLAI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>爱丽丝的贴身人偶之二，替代侦察兵，初始就带有隐形的效果。且可以建造改良设施。组成军队，军团后战力翻倍。</Text>
+			<Text>爱丽丝的贴身人偶之二，初始就带有隐形的效果。且可以建造改良设施（3次）。 组成军队，军团后战力翻倍。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_DOLL_NAME" Language="zh_Hans_CN">
+			<Text>狡猾的献祭</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_DOLL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>消耗一次人偶的使用次数，为建筑或奇观加速5%。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_SHANGHAI_NAME" Language="zh_Hans_CN">
+			<Text>小小军势</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_SHANGHAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text初始带有移动力+1的晋升，组成军队，军团后战力翻倍。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_PENGLAI_NAME" Language="zh_Hans_CN">
+			<Text>小小军势</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_PENGLAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初始带有隐身的晋升，组成军队，军团后战力翻倍。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_DISTRICT_DOLL_HOME_NAME" Language="zh_Hans_CN">
@@ -58,15 +83,47 @@
 			<Text>有很多效果的人偶之家</Text>
 		</Replace>
 
-		<Replace Tag="LOC_MARISA_AND_SEX_MUSHROOM_NAME" Language="zh_Hans_CN">
-			<Text>魔理沙和六个蘑菇</Text>
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME" Language="zh_Hans_CN">
+			<Text>召唤魔理沙</Text>
 		</Replace>
 
-		<Replace Tag="LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_1_NAME" Language="zh_Hans_CN">
+			<Text>魔理沙和六个蘑菇_1</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_2_NAME" Language="zh_Hans_CN">
+			<Text>魔理沙和六个蘑菇_2</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Language="zh_Hans_CN">
 			<Text>魔理沙x蘑菇</Text>
 		</Replace>
 
-		<Replace Tag="LOC_GREAT_PERSON_CLASS_TOUHOU_ALICE_NAME" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>收集足够多的蘑菇，送给魔理沙！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_RECALL_GOD_NAME" Language="zh_Hans_CN">
+			<Text>魔神复咏</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_RECALL_GOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>召唤魔神神绮！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_GOD_POWER_NAME" Language="zh_Hans_CN">
+			<Text>神之力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_GOD_POWER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神绮这下牛B了！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_MAGIC_MASHROOM_NAME" Language="zh_Hans_CN">
+			<Text>蘑菇</Text>
+		</Replace>		
+
+<!-- 		<Replace Tag="LOC_GREAT_PERSON_CLASS_TOUHOU_ALICE_NAME" Language="zh_Hans_CN">
 			<Text>爱丽丝的后宫</Text>
 		</Replace>
 
@@ -78,85 +135,37 @@
 			<Text>人(妻)气魔理沙</Text>
 		</Replace>
 
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SPY_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
+			<Text>大盗魔理沙</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_AYA_SHAMEIMARU_NAME" Language="zh_Hans_CN">
+			<Text>神绮</Text>
+		</Replace>
+
 		<Replace Tag="LOC_GREATPERSON_SPELL_CARD" Language="zh_Hans_CN">
 			<Text>使用符卡</Text>
 		</Replace>
 
-		<Replace Tag="LOC_CITY_NAME_FOREST_OF_MAGIC" Language="zh_Hans_CN">
-			<Text>漂亮的洋房</Text>
+		<Replace Tag="LOC_SPY_QUARTERMASTER" Language="zh_Hans_CN">
+			<Text>你所有的间谍在执行任务时等级+1，间谍可以从所有的选项里选择升级而非随机的升级。</Text>
 		</Replace>
 
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_1" Language="zh_Hans_CN">
-			<Text>无名之丘</Text>
-		</Replace>
-	
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_2" Language="zh_Hans_CN">
-			<Text>向日葵</Text>
+		<Replace Tag="LOC_GOD_SHENQI_MAIMENG" Language="zh_Hans_CN">
+			<Text>卖萌</Text>
 		</Replace>
 
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_3" Language="zh_Hans_CN">
-			<Text>鹤望兰</Text>
+		<Replace Tag="LOC_DIPLOMAT_KIRISAME_MARISA_ACTIVE_DIPLOMATIC_GOVERNMENT_SLOT" Language="zh_Hans_CN">
+			<Text>生成3个使者，获得一个额外的外交槽。</Text>
 		</Replace>
 
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_4" Language="zh_Hans_CN">
-			<Text>紫罗兰</Text>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SPY_KIRISAME_MARISA" Language="zh_Hans_CN">
+			<Text>生成一个间谍并增加一个间谍容量，所有间谍初始获得一次等级晋升。</Text>
 		</Replace>
 
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_5" Language="zh_Hans_CN">
-			<Text>彼岸花</Text>
-		</Replace>
-
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_6" Language="zh_Hans_CN">
-			<Text>薰衣草</Text>
-		</Replace>
-
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_7" Language="zh_Hans_CN">
-			<Text>三色堇</Text>
-		</Replace>
-
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_8" Language="zh_Hans_CN">
-			<Text>郁金香</Text>
-		</Replace>
-
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_9" Language="zh_Hans_CN">
-			<Text>虞美人</Text>
-		</Replace>
-
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_10" Language="zh_Hans_CN">
-			<Text>三叶草</Text>
-		</Replace>
-
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_11" Language="zh_Hans_CN">
-			<Text>梦幻馆</Text>
-		</Replace>
-
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_12" Language="zh_Hans_CN">
-			<Text>夹竹桃</Text>
-		</Replace>
-
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_13" Language="zh_Hans_CN">
-			<Text>风信子</Text>
-		</Replace>
-
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_14" Language="zh_Hans_CN">
-			<Text>康乃馨</Text>
-		</Replace>
-
-		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_15" Language="zh_Hans_CN">
-			<Text>蒲公英</Text>
-		</Replace>
-
-		<Replace Tag="LOC_LOADING_INFO_LEADER_ALICE" Language="zh_Hans_CN">
-			<Text>爱丽丝测试版ver.1</Text>
-		</Replace>
-
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_TITLE" Language="zh_Hans_CN">
-			<Text>爱丽丝</Text>
-		</Replace>
-
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_SUBTITLE" Language="zh_Hans_CN">
-			<Text>魔理沙最高</Text>
-		</Replace>
+		<Replace Tag="SHENQI_GOD_ACTIVE_THREE_RELIC" Language="zh_Hans_CN">
+			<Text>生成3个圣遗物，所有城市遗物的信仰和旅游业产出翻倍，同时从城市的每个遗物获得250文化和科技。</Text>
+		</Replace>  -->
 
 		<Replace Tag="LOC_PROMOTION_CLASS_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
 			<Text>魔理沙的升级</Text>
@@ -164,10 +173,6 @@
 
 		<Replace Tag="LOC_PROMOTION_CLASS_GOD_SHINKI_NAME" Language="zh_Hans_CN">
 			<Text>神绮的升级</Text>
-		</Replace>
-
-		<Replace Tag="LOC_UNIT_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
-			<Text>雾雨魔理沙</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
@@ -198,7 +203,7 @@
 			<Text>万人迷</Text>
 		</Replace>
 
-		<Replace Tag="LOC_PROMOTION_MARISA_L1L_DESCRIPTION" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PROMOTION_MARISA_L2L_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>对所有文明的可见度+1，与其它文明宣布友好时，获得一条额外的贸易路线和一个免费商人</Text>
 		</Replace>
 
@@ -226,11 +231,11 @@
 			<Text>你的间谍初始获得一次额外晋升，同时升级效果可以从所有效果里面选</Text>
 		</Replace>	
 
-		<Replace Tag="LOC_PROMOTION_MARISA_L3L_NAME" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PROMOTION_MARISA_L3R_NAME" Language="zh_Hans_CN">
 			<Text>专偷金坷垃</Text>
 		</Replace>		
 
-		<Replace Tag="LOC_PROMOTION_MARISA_L3L_DESCRIPTION" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PROMOTION_MARISA_L3R_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在首都生成【大盗魔理沙】，该间谍自带偷窃金钱，偷窃巨作和逃跑的提升。</Text>
 		</Replace>	
 
@@ -272,9 +277,83 @@
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L4_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>什么都不干。</Text>
-		</Replace>	
+		</Replace> 
 
+		<Replace Tag="LOC_CITY_NAME_FOREST_OF_MAGIC" Language="zh_Hans_CN">
+			<Text>雾雨魔法店</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_1" Language="zh_Hans_CN">
+			<Text>苍符「博爱的法兰西人偶」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_2" Language="zh_Hans_CN">
+			<Text>苍符「博爱的奥尔良人偶」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_3" Language="zh_Hans_CN">
+			<Text>红符「红毛的荷兰人偶」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_4" Language="zh_Hans_CN">
+			<Text>白符「白垩的俄罗斯人偶」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_5" Language="zh_Hans_CN">
+			<Text>暗符「雾之伦敦人偶」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_6" Language="zh_Hans_CN">
+			<Text>回符「轮回的西藏人偶」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_7" Language="zh_Hans_CN">
+			<Text>雅符「春天的京都人偶」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_8" Language="zh_Hans_CN">
+			<Text>诅咒「魔彩的上海人偶」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_9" Language="zh_Hans_CN">
+			<Text>诅咒「上吊的蓬莱人偶」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_10" Language="zh_Hans_CN">
+			<Text>魔符「狡猾的献祭」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_11" Language="zh_Hans_CN">
+			<Text>战符「小小军势」 </Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_12" Language="zh_Hans_CN">
+			<Text>魔操「回归虚无」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_13" Language="zh_Hans_CN">
+			<Text>战操「玩偶战争」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_14" Language="zh_Hans_CN">
+			<Text>试验中「提泰妮娅级」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_15" Language="zh_Hans_CN">
+			<Text>试验中「歌利亚人偶」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_16" Language="zh_Hans_CN">
+			<Text>侦符「探索人形」 </Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_17" Language="zh_Hans_CN">
+			<Text>聚焦「陷阱网」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_18" Language="zh_Hans_CN">
+			<Text>步兵「敢死小分队」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_19" Language="zh_Hans_CN">
+			<Text>剑符「交错的士兵」</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_20" Language="zh_Hans_CN">
+			<Text>人偶「没有灵魂的集体舞」</Text>
+		</Replace>
 
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ALICE" Language="zh_Hans_CN">
+			<Text>爱丽丝测试版ver.1</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_TITLE" Language="zh_Hans_CN">
+			<Text>爱丽丝</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_SUBTITLE" Language="zh_Hans_CN">
+			<Text>魔理沙最高</Text>
+		</Replace>
 
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>与其它好战的文明不同，幽香只想好好耕耘自己的花田。但如果你胆敢打扰她，或许你才会真正明白，为什么她的花田总是开的那么鲜艳。</Text>

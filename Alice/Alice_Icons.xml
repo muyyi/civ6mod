@@ -36,6 +36,18 @@
 		<Row Name="ICON_ATLAS_SHANGHAI_PORTRAIT" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHANGHAI_PORTRAIT_95"/>
 		<Row Name="ICON_ATLAS_SHANGHAI_PORTRAIT" IconSize="200"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHANGHAI_PORTRAIT_200"/>
 		<Row Name="ICON_ATLAS_SHANGHAI_PORTRAIT" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHANGHAI_PORTRAIT_256"/>
+
+		<Row Name="ICON_MARISA_PORTRAIT" IconSize="35"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_35"/>
+		<Row Name="ICON_MARISA_PORTRAIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_50"/>
+		<Row Name="ICON_MARISA_PORTRAIT" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_70"/>
+		<Row Name="ICON_MARISA_PORTRAIT" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_95"/>
+		<Row Name="ICON_MARISA_PORTRAIT" IconSize="200"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_200"/>
+		<Row Name="ICON_MARISA_PORTRAIT" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_256"/>
+
+		<Row Name="ICON_ATLAS_MUSHROOM" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_MUSHROOM_38"/>
+		<Row Name="ICON_ATLAS_MUSHROOM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_MUSHROOM_50"/>
+		<Row Name="ICON_ATLAS_MUSHROOM" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_MUSHROOM_64"/>
+		<Row Name="ICON_ATLAS_MUSHROOM" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_MUSHROOM_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<Row Name="ICON_LEADER_ALICE" Atlas="ICON_ATLAS_ALICE" Index="0"/>
@@ -45,5 +57,15 @@
 		<Row Name="ICON_UNIT_PENGLAI" Atlas="ICON_ATLAS_UNITS" Index="19"/>
 		<Row Name="ICON_UNIT_PENGLAI_PORTRAIT" Atlas="ICON_ATLAS_SHANGHAI_PORTRAIT" Index="0"/>
 		<Row Name="ICON_DISTRICT_DOLL_HOME" Atlas="ICON_ATLAS_DISTRICTS" Index="9"/>
+		<!-- <Row Name="ICON_RESOURCE_MAGIC_MASHROOM"  Atlas="ICON_ATLAS_MUSHROOM" Index="24"/> -->
+
+
+<!-- 		<Row Name="ICON_GREAT_PERSON_CLASS_TOUHOU_ALICE" Atlas="ICON_MARISA_GT" Index="0"/>
+		<Row Name="ICON_UNIT_GREAT_TOUHOU_ALICE_PORTRAIT" Atlas="ICON_MARISA_PORTRAIT" Index="9"/> -->
+		<!-- <Row Name="ICON_RESOURCE_MAGIC_MASHROOM"  Atlas="ICON_ATLAS_AUSTRALIA_SCENARIO_RESOURCES" Index="0"/> -->
+<!-- 		<Row Name="ICON_RESOURCE_MAGIC_MASHROOM"           Atlas="ICON_ATLAS_RESOURCES" Index="24"/>
+		<Row Name="ICON_RESOURCE_MAGIC_MASHROOM_FOW"            Atlas="ICON_ATLAS_RESOURCES_FOW" Index="24"/> -->
+		<Row Name="RESOURCE_MAGIC_MASHROOM" Atlas="ICON_ATLAS_FONT_ICON_BASELINE_6" Index="79"/>
+		<!-- <Row Name="ICON_RESOURCE_MAGIC_MASHROOM"  Atlas="ICON_ATLAS_AUSTRALIA_SCENARIO_RESOURCES" Index="0"/> -->
 	</IconDefinitions>
 </GameData>
