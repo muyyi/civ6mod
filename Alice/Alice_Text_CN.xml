@@ -119,9 +119,128 @@
 			<Text>神绮这下牛B了！</Text>
 		</Replace>
 
+		<Replace Tag="LOC_PROJECT_TEST_MARISA_NAME" Language="zh_Hans_CN">
+			<Text>魔理沙的野望</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_TEST_MARISA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>找到了蘑菇，八卦炉又得到了新的能量来源。</Text>
+		</Replace>
+
 		<Replace Tag="LOC_RESOURCE_MAGIC_MASHROOM_NAME" Language="zh_Hans_CN">
 			<Text>蘑菇</Text>
 		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_CLASS_TEST_MARISA_NAME" Language="zh_Hans_CN">
+			<Text>测试版魔理沙的升级</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_UNIT_TEST_MARISA_NAME" Language="zh_Hans_CN">
+			<Text>测试版魔理沙</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_UNIT_TEST_MARISA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>测试版魔理沙</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_MASTERSPARK_1_NAME" Language="zh_Hans_CN">
+			<Text>魔炮外交</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_MASTERSPARK_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城邦对你开放边界，你每回合的影响力+4</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_1_NAME" Language="zh_Hans_CN">
+			<Text>万人迷</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>其它国家对你的外交可见度+1，增加5点好感度</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_2_NAME" Language="zh_Hans_CN">
+			<Text>万人迷</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你与其它国家宣友或结盟时，获得一条免费的贸易路线和商人。</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_3_NAME" Language="zh_Hans_CN">
+			<Text>万人迷</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从宣友的国家和城邦获得更多贸易加成。若为结盟或宗主国。该加成翻倍</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_FRIENDLY_1_NAME" Language="zh_Hans_CN">
+			<Text>化敌为友</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_FRIENDLY_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>摧毁一个蛮族部落后，额外获得拜访聚落的奖励</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_1_NAME" Language="zh_Hans_CN">
+			<Text>魔炮</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得+10攻击力</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_2_NAME" Language="zh_Hans_CN">
+			<Text>魔炮</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得+20攻击力,攻击城区时造成全额伤害</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_3_NAME" Language="zh_Hans_CN">
+			<Text>魔炮</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得+30攻击力，射程+1</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_COMMANDER_1_NAME" Language="zh_Hans_CN">
+			<Text>指挥官</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_COMMANDER_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>指挥官：你所有远程单位（包括自身）远程攻击时+5攻击，但防御时-5攻击</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPEED_1_NAME" Language="zh_Hans_CN">
+			<Text>急速</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPEED_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视控制区域和地形影响</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPEED_2_NAME" Language="zh_Hans_CN">
+			<Text>急速</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPEED_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1移动力，若攻击后有移动力，可以进行第二次攻击</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LOVE_PEACE_NAME" Language="zh_Hans_CN">
+			<Text>和平幻想乡</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LOVE_PEACE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你与其它所有文明处于和平状态时，所有城市所有产出提高15%</Text>
+		</Replace>	
+
+
+
 
 <!-- 		<Replace Tag="LOC_GREAT_PERSON_CLASS_TOUHOU_ALICE_NAME" Language="zh_Hans_CN">
 			<Text>爱丽丝的后宫</Text>

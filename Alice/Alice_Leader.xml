@@ -50,52 +50,6 @@
 		<Row TraitType="TRAIT_LEADER_UNIT_GOD_SHINKI" Name="LOC_UNIT_GOD_SHINKI_NAME" Description="LOC_UNIT_GOD_SHINKI_DESCRIPTION"/>
 	</Traits>
 
-<!-- 	<TraitModifiers>
-		<Row>
-			<TraitType>TRAIT_LEADER_DOLL_MASTER</TraitType>
-			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_SHANGHAI</ModifierId>
-		</Row>
-
-		<Row>
-			<TraitType>TRAIT_LEADER_DOLL_MASTER</TraitType>
-			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_PENGLAI</ModifierId>
-		</Row>
-	</TraitModifiers> -->
-
-	<Modifiers>
-		<Row>
-			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_SHANGHAI</ModifierId>
-			<ModifierType>MODIFIER_ALICE_PLAYER_CITIES_GRANT_UNIT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_PENGLAI</ModifierId>
-			<ModifierType>MODIFIER_ALICE_PLAYER_CITIES_GRANT_UNIT</ModifierType>
-		</Row>
-	</Modifiers>
-
-	<ModifierArguments>
-		<Row>
-			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_SHANGHAI</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_SHANGHAI</ModifierId>
-			<Name>UnitType</Name>
-			<Value>UNIT_SHANGHAI</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_PENGLAI</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_DOLL_MASTER_SEND_PENGLAI</ModifierId>
-			<Name>UnitType</Name>
-			<Value>UNIT_PENGLAI</Value>
-		</Row>
-	</ModifierArguments>
-
 	<!-- Agendas Info-->
 <!-- 	<Agendas>
 		<Row AgendaType="AGENDA_NONGJIAXIANG" Name="LOC_AGENDA_NONGJIAXIANG_NAME" Description="LOC_AGENDA_NONGJIAXIANG_DESCRIPTION"/>
