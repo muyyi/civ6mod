@@ -57,3 +57,8 @@ INNER JOIN Requirements ON Requirements.RequirementId = RequirementSetRequiremen
 INNER JOIN RequirementArguments ON RequirementArguments.RequirementId = Requirements.RequirementId
 WHERE RequirementSets.RequirementSetId LIKE '%HOPLITE_PLOT_IS_HOPLITE_REQUIREMENTS%';
 
+SELECT Modifiers.ModifierId,Modifiers.SubjectRequirementSetId,ModifierArguments.Name,ModifierArguments.Value FROM TraitModifiers
+INNER JOIN Modifiers ON Modifiers.ModifierId = TraitModifiers.ModifierId
+INNER JOIN ModifierArguments ON ModifierArguments.ModifierId = Modifiers.ModifierId
+WHERE TraitModifiers.TraitType LIKE '%QIN%';
+

@@ -19,20 +19,25 @@
 			<Text>魔法之森</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MAGIC_POWER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>砍伐资源或清除地貌时，获得额外的50%收益。
-			[NEWLINE][NEWLINE]你的所有单位无视雨林和丛林的影响。
-			[NEWLINE][NEWLINE]你可以看到所有未解锁的资源(测试)。
+			<Text>你的所有单位无视雨林和丛林的影响。
+			[NEWLINE][NEWLINE]树林和雨林为你的城区提供不同的相邻加成。
 			[NEWLINE][NEWLINE]蘑菇：一种特殊的奢侈资源，只有魔法之森的爱丽丝才可以看到它。可以在上面种植园改良设施。
-			[NEWLINE][NEWLINE]集齐6个后，可以通过【魔理沙和六个蘑菇】项目，召唤特殊伟人魔理沙。
+			[NEWLINE][NEWLINE]收集蘑菇后，解锁【魔理沙和六个蘑菇】项目，来召唤特殊伟人魔理沙。
 			</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_JUNGLE_1_FOOD" Language="zh_Hans_CN">
+			<Text>雨林为附近的城市提供1食物：雨林中有很多食物，只是要注意毒蘑菇是不能吃的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FOREST_1_PRODUCTION" Language="zh_Hans_CN">
+			<Text>森林为附近的城市提供1产能</Text>
+		</Replace>
+
+		
 		<Replace Tag="LOC_TRAIT_LEADER_DOLL_MASTER_NAME" Language="zh_Hans_CN">
 			<Text>人偶大军</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建造或占领城市时，获得一个蓬莱人偶和一个上海人偶。
-			[NEWLINE][NEWLINE]人偶类单位可以为区域/奇观建造加速，每次加速5%	
-			[NEWLINE][NEWLINE]战斗时获得双倍支援加成，且更早解锁军团和军队效果。</Text>
+			<Text>建造或占领城市时，获得一个蓬莱人偶和一个上海人偶。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_SHANGHAI_NAME" Language="zh_Hans_CN">
@@ -84,15 +89,31 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME" Language="zh_Hans_CN">
-			<Text>召唤魔理沙</Text>
+			<Text>魔理沙和六个蘑菇</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_1_NAME" Language="zh_Hans_CN">
-			<Text>魔理沙和六个蘑菇_1</Text>
+			<Text>魔理沙和六个蘑菇(1)</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_2_NAME" Language="zh_Hans_CN">
-			<Text>魔理沙和六个蘑菇_2</Text>
+			<Text>魔理沙和六个蘑菇(2)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_3_NAME" Language="zh_Hans_CN">
+			<Text>魔理沙和六个蘑菇(3)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_4_NAME" Language="zh_Hans_CN">
+			<Text>魔理沙和六个蘑菇(4)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_5_NAME" Language="zh_Hans_CN">
+			<Text>魔理沙和六个蘑菇(5)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_6_NAME" Language="zh_Hans_CN">
+			<Text>魔理沙和六个蘑菇(6)</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Language="zh_Hans_CN">
@@ -101,6 +122,22 @@
 
 		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>收集足够多的蘑菇，送给魔理沙！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_OTHER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>魔理沙很喜欢你上次送来的蘑菇，再多送点新鲜的给她吧~</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>明明不是马*奥来的蘑菇，为什么吃了以后会升级呢？为什么！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_5_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>我魔理沙就是饿死，死外面，也不吃一口这奇怪的蘑菇了！</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_6_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>真香！</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_RECALL_GOD_NAME" Language="zh_Hans_CN">
@@ -245,43 +282,33 @@
 <!-- 		<Replace Tag="LOC_GREAT_PERSON_CLASS_TOUHOU_ALICE_NAME" Language="zh_Hans_CN">
 			<Text>爱丽丝的后宫</Text>
 		</Replace>
-
 		<Replace Tag="LOC_UNIT_GREAT_TOUHOU_ALICE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>爱丽丝的后宫们</Text>
 		</Replace>
-
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DIPLOMAT_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
 			<Text>人(妻)气魔理沙</Text>
 		</Replace>
-
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SPY_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
 			<Text>大盗魔理沙</Text>
 		</Replace>
-
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_AYA_SHAMEIMARU_NAME" Language="zh_Hans_CN">
 			<Text>神绮</Text>
 		</Replace>
-
 		<Replace Tag="LOC_GREATPERSON_SPELL_CARD" Language="zh_Hans_CN">
 			<Text>使用符卡</Text>
 		</Replace>
-
 		<Replace Tag="LOC_SPY_QUARTERMASTER" Language="zh_Hans_CN">
 			<Text>你所有的间谍在执行任务时等级+1，间谍可以从所有的选项里选择升级而非随机的升级。</Text>
 		</Replace>
-
 		<Replace Tag="LOC_GOD_SHENQI_MAIMENG" Language="zh_Hans_CN">
 			<Text>卖萌</Text>
 		</Replace>
-
 		<Replace Tag="LOC_DIPLOMAT_KIRISAME_MARISA_ACTIVE_DIPLOMATIC_GOVERNMENT_SLOT" Language="zh_Hans_CN">
 			<Text>生成3个使者，获得一个额外的外交槽。</Text>
 		</Replace>
-
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SPY_KIRISAME_MARISA" Language="zh_Hans_CN">
 			<Text>生成一个间谍并增加一个间谍容量，所有间谍初始获得一次等级晋升。</Text>
 		</Replace>
-
 		<Replace Tag="SHENQI_GOD_ACTIVE_THREE_RELIC" Language="zh_Hans_CN">
 			<Text>生成3个圣遗物，所有城市遗物的信仰和旅游业产出翻倍，同时从城市的每个遗物获得250文化和科技。</Text>
 		</Replace>  -->
@@ -332,15 +359,23 @@
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L3L_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>获得一个额外的外交槽，若处于黄金时代，改为获得一个通用槽</Text>
-		</Replace>	
+		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L1R_NAME" Language="zh_Hans_CN">
+			<Text>化敌为友</Text>
+		</Replace>		
+
+		<Replace Tag="LOC_PROMOTION_MARISA_L1R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>摧毁野蛮人营地时，额外获得拜访聚落的奖励</Text>
+		</Replace>		
+
+<!-- 		<Replace Tag="LOC_PROMOTION_MARISA_L1R_NAME" Language="zh_Hans_CN">
 			<Text>情报搜集</Text>
 		</Replace>		
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L1R_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>间谍容量+1，你所有的间谍在执行任务时等级+1</Text>
-		</Replace>	
+		</Replace>	 -->
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L2R_NAME" Language="zh_Hans_CN">
 			<Text>大盗魔理沙</Text>
@@ -569,4 +604,3 @@
 		</Replace>
 	</LocalizedText>
 </GameData>
-

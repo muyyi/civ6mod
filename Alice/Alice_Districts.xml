@@ -14,14 +14,14 @@
 		<Row Type="PROJECT_MARISA_AND_SEX_MUSHROOM_6" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_RECALL_GOD" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_GOD_POWER" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_GOD_POWER_FINAL" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_TEST_MARISA" Kind="KIND_PROJECT"/>
 	</Types>
 	<DistrictReplaces>
 		<Row CivUniqueDistrictType="DISTRICT_DOLL_HOME" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
 	</DistrictReplaces>
 	<Districts>
-		<Row DistrictType="DISTRICT_DOLL_HOME" Name="LOC_DISTRICT_DOLL_HOME_NAME" Description="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="40" Entertainment="1" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="0" CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME" />
-<!-- 		<Row DistrictType="DISTRICT_DOLL_HOME" Name="LOC_DISTRICT_DOLL_HOME_NAME" Description="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" PrereqCivic="CIVIC_CRAFTSMANSHIP" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="40" Entertainment="1" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="0" CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME" /> -->
+		<Row DistrictType="DISTRICT_DOLL_HOME" Name="LOC_DISTRICT_DOLL_HOME_NAME" Description="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="40" Entertainment="1" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="0" CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME" PrereqCivic="CIVIC_CRAFTSMANSHIP"/>
 	</Districts>
 	<District_Adjacencies>
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="Mine_Production"/>
@@ -46,17 +46,18 @@
 
 	<Projects>
 		<!-- 暂时没有加任何时代限制条件和需要蘑菇的条件，方便测试 -->
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="1"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_1" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_1_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="1"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_2" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_2_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="1"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_3" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="1"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_4" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="1"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_5" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="1"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_6" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="1"/>
-		<Row ProjectType="PROJECT_RECALL_GOD" Name="LOC_PROJECT_RECALL_GOD_NAME" ShortName="LOC_PROJECT_RECALL_GOD_SHORT_NAME" Description="LOC_PROJECT_RECALL_GOD_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="1"/>
-		<Row ProjectType="PROJECT_GOD_POWER" Name="LOC_PROJECT_GOD_POWER_NAME" ShortName="LOC_PROJECT_GOD_POWER_SHORT_NAME" Description="LOC_PROJECT_GOD_POWER_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="3" Cost="1"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" PrereqResource="RESOURCE_MAGIC_MASHROOM" Cost="80"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_1" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_1_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_OTHER_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="100"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_2" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_2_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_OTHER_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="120"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_3" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_3_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_OTHE_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="150"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_4" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_4_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_4_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="200"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_5" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_5_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_5_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="250"/>
+		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_6" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_6_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_6_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="300"/>
+		<Row ProjectType="PROJECT_RECALL_GOD" Name="LOC_PROJECT_RECALL_GOD_NAME" ShortName="LOC_PROJECT_RECALL_GOD_SHORT_NAME" Description="LOC_PROJECT_RECALL_GOD_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="100" PrereqTech="TECH_ASTROLOGY"/>
+		<Row ProjectType="PROJECT_GOD_POWER" Name="LOC_PROJECT_GOD_POWER_NAME" ShortName="LOC_PROJECT_GOD_POWER_SHORT_NAME" Description="LOC_PROJECT_GOD_POWER_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="100"  PrereqCivic="CIVIC_THEOLOGY"/>
+		<Row ProjectType="PROJECT_GOD_POWER_FINAL" Name="LOC_PROJECT_GOD_POWER_NAME" ShortName="LOC_PROJECT_GOD_POWER_SHORT_NAME" Description="LOC_PROJECT_GOD_POWER_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="100"  PrereqCivic="CIVIC_HUMANISM"/>
 		<!-- TEST MARISA -->
-		<Row ProjectType="PROJECT_TEST_MARISA" Name="LOC_PROJECT_TEST_MARISA_NAME" ShortName="LOC_PROJECT_TEST_MARISA_SHORT_NAME" Description="LOC_PROJECT_TEST_MARISA_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="5" Cost="1"/>
+		<!-- <Row ProjectType="PROJECT_TEST_MARISA" Name="LOC_PROJECT_TEST_MARISA_NAME" ShortName="LOC_PROJECT_TEST_MARISA_SHORT_NAME" Description="LOC_PROJECT_TEST_MARISA_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="5" Cost="150"/> -->
 	</Projects>
 
 	<ProjectPrereqs>
@@ -93,6 +94,11 @@
 		<Row>
 			<ProjectType>PROJECT_GOD_POWER</ProjectType>
 			<PrereqProjectType>PROJECT_RECALL_GOD</PrereqProjectType>
+			<MinimumPlayerInstances>1</MinimumPlayerInstances>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_GOD_POWER_FINAL</ProjectType>
+			<PrereqProjectType>PROJECT_GOD_POWER</PrereqProjectType>
 			<MinimumPlayerInstances>1</MinimumPlayerInstances>
 		</Row>
 	</ProjectPrereqs>

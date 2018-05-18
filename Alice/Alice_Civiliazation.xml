@@ -74,7 +74,7 @@
 	</CivilizationTraits>
 	<TraitModifiers>
 		<!-- 清理地貌和收获资源的产出增加 -->
-		<Row TraitType="TRAIT_MAGIC_POWER" ModifierId="MAGIC_POWER_BONUS_HARVEST_YIELDS" />
+		<!-- <Row TraitType="TRAIT_MAGIC_POWER" ModifierId="MAGIC_POWER_BONUS_HARVEST_YIELDS" /> -->
 		<!-- 单位无视森林/雨林地形 -->
 		<Row TraitType="TRAIT_MAGIC_POWER" ModifierId="MAGIC_POWER_MOVE_FASTER_IN_FOREST" />
 	</TraitModifiers>
@@ -87,10 +87,6 @@
 			<ModifierId>MAGIC_POWER_MOVE_FASTER_IN_FOREST</ModifierId>
 			<ModifierType>MODIFIER_ALICE_PLAYER_UNITS_ADJUST_ENTER_FOREIGN_LANDS</ModifierType>
 		</Row>
-<!-- 		<Row>
-			<ModifierId>MAGIC_POWER_ALICE_CAN_SEE_MUSHROOM</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_GRANT_FREE_RESOURCE_VISIBILITY</ModifierType>
-		</Row> -->
 	</Modifiers>
 		
 	<ModifierArguments>
@@ -110,11 +106,6 @@
 			<Name>Type</Name>
 			<Value>FOREST</Value>
 		</Row>
-<!-- 		<Row>
-			<ModifierId>MAGIC_POWER_ALICE_CAN_SEE_MUSHROOM</ModifierId>
-			<Name>ResourceType</Name>
-			<Value>RESOURCE_MAGIC_MASHROOM</Value>
-		</Row> -->
 	</ModifierArguments>
 
 	<!-- 城市名：待定 -->

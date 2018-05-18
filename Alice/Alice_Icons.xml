@@ -37,12 +37,47 @@
 		<Row Name="ICON_ATLAS_SHANGHAI_PORTRAIT" IconSize="200"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHANGHAI_PORTRAIT_200"/>
 		<Row Name="ICON_ATLAS_SHANGHAI_PORTRAIT" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHANGHAI_PORTRAIT_256"/>
 
+		<Row Name="ICON_ATLAS_PENGLAI" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_22"/>
+		<Row Name="ICON_ATLAS_PENGLAI" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_32"/>
+		<Row Name="ICON_ATLAS_PENGLAI" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_38"/>
+		<Row Name="ICON_ATLAS_PENGLAI" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_50"/>
+		<Row Name="ICON_ATLAS_PENGLAI" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_80"/>
+		<Row Name="ICON_ATLAS_PENGLAI" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_256"/>
+
+		<Row Name="ICON_ATLAS_PENGLAI_PORTRAIT" IconSize="35"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_PORTRAIT_35"/>
+		<Row Name="ICON_ATLAS_PENGLAI_PORTRAIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_PORTRAIT_50"/>
+		<Row Name="ICON_ATLAS_PENGLAI_PORTRAIT" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_PORTRAIT_70"/>
+		<Row Name="ICON_ATLAS_PENGLAI_PORTRAIT" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_PORTRAIT_95"/>
+		<Row Name="ICON_ATLAS_PENGLAI_PORTRAIT" IconSize="200"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_PORTRAIT_200"/>
+		<Row Name="ICON_ATLAS_PENGLAI_PORTRAIT" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PENGLAI_PORTRAIT_256"/>
+
+		<Row Name="ICON_MARISA" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_22"/>
+		<Row Name="ICON_MARISA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_32"/>
+		<Row Name="ICON_MARISA" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_38"/>
+		<Row Name="ICON_MARISA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_50"/>
+		<Row Name="ICON_MARISA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_80"/>
+		<Row Name="ICON_MARISA" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_256"/>
+
 		<Row Name="ICON_MARISA_PORTRAIT" IconSize="35"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_35"/>
 		<Row Name="ICON_MARISA_PORTRAIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_50"/>
 		<Row Name="ICON_MARISA_PORTRAIT" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_70"/>
 		<Row Name="ICON_MARISA_PORTRAIT" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_95"/>
 		<Row Name="ICON_MARISA_PORTRAIT" IconSize="200"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_200"/>
 		<Row Name="ICON_MARISA_PORTRAIT" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_MARISA_PORTRAIT_256"/>
+
+		<Row Name="ICON_SHINKI" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_22"/>
+		<Row Name="ICON_SHINKI" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_32"/>
+		<Row Name="ICON_SHINKI" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_38"/>
+		<Row Name="ICON_SHINKI" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_50"/>
+		<Row Name="ICON_SHINKI" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_80"/>
+		<Row Name="ICON_SHINKI" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_256"/>
+
+		<Row Name="ICON_SHINKI_PORTRAIT" IconSize="35"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_PORTRAIT_35"/>
+		<Row Name="ICON_SHINKI_PORTRAIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_PORTRAIT_50"/>
+		<Row Name="ICON_SHINKI_PORTRAIT" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_PORTRAIT_70"/>
+		<Row Name="ICON_SHINKI_PORTRAIT" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_PORTRAIT_95"/>
+		<Row Name="ICON_SHINKI_PORTRAIT" IconSize="200"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_PORTRAIT_200"/>
+		<Row Name="ICON_SHINKI_PORTRAIT" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHINKI_PORTRAIT_256"/>
 
 		<Row Name="ICON_ATLAS_MUSHROOM" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_MUSHROOM_38"/>
 		<Row Name="ICON_ATLAS_MUSHROOM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_MUSHROOM_50"/>
@@ -54,10 +89,25 @@
 		<Row Name="ICON_CIVILIZATION_FOREST_OF_MAGIC" Atlas="ICON_ATLAS_ALICE_CIV" Index="0"/>
 		<Row Name="ICON_UNIT_SHANGHAI" Atlas="ICON_ATLAS_SHANGHAI" Index="0"/>
 		<Row Name="ICON_UNIT_SHANGHAI_PORTRAIT" Atlas="ICON_ATLAS_SHANGHAI_PORTRAIT" Index="0"/>
-		<Row Name="ICON_UNIT_PENGLAI" Atlas="ICON_ATLAS_UNITS" Index="19"/>
-		<Row Name="ICON_UNIT_PENGLAI_PORTRAIT" Atlas="ICON_ATLAS_SHANGHAI_PORTRAIT" Index="0"/>
+		<Row Name="ICON_UNIT_PENGLAI" Atlas="ICON_ATLAS_PENGLAI" Index="0"/>
+		<Row Name="ICON_UNIT_PENGLAI_PORTRAIT" Atlas="ICON_ATLAS_PENGLAI_PORTRAIT" Index="0"/>
+		<Row Name="ICON_UNIT_KIRISAME_MARISA" Atlas="ICON_MARISA" Index="0"/>
+		<Row Name="ICON_UNIT_KIRISAME_MARISA_PORTRAIT" Atlas="ICON_MARISA_PORTRAIT" Index="0"/>
+		<Row Name="ICON_UNIT_GOD_SHINKI" Atlas="ICON_SHINKI" Index="0"/>
+		<Row Name="ICON_UNIT_GOD_SHINKI_PORTRAIT" Atlas="ICON_SHINKI_PORTRAIT" Index="0"/>
+
+		<Row Name="ICON_PROJECT_MARISA_AND_SEX_MUSHROOM" Atlas="ICON_ATLAS_PROJECTS" Index="6"/>
+		<Row Name="ICON_PROJECT_MARISA_AND_SEX_MUSHROOM_1" Atlas="ICON_ATLAS_PROJECTS" Index="6"/>
+		<Row Name="ICON_PROJECT_MARISA_AND_SEX_MUSHROOM_2" Atlas="ICON_ATLAS_PROJECTS" Index="6"/>
+		<Row Name="ICON_PROJECT_MARISA_AND_SEX_MUSHROOM_3" Atlas="ICON_ATLAS_PROJECTS" Index="6"/>
+		<Row Name="ICON_PROJECT_MARISA_AND_SEX_MUSHROOM_4" Atlas="ICON_ATLAS_PROJECTS" Index="6"/>
+		<Row Name="ICON_PROJECT_MARISA_AND_SEX_MUSHROOM_5" Atlas="ICON_ATLAS_PROJECTS" Index="6"/>
+		<Row Name="ICON_PROJECT_MARISA_AND_SEX_MUSHROOM_6" Atlas="ICON_ATLAS_PROJECTS" Index="6"/>
+		<Row Name="ICON_PROJECT_RECALL_GOD" Atlas="ICON_ATLAS_PROJECTS" Index="7"/>
+		<Row Name="ICON_PROJECT_PROJECT_GOD_POWER" Atlas="ICON_ATLAS_PROJECTS" Index="8"/>
+
 		<Row Name="ICON_DISTRICT_DOLL_HOME" Atlas="ICON_ATLAS_DISTRICTS" Index="9"/>
-		<!-- <Row Name="ICON_RESOURCE_MAGIC_MASHROOM"  Atlas="ICON_ATLAS_MUSHROOM" Index="24"/> -->
+		<Row Name="ICON_RESOURCE_MAGIC_MASHROOM"  Atlas="ICON_ATLAS_MUSHROOM" Index="0"/>
 
 
 <!-- 		<Row Name="ICON_GREAT_PERSON_CLASS_TOUHOU_ALICE" Atlas="ICON_MARISA_GT" Index="0"/>

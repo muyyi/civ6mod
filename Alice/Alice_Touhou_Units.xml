@@ -46,11 +46,11 @@
 	</UnitAiInfos>
 
 	<Units>
-		<Row UnitType="UNIT_KIRISAME_MARISA" BaseMoves="4" Cost="1" Combat="100" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_KIRISAME_MARISA_NAME" Description="LOC_UNIT_KIRISAME_MARISA_DESCRIPTION" CanCapture="False" PromotionClass="PROMOTION_CLASS_MARISA" InitialLevel="1" PrereqCivic="CIVIC_FUTURE_CIVIC" PrereqPopulation="100"/>
+		<Row UnitType="UNIT_KIRISAME_MARISA" BaseMoves="4" Cost="9999" Combat="1" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_KIRISAME_MARISA_NAME" Description="LOC_UNIT_KIRISAME_MARISA_DESCRIPTION" CanCapture="False" PromotionClass="PROMOTION_CLASS_MARISA" InitialLevel="2" PrereqCivic="CIVIC_FUTURE_CIVIC" PrereqPopulation="100"/>
 
-		<Row UnitType="UNIT_GOD_SHINKI" BaseMoves="4" Cost="1" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GOD_SHINKI_NAME" Description="LOC_UNIT_GOD_SHINKI_DESCRIPTION" CanCapture="False" PromotionClass="PROMOTION_CLASS_SHINKI" InitialLevel="1" PrereqCivic="CIVIC_FUTURE_CIVIC" PrereqPopulation="100"/>
+		<Row UnitType="UNIT_GOD_SHINKI" BaseMoves="4" Cost="9999" Combat="1" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GOD_SHINKI_NAME" Description="LOC_UNIT_GOD_SHINKI_DESCRIPTION" CanCapture="False" PromotionClass="PROMOTION_CLASS_SHINKI" InitialLevel="2" PrereqCivic="CIVIC_FUTURE_CIVIC" PrereqPopulation="100"/>
 
-		<Row UnitType="UNIT_TEST_MARISA" BaseMoves="3" Cost="1" Combat="10" RangedCombat="15" Range="2" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_TEST_MARISA_NAME" Description="LOC_UNIT_TEST_MARISA_DESCRIPTION" CanCapture="False" PromotionClass="PROMOTION_CLASS_SHINKI" InitialLevel="2" PrereqCivic="CIVIC_FUTURE_CIVIC" PrereqPopulation="100"/>
+		<Row UnitType="UNIT_TEST_MARISA" BaseMoves="3" Cost="9999" Combat="10" RangedCombat="15" Range="2" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_TEST_MARISA_NAME" Description="LOC_UNIT_TEST_MARISA_DESCRIPTION" CanCapture="False" PromotionClass="PROMOTION_CLASS_TEST_MARISA" InitialLevel="2" PrereqCivic="CIVIC_FUTURE_CIVIC" PrereqPopulation="100"/>
 	</Units>
 
 <!-- 	<Tags>
