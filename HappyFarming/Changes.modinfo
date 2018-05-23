@@ -7,13 +7,23 @@
     <Authors>muyyi</Authors>
   </Properties>
   <InGameActions>
-    <UpdateDatabase id="NewAction">
+    <UpdateDatabase id="Gameplay">
       <File>HF_Global.sql</File>
       <File>HF_Industrial.sql</File>
+      <File>HF_Buildings.sql</File>
     </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>HF_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>HF_Text.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>HF_Global.sql</File>
     <File>HF_Industrial.sql</File>
+    <File>HF_Buildings.sql</File>
+    <File>HF_Icons.xml</File>
+    <File>HF_Text.xml</File>
   </Files>
 </Mod>
