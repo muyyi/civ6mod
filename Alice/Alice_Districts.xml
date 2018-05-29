@@ -5,17 +5,6 @@
 <GameData>
 	<Types>
 		<Row Type="DISTRICT_DOLL_HOME" Kind="KIND_DISTRICT"/>
-		<Row Type="PROJECT_MARISA_AND_SEX_MUSHROOM" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_MARISA_AND_SEX_MUSHROOM_1" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_MARISA_AND_SEX_MUSHROOM_2" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_MARISA_AND_SEX_MUSHROOM_3" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_MARISA_AND_SEX_MUSHROOM_4" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_MARISA_AND_SEX_MUSHROOM_5" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_MARISA_AND_SEX_MUSHROOM_6" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_RECALL_GOD" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_GOD_POWER" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_GOD_POWER_FINAL" Kind="KIND_PROJECT"/>
-		<Row Type="PROJECT_TEST_MARISA" Kind="KIND_PROJECT"/>
 	</Types>
 	<DistrictReplaces>
 		<Row CivUniqueDistrictType="DISTRICT_DOLL_HOME" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
@@ -27,79 +16,18 @@
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="Mine_Production"/>
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="Quarry_Production"/>
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="District_Production"/>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="Government_Production"/>
 	</District_Adjacencies>
 	<District_GreatPersonPoints>
-		<!-- <Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/> -->
-		<!-- <Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_TOUHOU_ALICE" PointsPerTurn="2"/> -->
+		<Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
 	<District_TradeRouteYields>
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 	<District_CitizenYieldChanges>
 		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
-		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	<District_CitizenGreatPersonPoints>
 		<Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</District_CitizenGreatPersonPoints>
-
-	<Projects>
-		<!-- 暂时没有加任何时代限制条件和需要蘑菇的条件，方便测试 -->
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" PrereqResource="RESOURCE_MAGIC_MASHROOM" Cost="80"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_1" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_1_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_OTHER_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="100"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_2" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_2_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_OTHER_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="120"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_3" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_3_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_OTHE_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="150"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_4" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_4_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_4_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="200"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_5" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_5_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_5_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="250"/>
-		<Row ProjectType="PROJECT_MARISA_AND_SEX_MUSHROOM_6" Name="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_6_NAME" ShortName="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME" Description="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_6_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="300"/>
-		<Row ProjectType="PROJECT_RECALL_GOD" Name="LOC_PROJECT_RECALL_GOD_NAME" ShortName="LOC_PROJECT_RECALL_GOD_SHORT_NAME" Description="LOC_PROJECT_RECALL_GOD_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="100" PrereqTech="TECH_ASTROLOGY"/>
-		<Row ProjectType="PROJECT_GOD_POWER" Name="LOC_PROJECT_GOD_POWER_NAME" ShortName="LOC_PROJECT_GOD_POWER_SHORT_NAME" Description="LOC_PROJECT_GOD_POWER_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="100"  PrereqCivic="CIVIC_THEOLOGY"/>
-		<Row ProjectType="PROJECT_GOD_POWER_FINAL" Name="LOC_PROJECT_GOD_POWER_NAME" ShortName="LOC_PROJECT_GOD_POWER_SHORT_NAME" Description="LOC_PROJECT_GOD_POWER_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="1" Cost="100"  PrereqCivic="CIVIC_HUMANISM"/>
-		<!-- TEST MARISA -->
-		<!-- <Row ProjectType="PROJECT_TEST_MARISA" Name="LOC_PROJECT_TEST_MARISA_NAME" ShortName="LOC_PROJECT_TEST_MARISA_SHORT_NAME" Description="LOC_PROJECT_TEST_MARISA_DESCRIPTION" PrereqDistrict="DISTRICT_DOLL_HOME" MaxPlayerInstances="5" Cost="150"/> -->
-	</Projects>
-
-	<ProjectPrereqs>
-		<Row>
-			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_1</ProjectType>
-			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM</PrereqProjectType>
-			<MinimumPlayerInstances>1</MinimumPlayerInstances>
-		</Row>
-		<Row>
-			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_2</ProjectType>
-			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_1</PrereqProjectType>
-			<MinimumPlayerInstances>1</MinimumPlayerInstances>
-		</Row>
-		<Row>
-			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_3</ProjectType>
-			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_2</PrereqProjectType>
-			<MinimumPlayerInstances>1</MinimumPlayerInstances>
-		</Row>
-		<Row>
-			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_4</ProjectType>
-			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_3</PrereqProjectType>
-			<MinimumPlayerInstances>1</MinimumPlayerInstances>
-		</Row>
-		<Row>
-			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_5</ProjectType>
-			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_4</PrereqProjectType>
-			<MinimumPlayerInstances>1</MinimumPlayerInstances>
-		</Row>
-		<Row>
-			<ProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_6</ProjectType>
-			<PrereqProjectType>PROJECT_MARISA_AND_SEX_MUSHROOM_5</PrereqProjectType>
-			<MinimumPlayerInstances>1</MinimumPlayerInstances>
-		</Row>
-		<Row>
-			<ProjectType>PROJECT_GOD_POWER</ProjectType>
-			<PrereqProjectType>PROJECT_RECALL_GOD</PrereqProjectType>
-			<MinimumPlayerInstances>1</MinimumPlayerInstances>
-		</Row>
-		<Row>
-			<ProjectType>PROJECT_GOD_POWER_FINAL</ProjectType>
-			<PrereqProjectType>PROJECT_GOD_POWER</PrereqProjectType>
-			<MinimumPlayerInstances>1</MinimumPlayerInstances>
-		</Row>
-	</ProjectPrereqs>
 </GameData>

@@ -60,7 +60,7 @@
 	<TypeTags>
 		<Row Type="UNIT_KIRISAME_MARISA" Tag="CLASS_LANDCIVILIAN"/>
 		<Row Type="UNIT_GOD_SHINKI" Tag="CLASS_LANDCIVILIAN"/>
-		<Row Type="UNIT_GOD_SHINKI" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_TEST_MARISA" Tag="CLASS_RANGED"/>
 	</TypeTags>
 
 	<UnitPromotions>

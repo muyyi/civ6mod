@@ -33,21 +33,11 @@
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FOREST_OF_MAGIC</CivilizationType>
 			<LeaderType>LEADER_ALICE</LeaderType>
-			<Type>UNIT_PENGLAI</Type>
-			<Name>LOC_UNIT_PENGLAI_NAME</Name>
-			<Description>LOC_UNIT_PENGLAI_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_PENGLAI</Icon>
-			<SortIndex>20</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_FOREST_OF_MAGIC</CivilizationType>
-			<LeaderType>LEADER_ALICE</LeaderType>
 			<Type>DISTRICT_DOLL_HOME</Type>
 			<Name>LOC_DISTRICT_DOLL_HOME_NAME</Name>
 			<Description>LOC_DISTRICT_DOLL_HOME_DESCRIPTION</Description>
 			<Icon>ICON_DISTRICT_DOLL_HOME</Icon>
-			<SortIndex>30</SortIndex>
+			<SortIndex>20</SortIndex>
 		</Row>
 	</PlayerItems>
 </GameData>

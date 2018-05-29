@@ -118,10 +118,6 @@
 			</Text>
 		</Row>
 
-		<Row Tag="LOC_GREATPERSON_SPELL_CARD">
-			<Text>LOC_GREATPERSON_SPELL_CARD</Text>
-		</Row>
-
 
 		<!-- Civilization City Names-->
 		<Row Tag="LOC_CITY_NAME_FOREST_OF_MAGIC">

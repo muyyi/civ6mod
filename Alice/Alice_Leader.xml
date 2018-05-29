@@ -7,11 +7,9 @@
 		<Row Type="LEADER_ALICE" Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_DOLL_MASTER" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_SHANGHAI" Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_LEADER_UNIT_PENGLAI" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_KIRISAME_MARISA" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_GOD_SHINKI" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_DISTRICT_DOLL_HOME" Kind="KIND_TRAIT"/>
-		<!-- <Row Type="TRAIT_AGENDA_NONGJIAXIANG" Kind="KIND_TRAIT"/> -->
 		<Row Type="MODIFIER_ALICE_PLAYER_CITIES_GRANT_UNIT" Kind="KIND_MODIFIER"/>
 	</Types>
 
@@ -22,6 +20,14 @@
 			<EffectType>EFFECT_GRANT_UNIT_IN_CITY</EffectType>
 		</Row>
 	</DynamicModifiers>
+
+<!-- 这里的命名会和其他mod冲突，可能要修改领袖命名。 -->
+<!-- 	<LoadingInfo>
+		<Row LeaderType="LEADER_ALICE" ForegroundImage="LEADER_ALICE_NEUTRAL" PlayDawnOfManAudio="0"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_ALICE" BackgroundImage="FALLBACK_NEUTRAL_ALICE.dds"/>
+	</DiplomacyInfo> -->
 
 	<Leaders>
 		<Row>
@@ -35,7 +41,6 @@
 	<LeaderTraits>
 		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_DOLL_MASTER"/>
 		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_UNIT_SHANGHAI"/>
-		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_UNIT_PENGLAI"/>
 		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME"/>
 	</LeaderTraits>
 	<LeaderQuotes>
@@ -44,7 +49,6 @@
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_DOLL_MASTER" Name="LOC_TRAIT_LEADER_DOLL_MASTER_NAME" Description="LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_SHANGHAI" Name="LOC_UNIT_SHANGHAI_NAME" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" />
-		<Row TraitType="TRAIT_LEADER_UNIT_PENGLAI" Name="LOC_UNIT_PENGLAI_NAME" Description="LOC_UNIT_PENGLAI_DESCRIPTION" />
 		<Row TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME" Name="LOC_DISTRICT_DOLL_HOME_NAME" Description="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" />
 		<Row TraitType="TRAIT_LEADER_UNIT_KIRISAME_MARISA" Name="LOC_UNIT_KIRISAME_MARISA_NAME" Description="LOC_UNIT_KIRISAME_MARISA_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_GOD_SHINKI" Name="LOC_UNIT_GOD_SHINKI_NAME" Description="LOC_UNIT_GOD_SHINKI_DESCRIPTION"/>

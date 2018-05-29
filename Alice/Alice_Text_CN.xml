@@ -20,32 +20,37 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MAGIC_POWER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>你的所有单位无视雨林和丛林的影响。
-			[NEWLINE][NEWLINE]树林和雨林为你的城区提供不同的相邻加成。
+			[NEWLINE][NEWLINE]树林和雨林为你的市中心提供不同的相邻加成。
 			[NEWLINE][NEWLINE]蘑菇：一种特殊的奢侈资源，只有魔法之森的爱丽丝才可以看到它。可以在上面种植园改良设施。
-			[NEWLINE][NEWLINE]收集蘑菇后，解锁【魔理沙和六个蘑菇】项目，来召唤特殊伟人魔理沙。
+			[NEWLINE][NEWLINE]可以通过特殊条件解锁特殊伟人魔理沙和神绮。
 			</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_JUNGLE_1_FOOD" Language="zh_Hans_CN">
-			<Text>雨林为附近的城市提供1食物：雨林中有很多食物，只是要注意毒蘑菇是不能吃的。</Text>
+			<Text>雨林为附近的城市提供1 [ICON_FOOD] 食物</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_FOREST_1_PRODUCTION" Language="zh_Hans_CN">
-			<Text>森林为附近的城市提供1产能</Text>
+			<Text>森林为附近的城市提供1 [ICON_PRODUCTION] 产能</Text>
 		</Replace>
-
-		
 		<Replace Tag="LOC_TRAIT_LEADER_DOLL_MASTER_NAME" Language="zh_Hans_CN">
 			<Text>人偶大军</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建造或占领城市时，获得一个蓬莱人偶和一个上海人偶。</Text>
+			<Text>建造或占领城市时，获得一个上海人偶。人偶类单位获得更多夹击和支援加成。</Text>
 		</Replace>
-
 		<Replace Tag="LOC_UNIT_SHANGHAI_NAME" Language="zh_Hans_CN">
 			<Text>上海人形</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_SHANGHAI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>爱丽丝的贴身人偶之一，对抗近战单位时+10攻击，以免疫近战单位作战时的克制战斗力加成。自带2次建造次数（可用来砍树和加速建造）。组成军队，军团后战力翻倍。</Text>
+			<Text>爱丽丝的贴身人偶之一，免疫近战单位作战时的克制战斗力加成。可建造改良设施和清除地形。特别擅长团队作战。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_SHANGHAI_VS_MELEE_BONUS" Language="zh_Hans_CN">
+			<Text>人偶改良+{1_Amount} 免疫近战克制</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DOLL_NEIGHBOR_COMBAT_BONUS" Language="zh_Hans_CN">
+			<Text>人偶指挥官+{1_Amount} 靠近其它人偶单位</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_PENGLAI_NAME" Language="zh_Hans_CN">
@@ -80,12 +85,16 @@
 			<Text>初始带有隐身的晋升，组成军队，军团后战力翻倍。</Text>
 		</Replace>
 
+
+
 		<Replace Tag="LOC_DISTRICT_DOLL_HOME_NAME" Language="zh_Hans_CN">
 			<Text>人偶之家</Text>
 		</Replace>
 
 		<Replace Tag="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>有很多效果的人偶之家</Text>
+			<Text>初始提供2 [ICON_PRODUCTION] 产能，2 [ICON_CULTURE] 文化，2 [ICON_SCIENCE] 科技。里面工作的市民产出大工点数和更多 [ICON_PRODUCTION] 产能。为周围的1格范围的地块提供1 [ICON_PRODUCTION] 产能，该效果会随着时代的推移而扩大范围（最多扩展到3格）。
+				[NEWLINE][NEWLINE]满足条件后，可以在该区域内执行一些特殊项目。招募特殊伟人神绮和魔理沙，并提升其能力。
+			</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME" Language="zh_Hans_CN">
@@ -129,7 +138,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>明明不是马*奥来的蘑菇，为什么吃了以后会升级呢？为什么！</Text>
+			<Text>明明不是马*奥的蘑菇，为什么吃了以后会升级呢？为什么！</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_5_DESCRIPTION" Language="zh_Hans_CN">
@@ -294,9 +303,6 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_AYA_SHAMEIMARU_NAME" Language="zh_Hans_CN">
 			<Text>神绮</Text>
 		</Replace>
-		<Replace Tag="LOC_GREATPERSON_SPELL_CARD" Language="zh_Hans_CN">
-			<Text>使用符卡</Text>
-		</Replace>
 		<Replace Tag="LOC_SPY_QUARTERMASTER" Language="zh_Hans_CN">
 			<Text>你所有的间谍在执行任务时等级+1，间谍可以从所有的选项里选择升级而非随机的升级。</Text>
 		</Replace>
@@ -310,7 +316,7 @@
 			<Text>生成一个间谍并增加一个间谍容量，所有间谍初始获得一次等级晋升。</Text>
 		</Replace>
 		<Replace Tag="SHENQI_GOD_ACTIVE_THREE_RELIC" Language="zh_Hans_CN">
-			<Text>生成3个圣遗物，所有城市遗物的信仰和旅游业产出翻倍，同时从城市的每个遗物获得250文化和科技。</Text>
+			<Text>生成3个圣遗物，所有城市遗物的信仰和旅游业产出翻倍，同时从城市的每个遗物获得250 [ICON_CULTURE] 文化和 [ICON_SCIENCE] 科技。</Text>
 		</Replace>  -->
 
 		<Replace Tag="LOC_PROMOTION_CLASS_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
@@ -350,7 +356,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L2L_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>对所有文明的可见度+1，与其它文明宣布友好时，获得一条额外的贸易路线和一个免费商人</Text>
+			<Text>对所有文明的可见度+1，获得2条贸易路线和商人</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L3L_NAME" Language="zh_Hans_CN">
@@ -358,7 +364,7 @@
 		</Replace>		
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L3L_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>获得一个额外的外交槽，若处于黄金时代，改为获得一个通用槽</Text>
+			<Text>获得一个额外的外交槽</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L1R_NAME" Language="zh_Hans_CN">
@@ -372,7 +378,6 @@
 <!-- 		<Replace Tag="LOC_PROMOTION_MARISA_L1R_NAME" Language="zh_Hans_CN">
 			<Text>情报搜集</Text>
 		</Replace>		
-
 		<Replace Tag="LOC_PROMOTION_MARISA_L1R_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>间谍容量+1，你所有的间谍在执行任务时等级+1</Text>
 		</Replace>	 -->
@@ -398,7 +403,7 @@
 		</Replace>		
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>若你处于和平状态，所有城市所有产出提升10%。</Text>
+			<Text>若你处于和平状态，国外贸易为双方额外提供2 [ICON_FOOD] 食物，2 [ICON_PRODUCTION] 产能，1 [ICON_CULTURE] 文化，5 [ICON_GOLD] 金币。若为盟友或宗主国，该产出翻倍。</Text>
 		</Replace>	
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L1_NAME" Language="zh_Hans_CN">
@@ -410,19 +415,19 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L2_NAME" Language="zh_Hans_CN">
-			<Text>造物</Text>
+			<Text>信仰</Text>
 		</Replace>		
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁所有改良设施。</Text>
+			<Text>从每个公民获得0.5信仰，从信仰你的主流宗教的公民身上额外获得0.5信仰和1金钱</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L3_NAME" Language="zh_Hans_CN">
-			<Text>神迹</Text>
+			<Text>造物</Text>
 		</Replace>		
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>部分奇观的效果将作用于全国。</Text>
+			<Text>解锁所有改良设施。</Text>
 		</Replace>	
 		
 		<Replace Tag="LOC_PROMOTION_SHINKI_L4_NAME" Language="zh_Hans_CN">
@@ -432,6 +437,38 @@
 		<Replace Tag="LOC_PROMOTION_SHINKI_L4_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>什么都不干。</Text>
 		</Replace> 
+
+		<Replace Tag="LOC_SHINKI_CITIZEN_FAITH_BONUS" Language="zh_Hans_CN">
+			<Text>神绮从每个普通市民身上获得的信仰。</Text>
+		</Replace> 
+
+		<Replace Tag="LOC_SHINKI_RELIGIOUS_BELIEF_FAITH_BONUS" Language="zh_Hans_CN">
+			<Text>神绮从每个信教市民身上获得的信仰。</Text>
+		</Replace> 
+
+		<Replace Tag="LOC_SHINKI_RELIGIOUS_BELIEF_GOLD_BONUS" Language="zh_Hans_CN">
+			<Text>神绮从每个信教市民身上获得的金钱。</Text>
+		</Replace> 
+
+		<Replace Tag="LOC_RAINFOREST_CENTER_ADJACENCY_BONUS" Language="zh_Hans_CN">
+			<Text>雨林为市中心提供+1 [ICON_FOOD] 食物。</Text>
+		</Replace> 
+
+		<Replace Tag="LOC_MARISA_FOOD_TO_INCOMING_FOREIGN_ROUTES_BONUS" Language="zh_Hans_CN">
+			<Text>和平状态下，国外贸易为双方提供+2 [ICON_FOOD] 食物</Text>
+		</Replace> 
+
+		<Replace Tag="LOC_MARISA_PRODUCTION_TO_INCOMING_FOREIGN_ROUTES_BONUS" Language="zh_Hans_CN">
+			<Text>和平状态下，国外贸易为双方提供+2 [ICON_PRODUCTION] 产能</Text>
+		</Replace> 
+
+		<Replace Tag="LOC_MARISA_CULTURE_TO_INCOMING_FOREIGN_ROUTES_BONUS" Language="zh_Hans_CN">
+			<Text>和平状态下，国外贸易为双方提供+1 [ICON_CULTURE] 文化</Text>
+		</Replace> 
+
+		<Replace Tag="LOC_GOLD_TO_INCOMING_FOREIGN_BONUS" Language="zh_Hans_CN">
+			<Text>和平状态下，国外贸易为双方提供+5金钱</Text>
+		</Replace>
 
 		<Replace Tag="LOC_CITY_NAME_FOREST_OF_MAGIC" Language="zh_Hans_CN">
 			<Text>雾雨魔法店</Text>
@@ -496,6 +533,19 @@
 		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_20" Language="zh_Hans_CN">
 			<Text>人偶「没有灵魂的集体舞」</Text>
 		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_21" Language="zh_Hans_CN">
+			<Text>爱丽丝</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_22" Language="zh_Hans_CN">
+			<Text>魔理沙</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_23" Language="zh_Hans_CN">
+			<Text>上海</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_24" Language="zh_Hans_CN">
+			<Text>蓬莱</Text>
+		</Replace>
+
 
 		<Replace Tag="LOC_LOADING_INFO_LEADER_ALICE" Language="zh_Hans_CN">
 			<Text>爱丽丝测试版ver.1</Text>

@@ -5,10 +5,15 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_SHANGHAI" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_PENGLAI" Kind="KIND_UNIT"/>
 		<Row Type="ABILITY_SHANGHAI" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_PENGLAI" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_DOLL" Kind="KIND_ABILITY"/>
+		<Row Type="PROMOTION_CLASS_SHANGHAI" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_SHANGHAI_L1L" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_SHANGHAI_L2L" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_SHANGHAI_L3L" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_SHANGHAI_L1R" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_SHANGHAI_L2R" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_SHANGHAI_L3R" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_SHANGHAI_L4" Kind="KIND_PROMOTION"/>
 	</Types>
 	<UnitAiInfos>
 		<Row UnitType="UNIT_SHANGHAI" AiType="UNITAI_COMBAT"/>
@@ -16,10 +21,6 @@
 		<Row UnitType="UNIT_SHANGHAI" AiType="UNITAI_BUILD"/>
 		<Row UnitType="UNIT_SHANGHAI" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_SHANGHAI" AiType="UNITTYPE_LAND_COMBAT"/>
-
-		<Row UnitType="UNIT_PENGLAI" AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_PENGLAI" AiType="UNITAI_BUILD"/>
-		<Row UnitType="UNIT_PENGLAI" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 <!-- 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_SHANGHAI" ReplacesUnitType="UNIT_SPEARMAN"/>
@@ -31,38 +32,44 @@
 	</UnitUpgrades> -->
 	<Units>
 		<!-- 不可主动生产，不可购买 -->
-		<Row UnitType="UNIT_SHANGHAI" BuildCharges="2" BaseMoves="2" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SHANGHAI_NAME" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="1" Combat="25" TraitType="TRAIT_LEADER_UNIT_SHANGHAI" PrereqTech="TECH_FUTURE_TECH"/>
-
-		<Row UnitType="UNIT_PENGLAI" BuildCharges="3" BaseMoves="3" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PENGLAI_NAME" Description="LOC_UNIT_PENGLAI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Combat="15" TraitType="TRAIT_LEADER_UNIT_PENGLAI" PrereqTech="TECH_FUTURE_TECH"/>
+		<Row UnitType="UNIT_SHANGHAI" BuildCharges="3" BaseMoves="3" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SHANGHAI_NAME" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="1" Combat="25" TraitType="TRAIT_LEADER_UNIT_SHANGHAI" PrereqTech="TECH_FUTURE_TECH" PromotionClass="PROMOTION_CLASS_SHANGHAI"/>
 	</Units>
 	<Tags>
 		<Row Tag="CLASS_SHANGHAI" Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_PENGLAI" Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_DOLL" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<TypeTags>
-		<Row Type="ABILITY_DOLL" Tag="CLASS_DOLL"/>
-
 		<Row Type="ABILITY_SHANGHAI" Tag="CLASS_SHANGHAI"/>
 		<Row Type="UNIT_SHANGHAI" Tag="CLASS_ANTI_CAVALRY"/>
 		<Row Type="UNIT_SHANGHAI" Tag="CLASS_SHANGHAI"/>
-		<Row Type="UNIT_SHANGHAI" Tag="CLASS_DOLL"/>
-
-		<Row Type="ABILITY_PENGLAI" Tag="CLASS_PENGLAI"/>
-		<Row Type="UNIT_PENGLAI" Tag="CLASS_RECON"/>
-		<!-- <Row Type="UNIT_PENGLAI" Tag="CLASS_STEALTH"/> -->
-		<Row Type="UNIT_PENGLAI" Tag="CLASS_PENGLAI"/>
-		<Row Type="UNIT_PENGLAI" Tag="CLASS_DOLL"/>
+		<Row Type="UNIT_SHANGHAI" Tag="CLASS_STEALTH"/>
 	</TypeTags>
 	
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_SHANGHAI" Name="LOC_ABILITY_SHANGHAI_NAME" Description="LOC_ABILITY_SHANGHAI_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_PENGLAI" Name="LOC_ABILITY_PENGLAI_NAME" Description="LOC_ABILITY_PENGLAI_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_DOLL" Name="LOC_ABILITY_DOLL_NAME" Description="LOC_ABILITY_DOLL_DESCRIPTION"/>
 	</UnitAbilities>
 
-	<ModifierStrings>
-		<Row ModifierId="TRAIT_SHANGHAI_VS_MELEE_BONUS_MODIFIER" Context="Preview" Text="人偶改良 +10攻击以免疫与近战单位作战时的克制"/>
-		<Row ModifierId="TRAIT_DOLL_NEIGHBOR_COMBAT_MODIFIER" Context="Preview" Text="+{1_Amount} 小小军势 靠近其它人偶单位"/>
-	</ModifierStrings>
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_SHANGHAI" Name="LOC_PROMOTION_CLASS_SHANGHAI_NAME"/>
+	</UnitPromotionClasses>
+
+	<UnitPromotions>
+		<!-- SHANGHAI -->
+		<Row UnitPromotionType="PROMOTION_SHANGHAI_L1L" Name="LOC_PROMOTION_SHANGHAI_L1L_NAME" Description="LOC_PROMOTION_SHANGHAI_L1L_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_SHANGHAI"/>
+		<Row UnitPromotionType="PROMOTION_SHANGHAI_L1R" Name="LOC_PROMOTION_SHANGHAI_L1R_NAME" Description="LOC_PROMOTION_SHANGHAI_L1R_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_SHANGHAI"/>
+		<Row UnitPromotionType="PROMOTION_SHANGHAI_L2L" Name="LOC_PROMOTION_SHANGHAI_L2L_NAME" Description="LOC_PROMOTION_SHANGHAI_L2L_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_SHANGHAI"/>
+		<Row UnitPromotionType="PROMOTION_SHANGHAI_L2R" Name="LOC_PROMOTION_SHANGHAI_L2R_NAME" Description="LOC_PROMOTION_SHANGHAI_L2R_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_SHANGHAI"/>
+		<Row UnitPromotionType="PROMOTION_SHANGHAI_L3L" Name="LOC_PROMOTION_SHANGHAI_L3L_NAME" Description="LOC_PROMOTION_SHANGHAI_L3L_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_SHANGHAI"/>
+		<Row UnitPromotionType="PROMOTION_SHANGHAI_L3R" Name="LOC_PROMOTION_SHANGHAI_L3R_NAME" Description="LOC_PROMOTION_SHANGHAI_L3R_DESCRIPTION" Level="3" Column="3" PromotionClass="PROMOTION_CLASS_SHANGHAI"/>
+		<Row UnitPromotionType="PROMOTION_SHANGHAI_L4" Name="LOC_PROMOTION_SHANGHAI_L4_NAME" Description="LOC_PROMOTION_SHANGHAI_L4_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_SHANGHAI"/>
+	</UnitPromotions>
+
+	<UnitPromotionPrereqs>
+		<!--SHANGHAI-->
+		<Row UnitPromotion="PROMOTION_SHANGHAI_L2L" PrereqUnitPromotion="PROMOTION_SHANGHAI_L1L"/>
+		<Row UnitPromotion="PROMOTION_SHANGHAI_L3L" PrereqUnitPromotion="PROMOTION_SHANGHAI_L2L"/>
+		<Row UnitPromotion="PROMOTION_SHANGHAI_L2R" PrereqUnitPromotion="PROMOTION_SHANGHAI_L1R"/>
+		<Row UnitPromotion="PROMOTION_SHANGHAI_L3R" PrereqUnitPromotion="PROMOTION_SHANGHAI_L2R"/>
+		<Row UnitPromotion="PROMOTION_SHANGHAI_L4" PrereqUnitPromotion="PROMOTION_SHANGHAI_L3L"/>
+		<Row UnitPromotion="PROMOTION_SHANGHAI_L4" PrereqUnitPromotion="PROMOTION_SHANGHAI_L3R"/>
+	</UnitPromotionPrereqs>
 </GameData>
