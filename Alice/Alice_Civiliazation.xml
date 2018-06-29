@@ -3,11 +3,11 @@
 	<LoadingInfo>
 		<!-- Alice Margatroid -->
 		<!-- BackgroundImage = top left / ForegroundImage = middle right -->
-		<Row LeaderType="LEADER_ALICE" ForegroundImage="LEADER_ALICE_NEUTRAL" PlayDawnOfManAudio="0"/>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" ForegroundImage="LEADER_ALICE_NEUTRAL" PlayDawnOfManAudio="0"/>
 	</LoadingInfo>
-<!-- 	<DiplomacyInfo>
-		<Row Type="LEADER_ALICE" BackgroundImage="bg_01"/>
-	</DiplomacyInfo> -->
+	<DiplomacyInfo>
+		<Row Type="LEADER_ALICE_BY_MUYYI" BackgroundImage="BG_ALICE"/>
+	</DiplomacyInfo>
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_ALICE_PRIMARY</Type>
@@ -26,17 +26,17 @@
 	</Colors>
 	<PlayerColors>
 		<Row>
-			<Type>LEADER_ALICE</Type>
+			<Type>LEADER_ALICE_BY_MUYYI</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_ALICE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_ALICE_SECONDARY</SecondaryColor>
 			<TextColor>COLOR_PLAYER_ALICE_TEXT</TextColor>
 		</Row>
 	</PlayerColors>
-<!-- 	<MomentIllustrations>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_FLOWER" Texture="MOMENT_FLOWER"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LINGLAN" Texture="MOMENT_LINGLAN"/>
-	</MomentIllustrations> -->
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_DOLL_HOME" Texture="MOMENT_DOLL_HOME"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_SHANGHAI" Texture="MOMENT_SHANGHAI_DOLL"/>
+	</MomentIllustrations>
 	
 	<Types>
 		<!-- 待改名 -->
@@ -64,7 +64,7 @@
 		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" Name="LOC_CIVILIZATION_FOREST_OF_MAGIC_NAME" Description="LOC_CIVILIZATION_FOREST_OF_MAGIC_DESCRIPTION" Adjective="LOC_CIVILIZATION_FOREST_OF_MAGIC_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="1"/>
 	</Civilizations>
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" LeaderType="LEADER_ALICE" CapitalName="LOC_CITY_NAME_FOREST_OF_MAGIC"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" LeaderType="LEADER_ALICE_BY_MUYYI" CapitalName="LOC_CITY_NAME_FOREST_OF_MAGIC"/>
 	</CivilizationLeaders>
 	<Traits>
 		<Row TraitType="TRAIT_MAGIC_POWER" Name="LOC_TRAIT_MAGIC_POWER_NAME" Description="LOC_TRAIT_MAGIC_POWER_DESCRIPTION" />

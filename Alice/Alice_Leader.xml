@@ -4,12 +4,13 @@
 <!-- Updated: 18/05/09 -->
 <GameData>
 	<Types>
-		<Row Type="LEADER_ALICE" Kind="KIND_LEADER" />
+		<Row Type="LEADER_ALICE_BY_MUYYI" Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_DOLL_MASTER" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_SHANGHAI" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_KIRISAME_MARISA" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_GOD_SHINKI" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_DISTRICT_DOLL_HOME" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_DUSHIPAI" Kind="KIND_TRAIT"/>
 		<Row Type="MODIFIER_ALICE_PLAYER_CITIES_GRANT_UNIT" Kind="KIND_MODIFIER"/>
 	</Types>
 
@@ -21,30 +22,22 @@
 		</Row>
 	</DynamicModifiers>
 
-<!-- 这里的命名会和其他mod冲突，可能要修改领袖命名。 -->
-<!-- 	<LoadingInfo>
-		<Row LeaderType="LEADER_ALICE" ForegroundImage="LEADER_ALICE_NEUTRAL" PlayDawnOfManAudio="0"/>
-	</LoadingInfo>
-	<DiplomacyInfo>
-		<Row Type="LEADER_ALICE" BackgroundImage="FALLBACK_NEUTRAL_ALICE.dds"/>
-	</DiplomacyInfo> -->
-
 	<Leaders>
 		<Row>
-			<LeaderType>LEADER_ALICE</LeaderType>
-			<Name>LOC_LEADER_ALICE_NAME</Name>
+			<LeaderType>LEADER_ALICE_BY_MUYYI</LeaderType>
+			<Name>LOC_LEADER_ALICE_BY_MUYYI_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 			<Sex>Female</Sex>
 			<SceneLayers>LEADER_DEFAULT</SceneLayers>
 		</Row>
 	</Leaders>
 	<LeaderTraits>
-		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_DOLL_MASTER"/>
-		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_UNIT_SHANGHAI"/>
-		<Row LeaderType="LEADER_ALICE" TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME"/>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" TraitType="TRAIT_LEADER_DOLL_MASTER"/>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" TraitType="TRAIT_LEADER_UNIT_SHANGHAI"/>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME"/>
 	</LeaderTraits>
 	<LeaderQuotes>
-		<Row LeaderType="LEADER_ALICE" Quote="LOC_LEADER_ALICE_QUOTE"/>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" Quote="LOC_LEADER_ALICE_BY_MUYYI_QUOTE"/>
 	</LeaderQuotes>
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_DOLL_MASTER" Name="LOC_TRAIT_LEADER_DOLL_MASTER_NAME" Description="LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION"/>
@@ -52,32 +45,28 @@
 		<Row TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME" Name="LOC_DISTRICT_DOLL_HOME_NAME" Description="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" />
 		<Row TraitType="TRAIT_LEADER_UNIT_KIRISAME_MARISA" Name="LOC_UNIT_KIRISAME_MARISA_NAME" Description="LOC_UNIT_KIRISAME_MARISA_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_GOD_SHINKI" Name="LOC_UNIT_GOD_SHINKI_NAME" Description="LOC_UNIT_GOD_SHINKI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_DUSHIPAI" Name="LOC_AGENDA_DUSHIPAI_NAME" Description="LOC_AGENDA_DUSHIPAI_DESCRIPTION"/>
 	</Traits>
 
 	<!-- Agendas Info-->
-<!-- 	<Agendas>
-		<Row AgendaType="AGENDA_NONGJIAXIANG" Name="LOC_AGENDA_NONGJIAXIANG_NAME" Description="LOC_AGENDA_NONGJIAXIANG_DESCRIPTION"/>
-	</Agendas> -->
+	<Agendas>
+		<Row AgendaType="AGENDA_DUSHIPAI" Name="LOC_AGENDA_DUSHIPAI_NAME" Description="LOC_AGENDA_DUSHIPAI_DESCRIPTION"/>
+	</Agendas>
 	<!-- 领袖和议程关联 -->
-<!-- 	<HistoricalAgendas>
-		<Row LeaderType="LEADER_ALICE" AgendaType="AGENDA_NONGJIAXIANG"/>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" AgendaType="AGENDA_DUSHIPAI"/>
 	</HistoricalAgendas>
 	<AgendaTraits>
-		<Row AgendaType="AGENDA_NONGJIAXIANG" TraitType="TRAIT_AGENDA_NONGJIAXIANG"/>
+		<Row AgendaType="AGENDA_DUSHIPAI" TraitType="TRAIT_AGENDA_DUSHIPAI"/>
 	</AgendaTraits>
 	<ExclusiveAgendas>
-		<Row AgendaOne="AGENDA_NONGJIAXIANG" AgendaTwo="AGENDA_EXPLOITATIVE"/>
-	</ExclusiveAgendas> -->
-	<!-- 待设置 -->
-<!-- 	<TraitModifiers>
-		<Row TraitType="TRAIT_AGENDA_NONGJIAXIANG" ModifierId="AGENDA_EXPLOITATION"/>
-	</TraitModifiers> -->
-	
-	<!-- 外交消息提示(待设置) -->
-<!-- 	<DiplomaticVisibilitySources>
-		<Row VisibilitySourceType="SOURCE_MOON_RABBITS" Description="LOC_VIZSOURCE_MOON_RABBITS" FromCitizen="true" ActionDescription="LOC_VIZSOURCE_ACTION_MOON_RABBITS" GossipString="LOC_GOSSIP_SOURCE_MOON_RABBITS"  TraitType="TRAIT_LEADER_DOLL_MASTER"/>
-	</DiplomaticVisibilitySources> -->
-	
+		<Row AgendaOne="AGENDA_DUSHIPAI" AgendaTwo="AGENDA_FLOWER_OF_SCOTLAND"/>
+	</ExclusiveAgendas>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_DUSHIPAI" ModifierId="AGENDA_IRON_CONFEDERACY_MANY_ALLIANCES"/>
+		<Row TraitType="TRAIT_AGENDA_DUSHIPAI" ModifierId="AGENDA_MODIFIER_WARMONGER"/>
+	</TraitModifiers>
+		
 	<!-- Ai Info -->
 	<AiListTypes>
 		<Row ListType="ALICEWonders"/>
@@ -92,14 +81,21 @@
 	</AiLists>
 	<!-- 将civ和tec做相应修改 -->
 	<AiFavoredItems>
-		<Row ListType="ALICEWonders" Item="BUILDING_HANGING_GARDENS"/>
+		<Row ListType="ALICEWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="ALICEWonders" Item="BUILDING_VENETIAN_ARSENAL"/>
+		<Row ListType="ALICEWonders" Item="BUILDING_FORBIDDEN_CITY"/>
+		<Row ListType="ALICEWonders" Item="BUILDING_POTALA_PALACE"/>
+		<Row ListType="ALICEWonders" Item="BUILDING_RUHR_VALLEY"/>
 		<Row ListType="ALICEWonders" Item="BUILDING_BIG_BEN"/>
 		<Row ListType="ALICEWonders" Item="BUILDING_EIFFEL_TOWER"/>
-		<Row ListType="ALICECivics" Item="CIVIC_DEFENSIVE_TACTICS"/>
-		<Row ListType="ALICECivics" Item="CIVIC_FEUDALISM"/>
+		<Row ListType="ALICECivics" Item="CIVIC_CRAFTSMANSHIP"/>
+		<Row ListType="ALICECivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
 		<Row ListType="ALICECivics" Item="CIVIC_CIVIL_ENGINEERING"/>
-		<Row ListType="ALICETechs" Item="TECH_IRRIGATION"/>
-		<Row ListType="ALICETechs" Item="TECH_IRON_WORKING"/>
-		<Row ListType="ALICETechs" Item="TECH_FLIGHT"/>
+		<Row ListType="ALICECivics" Item="CIVIC_CLASS_STRUGGLE"/>
+		<Row ListType="ALICETechs" Item="TECH_ASTROLOGY"/>
+		<Row ListType="ALICETechs" Item="TECH_WRITING"/>
+		<Row ListType="ALICETechs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="ALICETechs" Item="TECH_APPRENTICESHIP"/>
+		<Row ListType="ALICETechs" Item="TECH_ENGINEERING"/>
 	</AiFavoredItems>
 </GameData>

@@ -12,17 +12,16 @@
 			<Text>充满魔力的</Text>
 		</Replace>
 
-		<Replace Tag="LOC_LEADER_ALICE_NAME" Language="zh_Hans_CN">
+		<Replace Tag="LOC_LEADER_ALICE_BY_MUYYI_NAME" Language="zh_Hans_CN">
 			<Text>爱丽丝</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MAGIC_POWER_NAME" Language="zh_Hans_CN">
 			<Text>魔法之森</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MAGIC_POWER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>你的所有单位无视雨林和丛林的影响。
-			[NEWLINE][NEWLINE]树林和雨林为你的市中心提供不同的相邻加成。
-			[NEWLINE][NEWLINE]蘑菇：一种特殊的奢侈资源，只有魔法之森的爱丽丝才可以看到它。可以在上面种植园改良设施。
-			[NEWLINE][NEWLINE]可以通过特殊条件解锁特殊伟人魔理沙和神绮。
+			<Text>你的所有单位移动时无视雨林和丛林的影响。
+			[NEWLINE][NEWLINE]树林和雨林为市中心提供不同的相邻加成(+1 [ICON_PRODUCTION] 产能 / [ICON_FOOD] 食物)。
+			[NEWLINE][NEWLINE]蘑菇：一种特殊的资源(提供6宜居度)，只有魔法之森的爱丽丝才可以看到它。可以在上面种植园改良设施，同时也是解锁【魔理沙和6个蘑菇】项目的必要条件。
 			</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_JUNGLE_1_FOOD" Language="zh_Hans_CN">
@@ -32,17 +31,21 @@
 			<Text>森林为附近的城市提供1 [ICON_PRODUCTION] 产能</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DOLL_MASTER_NAME" Language="zh_Hans_CN">
-			<Text>人偶大军</Text>
+			<Text>操纵人偶的能力</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建造或占领城市时，获得一个上海人偶。人偶类单位获得更多夹击和支援加成。</Text>
+			<Text>建造或占领城市时，获得一个上海人偶。上海人偶每次晋升后，提升5点 [ICON_Strength] 战斗力。完成特定人文后，解锁军营区特殊项目【人偶战争】以提升人偶 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHANGHAI_NAME" Language="zh_Hans_CN">
 			<Text>上海人形</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_SHANGHAI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>爱丽丝的贴身人偶之一，免疫近战单位作战时的克制战斗力加成。可建造改良设施和清除地形。特别擅长团队作战。</Text>
+			<Text>爱丽丝的贴身人偶之一，拥有独特的升级树，免疫近战单位作战时的克制 [ICON_Strength] 战斗力加成。可建造改良设施和清除地形。特别擅长团队作战。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_CLASS_SHANGHAI_NAME" Language="zh_Hans_CN">
+			<Text>人偶</Text>
 		</Replace>
 
 		<Replace Tag="LOC_SHANGHAI_VS_MELEE_BONUS" Language="zh_Hans_CN">
@@ -53,47 +56,90 @@
 			<Text>人偶指挥官+{1_Amount} 靠近其它人偶单位</Text>
 		</Replace>
 
-		<Replace Tag="LOC_UNIT_PENGLAI_NAME" Language="zh_Hans_CN">
-			<Text>蓬莱人形</Text>
+
+		<Replace Tag="LOC_SHANGHAI_IN_FORMATION_BONUS" Language="zh_Hans_CN">
+			<Text>护卫{1_Amount} </Text>
 		</Replace>
 
-		<Replace Tag="LOC_UNIT_PENGLAI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>爱丽丝的贴身人偶之二，初始就带有隐形的效果。且可以建造改良设施（3次）。 组成军队，军团后战力翻倍。</Text>
+		<Replace Tag="LOC_SHANGHAI_IN_FOREST_BONUS" Language="zh_Hans_CN">
+			<Text>突袭+{1_Amount} 森林作战 </Text>
 		</Replace>
 
-		<Replace Tag="LOC_ABILITY_DOLL_NAME" Language="zh_Hans_CN">
-			<Text>狡猾的献祭</Text>
+		<Replace Tag="LOC_SHANGHAI_IN_RAIN_FOREST_BONUS" Language="zh_Hans_CN">
+			<Text>突袭+{1_Amount} 雨林作战</Text>
 		</Replace>
 
-		<Replace Tag="LOC_ABILITY_DOLL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>消耗一次人偶的使用次数，为建筑或奇观加速5%。</Text>
+		<Replace Tag="LOC_SHANGHAI_KILL_MACHINE_BONUS" Language="zh_Hans_CN">
+			<Text>杀戮机器+{1_Amount} </Text>
 		</Replace>
 
-		<Replace Tag="LOC_ABILITY_SHANGHAI_NAME" Language="zh_Hans_CN">
-			<Text>小小军势</Text>
+		<Replace Tag="LOC_SHANGHAI_LV_UP_BONUS" Language="zh_Hans_CN">
+			<Text>等级提升+{1_Amount} </Text>
 		</Replace>
 
-		<Replace Tag="LOC_ABILITY_SHANGHAI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text初始带有移动力+1的晋升，组成军队，军团后战力翻倍。</Text>
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L2L_NAME" Language="zh_Hans_CN">
+			<Text>探索人形</Text>
 		</Replace>
 
-		<Replace Tag="LOC_ABILITY_PENGLAI_NAME" Language="zh_Hans_CN">
-			<Text>小小军势</Text>
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L2L_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>永久+1 [ICON_MOVEMENT] 移动力</Text>
 		</Replace>
 
-		<Replace Tag="LOC_ABILITY_PENGLAI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>初始带有隐身的晋升，组成军队，军团后战力翻倍。</Text>
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L2R_NAME" Language="zh_Hans_CN">
+			<Text>护卫</Text>
 		</Replace>
 
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L2R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在友方领土加+1 [ICON_MOVEMENT] 移动力，编队单位将继承上海的 [ICON_MOVEMENT] 移动力</Text>
+		</Replace>
 
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L3L_NAME" Language="zh_Hans_CN">
+			<Text>突袭</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L3L_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>隐身，在树林或丛林中作战时+10 [ICON_Strength] 战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L1R_NAME" Language="zh_Hans_CN">
+			<Text>支援</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L1R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>周围有人偶类单位时+10 [ICON_Strength] 战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L1L_NAME" Language="zh_Hans_CN">
+			<Text>陷阱网</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L1L_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>双倍夹击和支援加成</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L3R_NAME" Language="zh_Hans_CN">
+			<Text>敢死小分队</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L3R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果 [ICON_MOVEMENT] 移动力允许，每回合可以额外进行一次攻击</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L4_NAME" Language="zh_Hans_CN">
+			<Text>杀戮机器</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHANGHAI_L4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>忽视控制区域，在任何情况下+10 [ICON_Strength] 战斗力 </Text>
+		</Replace>
 
 		<Replace Tag="LOC_DISTRICT_DOLL_HOME_NAME" Language="zh_Hans_CN">
 			<Text>人偶之家</Text>
 		</Replace>
 
 		<Replace Tag="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>初始提供2 [ICON_PRODUCTION] 产能，2 [ICON_CULTURE] 文化，2 [ICON_SCIENCE] 科技。里面工作的市民产出大工点数和更多 [ICON_PRODUCTION] 产能。为周围的1格范围的地块提供1 [ICON_PRODUCTION] 产能，该效果会随着时代的推移而扩大范围（最多扩展到3格）。
-				[NEWLINE][NEWLINE]满足条件后，可以在该区域内执行一些特殊项目。招募特殊伟人神绮和魔理沙，并提升其能力。
+			<Text>初始提供2 [ICON_PRODUCTION] 产能，2 [ICON_CULTURE] 文化，2 [ICON_SCIENCE] 科技。专家额外产出1大工点数和1 [ICON_PRODUCTION] 产能。为周围的1格范围的地块提供1 [ICON_PRODUCTION] 产能，该效果会随着时代的推移而扩大范围（最多扩展到3格）。
+			[NEWLINE][NEWLINE]满足条件后，可以在该区域内执行一些特殊项目。招募特殊伟人神绮和魔理沙，并提升其能力。
 			</Text>
 		</Replace>
 
@@ -165,160 +211,23 @@
 			<Text>神绮这下牛B了！</Text>
 		</Replace>
 
-		<Replace Tag="LOC_PROJECT_TEST_MARISA_NAME" Language="zh_Hans_CN">
-			<Text>魔理沙的野望</Text>
+		<Replace Tag="LOC_PROJECT_DOLLS_WAR_NAME" Language="zh_Hans_CN">
+			<Text>玩偶战争</Text>
 		</Replace>
 
-		<Replace Tag="LOC_PROJECT_TEST_MARISA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>找到了蘑菇，八卦炉又得到了新的能量来源。</Text>
+		<Replace Tag="LOC_PROJECT_DOLLS_WAR_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>玩偶战争</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_DOLLS_WAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有上海人偶等级+1。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_RESOURCE_MAGIC_MASHROOM_NAME" Language="zh_Hans_CN">
 			<Text>蘑菇</Text>
 		</Replace>		
 
-		<Replace Tag="LOC_PROMOTION_CLASS_TEST_MARISA_NAME" Language="zh_Hans_CN">
-			<Text>测试版魔理沙的升级</Text>
-		</Replace>		
-
-		<Replace Tag="LOC_UNIT_TEST_MARISA_NAME" Language="zh_Hans_CN">
-			<Text>测试版魔理沙</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_UNIT_TEST_MARISA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>测试版魔理沙</Text>
-		</Replace>		
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_MASTERSPARK_1_NAME" Language="zh_Hans_CN">
-			<Text>魔炮外交</Text>
-		</Replace>		
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_MASTERSPARK_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有城邦对你开放边界，你每回合的影响力+4</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_1_NAME" Language="zh_Hans_CN">
-			<Text>万人迷</Text>
-		</Replace>		
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>其它国家对你的外交可见度+1，增加5点好感度</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_2_NAME" Language="zh_Hans_CN">
-			<Text>万人迷</Text>
-		</Replace>		
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>你与其它国家宣友或结盟时，获得一条免费的贸易路线和商人。</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_3_NAME" Language="zh_Hans_CN">
-			<Text>万人迷</Text>
-		</Replace>		
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LADY_KILLER_3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>从宣友的国家和城邦获得更多贸易加成。若为结盟或宗主国。该加成翻倍</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_FRIENDLY_1_NAME" Language="zh_Hans_CN">
-			<Text>化敌为友</Text>
-		</Replace>		
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_FRIENDLY_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>摧毁一个蛮族部落后，额外获得拜访聚落的奖励</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_1_NAME" Language="zh_Hans_CN">
-			<Text>魔炮</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>获得+10攻击力</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_2_NAME" Language="zh_Hans_CN">
-			<Text>魔炮</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>获得+20攻击力,攻击城区时造成全额伤害</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_3_NAME" Language="zh_Hans_CN">
-			<Text>魔炮</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPARK_3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>获得+30攻击力，射程+1</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_COMMANDER_1_NAME" Language="zh_Hans_CN">
-			<Text>指挥官</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_COMMANDER_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>指挥官：你所有远程单位（包括自身）远程攻击时+5攻击，但防御时-5攻击</Text>
-		</Replace>		
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPEED_1_NAME" Language="zh_Hans_CN">
-			<Text>急速</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPEED_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>无视控制区域和地形影响</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPEED_2_NAME" Language="zh_Hans_CN">
-			<Text>急速</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_BATTLE_MASTER_SPEED_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+1移动力，若攻击后有移动力，可以进行第二次攻击</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LOVE_PEACE_NAME" Language="zh_Hans_CN">
-			<Text>和平幻想乡</Text>
-		</Replace>	
-
-		<Replace Tag="LOC_PROMOTION_MARISA_DIPLOMAT_LOVE_PEACE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>你与其它所有文明处于和平状态时，所有城市所有产出提高15%</Text>
-		</Replace>	
-
-
-
-
-<!-- 		<Replace Tag="LOC_GREAT_PERSON_CLASS_TOUHOU_ALICE_NAME" Language="zh_Hans_CN">
-			<Text>爱丽丝的后宫</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_GREAT_TOUHOU_ALICE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>爱丽丝的后宫们</Text>
-		</Replace>
-		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DIPLOMAT_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
-			<Text>人(妻)气魔理沙</Text>
-		</Replace>
-		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SPY_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
-			<Text>大盗魔理沙</Text>
-		</Replace>
-		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_AYA_SHAMEIMARU_NAME" Language="zh_Hans_CN">
-			<Text>神绮</Text>
-		</Replace>
-		<Replace Tag="LOC_SPY_QUARTERMASTER" Language="zh_Hans_CN">
-			<Text>你所有的间谍在执行任务时等级+1，间谍可以从所有的选项里选择升级而非随机的升级。</Text>
-		</Replace>
-		<Replace Tag="LOC_GOD_SHENQI_MAIMENG" Language="zh_Hans_CN">
-			<Text>卖萌</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLOMAT_KIRISAME_MARISA_ACTIVE_DIPLOMATIC_GOVERNMENT_SLOT" Language="zh_Hans_CN">
-			<Text>生成3个使者，获得一个额外的外交槽。</Text>
-		</Replace>
-		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SPY_KIRISAME_MARISA" Language="zh_Hans_CN">
-			<Text>生成一个间谍并增加一个间谍容量，所有间谍初始获得一次等级晋升。</Text>
-		</Replace>
-		<Replace Tag="SHENQI_GOD_ACTIVE_THREE_RELIC" Language="zh_Hans_CN">
-			<Text>生成3个圣遗物，所有城市遗物的信仰和旅游业产出翻倍，同时从城市的每个遗物获得250 [ICON_CULTURE] 文化和 [ICON_SCIENCE] 科技。</Text>
-		</Replace>  -->
-
+		
 		<Replace Tag="LOC_PROMOTION_CLASS_KIRISAME_MARISA_NAME" Language="zh_Hans_CN">
 			<Text>魔理沙的升级</Text>
 		</Replace>
@@ -356,7 +265,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L2L_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>对所有文明的可见度+1，获得2条贸易路线和商人</Text>
+			<Text>对所有文明的可见度+1，获得一条贸易路线和商人，每次学习外交技能后，可以获得更多贸易路线和商人。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L3L_NAME" Language="zh_Hans_CN">
@@ -374,13 +283,6 @@
 		<Replace Tag="LOC_PROMOTION_MARISA_L1R_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>摧毁野蛮人营地时，额外获得拜访聚落的奖励</Text>
 		</Replace>		
-
-<!-- 		<Replace Tag="LOC_PROMOTION_MARISA_L1R_NAME" Language="zh_Hans_CN">
-			<Text>情报搜集</Text>
-		</Replace>		
-		<Replace Tag="LOC_PROMOTION_MARISA_L1R_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>间谍容量+1，你所有的间谍在执行任务时等级+1</Text>
-		</Replace>	 -->
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L2R_NAME" Language="zh_Hans_CN">
 			<Text>大盗魔理沙</Text>
@@ -403,7 +305,7 @@
 		</Replace>		
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>若你处于和平状态，国外贸易为双方额外提供2 [ICON_FOOD] 食物，2 [ICON_PRODUCTION] 产能，1 [ICON_CULTURE] 文化，5 [ICON_GOLD] 金币。若为盟友或宗主国，该产出翻倍。</Text>
+			<Text>国内贸易额外提供2 [ICON_FOOD] 食物，2 [ICON_PRODUCTION] 产能，国外贸易路线额外提供2 [ICON_CULTURE] 文化，2 [ICON_SCIENCE] 科研，5 [ICON_GOLD] 金币。</Text>
 		</Replace>	
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L1_NAME" Language="zh_Hans_CN">
@@ -415,29 +317,29 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L2_NAME" Language="zh_Hans_CN">
-			<Text>信仰</Text>
-		</Replace>		
+			<Text>神之祝福</Text>
+		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你同时获得3个神明（天空之神，大地女神，海洋之神）的祝福。</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_PROMOTION_SHINKI_L3_NAME" Language="zh_Hans_CN">
+			<Text>信仰</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_SHINKI_L3_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>从每个公民获得0.5信仰，从信仰你的主流宗教的公民身上额外获得0.5信仰和1金钱</Text>
 		</Replace>
 
-		<Replace Tag="LOC_PROMOTION_SHINKI_L3_NAME" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PROMOTION_SHINKI_L4_NAME" Language="zh_Hans_CN">
 			<Text>造物</Text>
 		</Replace>		
 
-		<Replace Tag="LOC_PROMOTION_SHINKI_L3_DESCRIPTION" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PROMOTION_SHINKI_L4_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁所有改良设施。</Text>
 		</Replace>	
 		
-		<Replace Tag="LOC_PROMOTION_SHINKI_L4_NAME" Language="zh_Hans_CN">
-			<Text>卖萌</Text>
-		</Replace>		
-
-		<Replace Tag="LOC_PROMOTION_SHINKI_L4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>什么都不干。</Text>
-		</Replace> 
-
 		<Replace Tag="LOC_SHINKI_CITIZEN_FAITH_BONUS" Language="zh_Hans_CN">
 			<Text>神绮从每个普通市民身上获得的信仰。</Text>
 		</Replace> 
@@ -453,22 +355,6 @@
 		<Replace Tag="LOC_RAINFOREST_CENTER_ADJACENCY_BONUS" Language="zh_Hans_CN">
 			<Text>雨林为市中心提供+1 [ICON_FOOD] 食物。</Text>
 		</Replace> 
-
-		<Replace Tag="LOC_MARISA_FOOD_TO_INCOMING_FOREIGN_ROUTES_BONUS" Language="zh_Hans_CN">
-			<Text>和平状态下，国外贸易为双方提供+2 [ICON_FOOD] 食物</Text>
-		</Replace> 
-
-		<Replace Tag="LOC_MARISA_PRODUCTION_TO_INCOMING_FOREIGN_ROUTES_BONUS" Language="zh_Hans_CN">
-			<Text>和平状态下，国外贸易为双方提供+2 [ICON_PRODUCTION] 产能</Text>
-		</Replace> 
-
-		<Replace Tag="LOC_MARISA_CULTURE_TO_INCOMING_FOREIGN_ROUTES_BONUS" Language="zh_Hans_CN">
-			<Text>和平状态下，国外贸易为双方提供+1 [ICON_CULTURE] 文化</Text>
-		</Replace> 
-
-		<Replace Tag="LOC_GOLD_TO_INCOMING_FOREIGN_BONUS" Language="zh_Hans_CN">
-			<Text>和平状态下，国外贸易为双方提供+5金钱</Text>
-		</Replace>
 
 		<Replace Tag="LOC_CITY_NAME_FOREST_OF_MAGIC" Language="zh_Hans_CN">
 			<Text>雾雨魔法店</Text>
@@ -546,111 +432,106 @@
 			<Text>蓬莱</Text>
 		</Replace>
 
-
-		<Replace Tag="LOC_LOADING_INFO_LEADER_ALICE" Language="zh_Hans_CN">
-			<Text>爱丽丝测试版ver.1</Text>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ALICE_BY_MUYYI" Language="zh_Hans_CN">
+			<Text>七色的人偶使爱丽丝，您并不孤单，上海人偶是您的最好帮手，源源不断的人偶大军会消灭你的敌人，并迅速帮您建立起城市。而您的母亲和朋友——神绮和魔理沙，则会为您的后勤和外交提供莫大的帮助。当然，不要忘记善待您的朋友，他们或许很乐意品尝来自魔法之森的蘑菇。</Text>
 		</Replace>
 
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_TITLE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_BY_MUYYI_TITLE" Language="zh_Hans_CN">
 			<Text>爱丽丝</Text>
 		</Replace>
 
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_SUBTITLE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_BY_MUYYI_SUBTITLE" Language="zh_Hans_CN">
+			<Text>七色的人偶使</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_BY_MUYYI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>爱丽丝拥有精细的操纵人偶的能力——那就像她的孤僻一样为人所知。爱丽丝擅长制作人偶，能同时操控多只人偶，其手指的灵活度是幻想乡首屈一指的。她制作的人偶可以进行料理、洗衣、打扫等家事，当有需要，人偶也可以参加战斗。爱丽丝因为有人偶支援，决斗时善长于一对多。就算将几个人偶打倒，对形势也是毫无帮助的。而且有的人偶还会自爆，可不能以人偶为对手。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_ALICE_BY_MUYYI_QUOTE" Language="zh_Hans_CN">
+			<Text>七色的人偶使</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DUSHIPAI_NAME" Language="zh_Hans_CN">
 			<Text>魔理沙最高</Text>
 		</Replace>
-
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>与其它好战的文明不同，幽香只想好好耕耘自己的花田。但如果你胆敢打扰她，或许你才会真正明白，为什么她的花田总是开的那么鲜艳。</Text>
-		</Replace>
-
-		<Replace Tag="LOC_LINGLAN_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>铃兰之毒</Text>
-		</Replace>
-
-		<Replace Tag="LOC_LEADER_ALICE_QUOTE" Language="zh_Hans_CN">
-			<Text>叫我女王大人</Text>
-		</Replace>
-		<Replace Tag="LOC_AGENDA_NONGJIAXIANG_NAME" Language="zh_Hans_CN">
-			<Text>农家香</Text>
-		</Replace>
-		<Replace Tag="LOC_AGENDA_NONGJIAXIANG_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>喜欢对土地充分开发的文明，讨厌不开发土地的文明。</Text>
+		<Replace Tag="LOC_AGENDA_DUSHIPAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢与其它国家和睦相处，并广交盟友的文明。讨厌战争贩子。</Text>
 		</Replace>
 		<!-- Leader Dialog -->
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALICE_ANY">
-			<Text>呵，看来你也明白这些鲜花的美丽之处呢。姑且就这样吧。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>只是做朋友而已哦，答应你也不是不可以。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALICE_ANY">
-			<Text>作为人类，你倒是挺有趣的。但现在还不够格。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>朋，朋友什么的，爱丽丝才不需要呢！</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ALICE_ANY">
-			<Text>都是爱花之人，看来我们之间还是有共同语言的呢。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>上海似乎很喜欢你呢，所以说，不是我而是上海想和你交朋友啦。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ALICE_ANY">
-			<Text>欢迎你随时来花田和我一同赏花。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>只是做朋友而已哦，答应你也不是不可以。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ALICE_ANY">
-			<Text>你似乎并不明白你拒绝的是什么。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>朋，朋友什么的，爱丽丝才不需要呢！</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ALICE_ANY">
-			<Text>是时候清理一波花田里的害虫了。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>小看人偶的话，你可是会吃大苦头的</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ALICE_ANY">
-			<Text>成为花肥吧！</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>就让你见识一下这人偶大军的厉害</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ALICE_ANY">
-			<Text>没兴趣。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>人偶之家暂不对外开放。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ALICE_ANY">
-			<Text>我觉得我们之间有必要增进一下彼此的了解。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>我派出了上海作为代表团，希望您能够好好招待这些可爱的孩子。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ALICE_ANY">
-			<Text>明明幽香只是微笑着看着你。不知道为什么，你感到不寒而栗。（谴责你）</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>我不喜欢你，我的上海也不喜欢你(谴责你)。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_ALICE_ANY">
-			<Text>陌生人，你有两个选择，和平相处或成为花肥。为了避免成为后者，或许我应该现在教你一点这儿的规矩？</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>欢迎来到魔法之森，森林里的蘑菇虽然看起来鲜艳，不过可不要随便吃哦，会死人的。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ALICE_ANY">
-			<Text>我觉得我们之间有必要增进一下彼此的了解。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>我派出了上海作为代表团，希望您能够好好招待这些可爱的孩子。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ALICE_ANY">
-			<Text>你似乎还挺有趣的，不介意我来参观一下吧</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>我派出了上海作为代表团，希望您能够好好招待这些可爱的孩子。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ALICE_ANY">
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ALICE_BY_MUYYI_ANY">
 			<Text>呵。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_ALICE_ANY">
-			<Text>友善的微笑</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>你好</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ALICE_ANY">
-			<Text>似乎你并不明白这片土地的神奇之处。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>不要把战火带到魔法之森。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_LEADER_ALICE_REASON_ANY">
-			<Text>(你不注重土地的开发)</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_LEADER_ALICE_BY_MUYYI_REASON_ANY">
+			<Text>(爱丽丝讨厌战争贩子)</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ALICE_ANY">
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
 			<Text>你是一个值得尊敬的朋友，太阳花田随时对你开放。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ALICE_ANY">
-			<Text>品味不错。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>希望你能吸取教训，不要再自讨苦吃了。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ALICE_ANY">
-			<Text>也好。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>╭(╯^╰)╮</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ALICE_ANY">
-			<Text>和平是用鲜血浇灌的花朵，你明白了吗？</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>我可以修复我的人偶，但你牺牲的那些士兵要如何重生呢？</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ALICE_ANY">
-			<Text>你的那些士兵，作为肥料可能还不够格，快滚！</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>上海已经发现了你的那些军队，如果不尽快撤军，我不能保证他们的安全。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ALICE_ANY">
-			<Text>这就是【游戏规则】吗？虽然不甘心，但输了就是输了。好久没有体验过这种滋味了，不过我倒不是特别讨厌（幽香渐渐消失在虚空中）</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>终于不用再玩这个无聊的游戏了，上海，蓬莱，我们回幻想乡吧。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ALICE_ANY">
-			<Text>你是认真的？</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>希望下次能达成让我们双方都满意的交易。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ALICE_ANY">
-			<Text>品味不错。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
+			<Text>谢谢。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

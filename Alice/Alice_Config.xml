@@ -4,25 +4,25 @@
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FOREST_OF_MAGIC</CivilizationType>
-			<LeaderType>LEADER_ALICE</LeaderType>
+			<LeaderType>LEADER_ALICE_BY_MUYYI</LeaderType>
 			<CivilizationName>LOC_CIVILIZATION_FOREST_OF_MAGIC_NAME</CivilizationName>
 			<CivilizationIcon>ICON_CIVILIZATION_FOREST_OF_MAGIC</CivilizationIcon>
-			<LeaderName>LOC_LEADER_ALICE_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_ALICE</LeaderIcon>
+			<LeaderName>LOC_LEADER_ALICE_BY_MUYYI_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ALICE_BY_MUYYI</LeaderIcon>
 			<CivilizationAbilityName>LOC_TRAIT_MAGIC_POWER_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_MAGIC_POWER_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_FOREST_OF_MAGIC</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_DOLL_MASTER_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_ALICE</LeaderAbilityIcon>
-			<Portrait>LEADER_ALICE_NEUTRAL</Portrait>
+			<LeaderAbilityIcon>ICON_LEADER_ALICE_BY_MUYYI</LeaderAbilityIcon>
+			<Portrait>LEADER_ALICE_NEUTRAL2</Portrait>
 		</Row>
 	</Players>
 	<PlayerItems>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FOREST_OF_MAGIC</CivilizationType>
-			<LeaderType>LEADER_ALICE</LeaderType>
+			<LeaderType>LEADER_ALICE_BY_MUYYI</LeaderType>
 			<Type>UNIT_SHANGHAI</Type>
 			<Name>LOC_UNIT_SHANGHAI_NAME</Name>
 			<Description>LOC_UNIT_SHANGHAI_DESCRIPTION</Description>
@@ -32,7 +32,7 @@
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FOREST_OF_MAGIC</CivilizationType>
-			<LeaderType>LEADER_ALICE</LeaderType>
+			<LeaderType>LEADER_ALICE_BY_MUYYI</LeaderType>
 			<Type>DISTRICT_DOLL_HOME</Type>
 			<Name>LOC_DISTRICT_DOLL_HOME_NAME</Name>
 			<Description>LOC_DISTRICT_DOLL_HOME_DESCRIPTION</Description>
