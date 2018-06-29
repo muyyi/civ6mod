@@ -12,9 +12,8 @@
 	</TypeTags>
 
 	<Resources>
-		<!-- 暂时先做成隐藏的战略资源，给爱丽丝一个提前发现它的技能 -->
-		<!-- 测试时，先提高该资源出现的频率 -->
-		<Row ResourceType="RESOURCE_MAGIC_MASHROOM" Name="LOC_RESOURCE_MAGIC_MASHROOM_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="4" Happiness="6" PrereqCivic="CIVIC_FUTURE_CIVIC"/>
+		<!-- 非IMBA模式下，该资源出现的频率更高 -->
+		<Row ResourceType="RESOURCE_MAGIC_MASHROOM" Name="LOC_RESOURCE_MAGIC_MASHROOM_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="10" Happiness="6" PrereqCivic="CIVIC_FUTURE_CIVIC"/>
 	</Resources>
 
 	<Resource_ValidTerrains>
