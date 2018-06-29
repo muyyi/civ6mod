@@ -12,16 +12,16 @@
 		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_LD_128"/>
 		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_LD_256"/>
 
-		<Row Name="ICON_ATLAS_ALICE_CIV" IconSize="24"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_CIV_24"/>
-		<Row Name="ICON_ATLAS_ALICE_CIV" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_CIV_32"/>
-		<Row Name="ICON_ATLAS_ALICE_CIV" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_CIV_45"/>
-		<Row Name="ICON_ATLAS_ALICE_CIV" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_CIV_48"/>
-		<Row Name="ICON_ATLAS_ALICE_CIV" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_CIV_50"/>
-		<Row Name="ICON_ATLAS_ALICE_CIV" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_CIV_55"/>
-		<Row Name="ICON_ATLAS_ALICE_CIV" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_CIV_64"/>
-		<Row Name="ICON_ATLAS_ALICE_CIV" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_CIV_80"/>
-		<Row Name="ICON_ATLAS_ALICE_CIV" IconSize="128"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_CIV_128"/>
-		<Row Name="ICON_ATLAS_ALICE_CIV" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ALICE_CIV_256"/>
+		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI_CIV" IconSize="24"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_ALICE_BY_MUYYI_CIV_24"/>
+		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI_CIV" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_ALICE_BY_MUYYI_CIV_32"/>
+		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI_CIV" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_ALICE_BY_MUYYI_CIV_45"/>
+		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI_CIV" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_ALICE_BY_MUYYI_CIV_48"/>
+		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI_CIV" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_ALICE_BY_MUYYI_CIV_50"/>
+		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI_CIV" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_ALICE_BY_MUYYI_CIV_55"/>
+		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI_CIV" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_ALICE_BY_MUYYI_CIV_64"/>
+		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI_CIV" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_ALICE_BY_MUYYI_CIV_80"/>
+		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI_CIV" IconSize="128"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_ALICE_BY_MUYYI_CIV_128"/>
+		<Row Name="ICON_ATLAS_ALICE_BY_MUYYI_CIV" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ATLAS_ALICE_BY_MUYYI_CIV_256"/>
 
 		<Row Name="ICON_ATLAS_SHANGHAI" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHANGHAI_22"/>
 		<Row Name="ICON_ATLAS_SHANGHAI" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SHANGHAI_32"/>
@@ -88,7 +88,7 @@
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<Row Name="ICON_LEADER_ALICE_BY_MUYYI" Atlas="ICON_ATLAS_ALICE_BY_MUYYI" Index="0"/>
-		<Row Name="ICON_CIVILIZATION_FOREST_OF_MAGIC" Atlas="ICON_ATLAS_ALICE_CIV" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_FOREST_OF_MAGIC" Atlas="ICON_ATLAS_ALICE_BY_MUYYI_CIV" Index="0"/>
 		<Row Name="ICON_UNIT_SHANGHAI" Atlas="ICON_ATLAS_SHANGHAI" Index="0"/>
 		<Row Name="ICON_UNIT_SHANGHAI_PORTRAIT" Atlas="ICON_ATLAS_SHANGHAI_PORTRAIT" Index="0"/>
 		<Row Name="ICON_UNIT_PENGLAI" Atlas="ICON_ATLAS_PENGLAI" Index="0"/>

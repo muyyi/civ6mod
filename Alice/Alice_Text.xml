@@ -2,10 +2,10 @@
 <GameData>
 	<BaseGameText>
 		<Row Tag="LOC_CIVILIZATION_FOREST_OF_MAGIC_NAME">
-			<Text>Forest of magic</Text>
+			<Text>Forest Of Magic</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_FOREST_OF_MAGIC_DESCRIPTION">
-			<Text>Forest of magic</Text>
+			<Text>Forest Of Magic</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_FOREST_OF_MAGIC_ADJECTIVE">
 			<Text>Powerfull</Text>
@@ -16,243 +16,486 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_MAGIC_POWER_NAME">
-			<Text>MAGIC_POWER</Text>
+			<Text>Magic Power</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_MAGIC_POWER_DESCRIPTION">
-			<Text>Marisa send a "gift" to ALICE,But nobody knows where were she got it.
-				[NEWLINE][NEWLINE]Capital earth +1 appeal,Farm add +1 Food and +1 Production.
-				[NEWLINE][NEWLINE]Plantation add +1 Food and +1 Culture.It also can triggle Culture Bomb. 
+			<Text>ALL units can move through Woods and Rainforest.
+				[NEWLINE][NEWLINE]City Center earn different bonus from every neighboring Forest([ICON_PRODUCTION]) or Rainforest([ICON_PRODUCTION]) tile.
+				[NEWLINE][NEWLINE]Magic Mushroom: A special resource, provide 6 [ICON_Amenities] Amenities. Only Alice can see it, it also necessary to unlock Special Project
+				"Marisa and six mashrooms". 
 			</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRAIT_LEADER_DOLL_MASTER_NAME">
-			<Text>The Queen</Text>
+			<Text>Doll Master</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION">
 			<Text>
-				When you were received declaration of war,or you initiated a liberation war or protectorate war,all cities + 100% production and all units +2 movement,
-				It continued for 20 turn, after Defensive Tactics was researched, you can liberation war and protectorate war.
+				Get a ShangHai Doll when you build a new city, they can +5 [ICON_Strength] Combat Strength from every Promotion. (Unlocks the "Doll's War" Encampment project to give ShangHai Doll extra Promotion, after you finish some civics) 
 			</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_SHANGHAI_NAME">
-			<Text>Medicine Doll</Text>
+			<Text>ShangHai Doll</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SHANGHAI_DESCRIPTION">
 			<Text>
-				Replaces the Swordsman.3 movement and not need iron, she can release poison to damage nearly enemy. and
-				reduce their combat strenth. 
+				Alice's favirite doll with a unique promotion tree. they can build Improvements and remove Features. be skilled in team combat. (No penalties against Melee units)
 			</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_PENGLAI_NAME">
-			<Text>Medicine Doll</Text>
+		<Row Tag="LOC_PROMOTION_CLASS_SHANGHAI_NAME">
+			<Text>Dolls</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_PENGLAI_DESCRIPTION">
+		<Row Tag="LOC_SHANGHAI_VS_MELEE_BONUS">
 			<Text>
-				Replaces the Swordsman.3 movement and not need iron, she can release poison to damage nearly enemy. and
-				reduce their combat strenth. 
+				+{1_Amount} No penalties against Melee units.
 			</Text>
 		</Row>
 
-		<Row Tag="LOC_ABILITY_DOLL_NAME">
-			<Text>LOC_ABILITY_DOLL_NAME</Text>
-		</Row>
-
-		<Row Tag="LOC_ABILITY_DOLL_DESCRIPTION">
-			<Text>LOC_ABILITY_DOLL_DESCRIPTION</Text>
-		</Row>
-
-		<Row Tag="LOC_ABILITY_SHANGHAI_NAME">
-			<Text>LOC_ABILITY_SHANGHAI_NAME</Text>
-		</Row>
-
-		<Row Tag="LOC_ABILITY_SHANGHAI_DESCRIPTION">
-			<Text>LOC_ABILITY_SHANGHAI_DESCRIPTION</Text>
-		</Row>
-
-		<Row Tag="LOC_ABILITY_PENGLAI_NAME">
-			<Text>LOC_ABILITY_PENGLAI_NAME</Text>
-		</Row>
-
-		<Row Tag="LOC_ABILITY_PENGLAI_DESCRIPTION">
-			<Text>LOC_ABILITY_PENGLAI_DESCRIPTION</Text>
+		<Row Tag="LOC_DOLL_NEIGHBOR_COMBAT_BONUS">
+			<Text>Support+{1_Amount} Neighbor from other Dolls.</Text>
 		</Row>
 
 
+		<Row Tag="LOC_SHANGHAI_IN_FORMATION_BONUS">
+			<Text>Guard+{1_Amount} </Text>
+		</Row>
+
+		<Row Tag="LOC_SHANGHAI_IN_FOREST_BONUS">
+			<Text>The Raid+{1_Amount} In Forest</Text>
+		</Row>
+
+		<Row Tag="LOC_SHANGHAI_IN_RAIN_FOREST_BONUS">
+			<Text>The Raid+{1_Amount} In Rainforest</Text>
+		</Row>
+
+		<Row Tag="LOC_SHANGHAI_KILL_MACHINE_BONUS">
+			<Text>Kill Machine+{1_Amount} </Text>
+		</Row>
+
+		<Row Tag="LOC_SHANGHAI_LV_UP_BONUS">
+			<Text>Level Up+{1_Amount} </Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L2L_NAME">
+			<Text>Seeker Dolls</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L2L_DESCRIPTION">
+			<Text>+1 [ICON_MOVEMENT] Movement</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L2R_NAME">
+			<Text>Guard</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L2R_DESCRIPTION">
+			<Text>+1 [ICON_MOVEMENT] movement in friendly tiles, and units in Formation will get ShangHai's [ICON_MOVEMENT] movement.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L3L_NAME">
+			<Text>The Raid</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L3L_DESCRIPTION">
+			<Text>Stealth, +10 [ICON_Strength] Combat Strength In Forest or Rainforest.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L1R_NAME">
+			<Text>Support</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L1R_DESCRIPTION">
+			<Text>+10 [ICON_Strength] Combat Strength if there is at least one adjacent ShangHai Doll.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L1L_NAME">
+			<Text>Trip Wire</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L1L_DESCRIPTION">
+			<Text>2x Flanking and Sieging bonus.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L3R_NAME">
+			<Text>Little Legion</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L3R_DESCRIPTION">
+			<Text>+1 additional attack per turn if [ICON_MOVEMENT] movement allows.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L4_NAME">
+			<Text>Kill Machine</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHANGHAI_L4_DESCRIPTION">
+			<Text>Ignores zone of control and +10 [ICON_Strength] Combat Strength.</Text>
+		</Row>
 
 		<Row Tag="LOC_DISTRICT_DOLL_HOME_NAME">
-			<Text>Medicine Doll</Text>
+			<Text>Home of Doll</Text>
 		</Row>
+
 		<Row Tag="LOC_DISTRICT_DOLL_HOME_DESCRIPTION">
-			<Text>
-				Replaces the Swordsman.3 movement and not need iron, she can release poison to damage nearly enemy. and
-				reduce their combat strenth. 
+			<Text>Replace industrial zone, Provide 2 [ICON_PRODUCTION] Production, 2 [ICON_CULTURE] Culture, 2 [ICON_SCIENCE] Science。citizens works in this district provide 1 extra [ICON_Production] Production and 1 extra [ICON_GreatEngineer] Great Engineer Point。Adjacency tiles +1 [ICON_PRODUCTION] Production, This bonus Will Cover more tiles With the changes of the times vicissitude(At most 3 tiles distance).
+			[NEWLINE][NEWLINE](Unlocks Special Projects to recruit or stronger Special Unit "Marisa" and "Shinki")
 			</Text>
 		</Row>
 
-		<Row Tag="LOC_MARISA_AND_SEX_MUSHROOM_NAME">
-			<Text>LOC_MARISA_AND_SEX_MUSHROOM_NAME</Text>
-		</Row>
-		<Row Tag="LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME">
-			<Text>
-				LOC_MARISA_AND_SEX_MUSHROOM_SHORT_NAME
-			</Text>
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_NAME">
+			<Text>Marisa and six mashrooms</Text>
 		</Row>
 
-		<Row Tag="LOC_MARISA_AND_SEX_MUSHROOM_DESCRIPTION">
-			<Text>LOC_MARISA_AND_SEX_MUSHROOM_DESCRIPTION</Text>
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_1_NAME">
+			<Text>Marisa and six mashrooms(1)</Text>
 		</Row>
 
-		<Row Tag="LOC_GREAT_PERSON_CLASS_TOUHOU_ALICE_NAME">
-			<Text>LOC_GREAT_PERSON_CLASS_TOUHOU_ALICE_NAME</Text>
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_2_NAME">
+			<Text>Marisa and six mashrooms(2)</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_GREAT_TOUHOU_ALICE_DESCRIPTION">
-			<Text>LOC_UNIT_GREAT_TOUHOU_ALICE_DESCRIPTION</Text>
-		</Row>
-		
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DIPLOMAT_KIRISAME_MARISA_NAME">
-			<Text>
-				LOC_GREAT_PERSON_INDIVIDUAL_DIPLOMAT_KIRISAME_MARISA_NAME
-			</Text>
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_3_NAME">
+			<Text>Marisa and six mashrooms(3)</Text>
 		</Row>
 
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_4_NAME">
+			<Text>Marisa and six mashrooms(4)</Text>
+		</Row>
 
-		<!-- Civilization City Names-->
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_5_NAME">
+			<Text>Marisa and six mashrooms(5)</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_6_NAME">
+			<Text>Marisa and six mashrooms(6)</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_SHORT_NAME">
+			<Text>Marisa X Mashrooms</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_DESCRIPTION">
+			<Text>Send Marisa fresh mashrooms!</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_OTHER_DESCRIPTION">
+			<Text>Marisa very like mashrooms, please send more~</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_4_DESCRIPTION">
+			<Text>Marisa very like mashrooms, please send more~</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_5_DESCRIPTION">
+			<Text>Marisa very like mashrooms, please send more~</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_MARISA_AND_SEX_MUSHROOM_6_DESCRIPTION">
+			<Text>Is it mashroom from mar*o? </Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_RECALL_GOD_NAME">
+			<Text>Recall</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_RECALL_GOD_DESCRIPTION">
+			<Text>Recall god Shinki.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_GOD_POWER_NAME">
+			<Text>God Power.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_GOD_POWER_DESCRIPTION">
+			<Text>Release Shinki's strong God Power.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_DOLLS_WAR_NAME">
+			<Text>Doll's War</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_DOLLS_WAR_SHORT_NAME">
+			<Text>Doll's War</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_DOLLS_WAR_DESCRIPTION">
+			<Text>All ShangHai Dolls grant a extra Promotion.</Text>
+		</Row>
+
+		<Row Tag="LOC_RESOURCE_MAGIC_MASHROOM_NAME">
+			<Text>Magic mashroom</Text>
+		</Row>		
+
+		<Row Tag="LOC_PROMOTION_CLASS_KIRISAME_MARISA_NAME">
+			<Text>Marisa's Promotion</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_CLASS_GOD_SHINKI_NAME">
+			<Text>Shinki's Promotion</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_KIRISAME_MARISA_NAME">
+			<Text>Kirisame Marisa</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_GOD_SHINKI_NAME">
+			<Text>Shinki</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_MARISA_L1L_NAME">
+			<Text>Spark Diplomacy</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_MARISA_L1L_DESCRIPTION">
+			<Text>Open Minor Civcs' border, +4 Influence points per turn toward earning [ICON_Envoy] Envoys.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_MARISA_L2L_NAME">
+			<Text>Mack Daddy</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_MARISA_L2L_DESCRIPTION">
+			<Text>Has 1 extra level of Diplomatic Visibility, +1 [ICON_TradeRoute] Trade Route capacity and Grants a Trader unit. Gains more Trader and [ICON_TradeRoute] Trade Route capacity When you unclock a Diplomacy Skill。</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_MARISA_L3L_NAME">
+			<Text>Diplomat</Text>
+		</Row>		
+
+		<Row Tag="LOC_PROMOTION_MARISA_L3L_DESCRIPTION">
+			<Text>+1 Diplomatic Policy slot</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_MARISA_L1R_NAME">
+			<Text>Be friend</Text>
+		</Row>		
+
+		<Row Tag="LOC_PROMOTION_MARISA_L1R_DESCRIPTION">
+			<Text>Capturing a Barbarian Outpost also grants a Tribal Village reward.</Text>
+		</Row>		
+
+		<Row Tag="LOC_PROMOTION_MARISA_L2R_NAME">
+			<Text>Slip Into</Text>
+		</Row>		
+
+		<Row Tag="LOC_PROMOTION_MARISA_L2R_DESCRIPTION">
+			<Text>All Spies start with a free promotion, and can choose promotion from all skill.</Text>
+		</Row>	
+
+		<Row Tag="LOC_PROMOTION_MARISA_L3R_NAME">
+			<Text>Thief</Text>
+		</Row>		
+
+		<Row Tag="LOC_PROMOTION_MARISA_L3R_DESCRIPTION">
+			<Text>Grant a special Spy named "Masisa". </Text>
+		</Row>	
+
+		<Row Tag="LOC_PROMOTION_MARISA_L4_NAME">
+			<Text>Peace Messenger</Text>
+		</Row>		
+
+		<Row Tag="LOC_PROMOTION_MARISA_L4_DESCRIPTION">
+			<Text>+2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production for internal Trade Routes, and +2 [ICON_CULTURE] Culture and 2 [ICON_SCIENCE] Science for international Trade Routes.</Text>
+		</Row>	
+
+		<Row Tag="LOC_PROMOTION_SHINKI_L1_NAME">
+			<Text>Clairvoyance</Text>
+		</Row>		
+
+		<Row Tag="LOC_PROMOTION_SHINKI_L1_DESCRIPTION">
+			<Text>Can see all Resources.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHINKI_L2_NAME">
+			<Text>Bliss</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHINKI_L2_DESCRIPTION">
+			<Text>Bliss of 3 God(Sky/Earth/Sea).</Text>
+		</Row>	
+
+		<Row Tag="LOC_PROMOTION_SHINKI_L3_NAME">
+			<Text>Faith</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHINKI_L3_DESCRIPTION">
+			<Text>+0.5 [ICON_FAITH] Faith for each of your [ICON_Citizen] Citizens, Extra 0.5 [ICON_FAITH] Faith and 1 [ICON_GOLD] Gold for each of Follower if you have majority Religion</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_SHINKI_L4_NAME">
+			<Text>Creator</Text>
+		</Row>		
+
+		<Row Tag="LOC_PROMOTION_SHINKI_L4_DESCRIPTION">
+			<Text>Can build all Improvements.</Text>
+		</Row>	
+
 		<Row Tag="LOC_CITY_NAME_FOREST_OF_MAGIC">
-			<Text>SunFlowerFarm</Text>
+			<Text>Kirisame Magic Shop</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_1">
-			<Text>Sunflower</Text>
+			<Text>Blue Sign "Benevolent French Dolls" </Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_2">
-			<Text>Violet</Text>
+			<Text>Blue Sign "Benevolent Orléans Dolls" </Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_3">
-			<Text>Higanbana</Text>
+			<Text>Scarlet Sign "Red-Haired Dutch Dolls" </Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_4">
-			<Text>Corn poppy</Text>
+			<Text>White Sign "Chalk-White Russian Dolls" </Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_5">
-			<Text>Lavender</Text>
+			<Text>Darkness Sign "Foggy London Dolls" </Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_6">
-			<Text>Pansy</Text>
+			<Text>Cycle Sign "Reincarnating Tibetan Dolls" </Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_7">
-			<Text>Tulip</Text>
+			<Text>Elegant Sign "Spring Kyoto Dolls" </Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_8">
-			<Text>Rose</Text>
+			<Text>Curse "Eerily Luminous Shanghai Dolls" </Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_9">
-			<Text>Carnation</Text>
+			<Text>Curse "Hanged Hourai Dolls" </Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_10">
-			<Text>Hewanlan</Text>
+			<Text>Magic Sign "Artful Sacrifice" </Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_11">
+			<Text>War Sign "Little Legion" </Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_12">
+			<Text>Magipulation "Return Inanimateness" </Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_13">
+			<Text>War Command "Doll's War" </Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_14">
+			<Text>Testing "Level Titania" </Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_15">
+			<Text>Testing "Goliath Doll" </Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_16">
+			<Text>Spy Sign "Seeker Dolls"  </Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_17">
+			<Text>Focus Power "Trip Wire" </Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_18">
+			<Text>Trooper "Suicide Squad" </Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_19">
+			<Text>Sword Sign "Soldier of Cross" </Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_20">
+			<Text>Doll "Soulless Folk Dance" </Text>
 		</Row>
 
-		<!-- Leader specific pedia text. -->
 		<Row Tag="LOC_LOADING_INFO_LEADER_ALICE_BY_MUYYI">
-			<Text>It's seem a Yugari's joke. Just enjoin it!</Text>
+			<Text>For Alice and every Touhou funs.</Text>
 		</Row>
+
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_BY_MUYYI_TITLE">
-			<Text>Kazami ALICE</Text>
+			<Text>Alice Margatroid</Text>
 		</Row>
+
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_BY_MUYYI_SUBTITLE">
-			<Text>King of flower</Text>
+			<Text>Even-colored Puppeteer</Text>
 		</Row>
-		<!-- Leader specific historical text. -->
+
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ALICE_BY_MUYYI_CHAPTER_HISTORY_PARA_1">
-			<Text>you'd better not annoy she, otherwise you will know why her flower is always so beatiful.</Text>
+			<Text>Alice Margatroid is a doll-controlling magician who lives in her home in the Forest of Magic near the home of Marisa Kirisame. According to ZUN's comments in the Music Room of Perfect Cherry Blossom, Alice is kind of a special character in the Touhou Project.</Text>
 		</Row>
-		<!-- Leader Quotes -->
+
 		<Row Tag="LOC_LEADER_ALICE_BY_MUYYI_QUOTE">
-			<Text>I just want be a good farmer!</Text>
+			<Text>Even-colored Puppeteer</Text>
 		</Row>
-		<Row Tag="LOC_AGENDA_BLAZER_NAME">
-			<Text>Blazer</Text>
+		<Row Tag="LOC_AGENDA_DUSHIPAI_NAME">
+			<Text>魔理沙最高</Text>
 		</Row>
-		<Row Tag="LOC_AGENDA_BLAZER_DESCRIPTION">
-			<Text>Like exploitation earth,Doesn't like less exploitative.</Text>
+		<Row Tag="LOC_AGENDA_DUSHIPAI_DESCRIPTION">
+			<Text>喜欢与其它国家和睦相处, 并广交盟友的文明。讨厌战争贩子。</Text>
 		</Row>
 		<!-- Leader Dialog -->
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>You are same interests, so maybe we can be friend.</Text>
+			<Text>只是做朋友而已哦, 答应你也不是不可以。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>You are interesting, but now is not a good time.</Text>
+			<Text>朋, 朋友什么的, 爱丽丝才不需要呢！</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>You know so much about flowers, looks like you can be good friends.</Text>
+			<Text>上海似乎很喜欢你呢, 所以说, 不是我而是上海想和你交朋友啦。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Welcome, my friend.</Text>
+			<Text>只是做朋友而已哦, 答应你也不是不可以。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Maybe you will change your mind next time.</Text>
+			<Text>朋, 朋友什么的, 爱丽丝才不需要呢！</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>It's time to kill pests.</Text>
+			<Text>小看人偶的话, 你可是会吃大苦头的</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Sleeping under flower!</Text>
+			<Text>就让你见识一下这人偶大军的厉害</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>No interest</Text>
+			<Text>人偶之家暂不对外开放。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>It's necessary we promote understanding each us, right?</Text>
+			<Text>我派出了上海作为代表团, 希望您能够好好招待这些可爱的孩子。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>ALICE just smile and gazes you, but you feel very cold. (Denounce you)</Text>
+			<Text>我不喜欢你, 我的上海也不喜欢你(谴责你)。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Ah, a living one. if you don't want sleeping under the flower, may I need to teacher some rule of here? </Text>
+			<Text>欢迎来到魔法之森, 森林里的蘑菇虽然看起来鲜艳, 不过可不要随便吃哦, 会死人的。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Come on and feel the beauty of all these flower.</Text>
+			<Text>我派出了上海作为代表团, 希望您能够好好招待这些可爱的孩子。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Wow, you also get flower in your city?</Text>
+			<Text>我派出了上海作为代表团, 希望您能够好好招待这些可爱的孩子。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>...</Text>
+			<Text>呵。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Friendly smile.</Text>
+			<Text>你好</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>You foolish don't know value of the earth!</Text>
+			<Text>不要把战火带到魔法之森。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_ALICE_BY_MUYYI_REASON_ANY">
-			<Text>(Your don't exploitate earth)</Text>
+			<Text>(爱丽丝讨厌战争贩子)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>You are a respectable friend.</Text>
+			<Text>你是一个值得尊敬的朋友, 太阳花田随时对你开放。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Good tastes.</Text>
+			<Text>希望你能吸取教训, 不要再自讨苦吃了。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Fine.</Text>
+			<Text>╭(╯^╰)╮</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>It's the time to stop this war. </Text>
+			<Text>我可以修复我的人偶, 但你牺牲的那些士兵要如何重生呢？</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Go away. I don't mind to use your soldiers blood for flower irrigation.</Text>
+			<Text>上海已经发现了你的那些军队, 如果不尽快撤军, 我不能保证他们的安全。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Finally... this is the "game rule"? how interesting a experience! (slowly disappear)</Text>
+			<Text>终于不用再玩这个无聊的游戏了, 上海, 蓬莱, 我们回幻想乡吧。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Are you serious?</Text>
+			<Text>希望下次能达成让我们双方都满意的交易。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ALICE_BY_MUYYI_ANY">
-			<Text>Good tastes.</Text>
+			<Text>谢谢。</Text>
 		</Row>
 	</BaseGameText>
 </GameData>

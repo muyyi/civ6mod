@@ -69,33 +69,33 @@
 		
 	<!-- Ai Info -->
 	<AiListTypes>
-		<Row ListType="ALICEWonders"/>
-		<Row ListType="ALICECivics"/>
-		<Row ListType="ALICETechs"/>
+		<Row ListType="ALICE2Wonders"/>
+		<Row ListType="ALICE2Civics"/>
+		<Row ListType="ALICE2Techs"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- 这里的LeaderType为什么是这个？ -->
-		<Row ListType="ALICEWonders" LeaderType="TRAIT_LEADER_DOLL_MASTER" System="Buildings"/>
-		<Row ListType="ALICECivics" LeaderType="TRAIT_LEADER_DOLL_MASTER" System="Civics"/>
-		<Row ListType="ALICETechs" LeaderType="TRAIT_LEADER_DOLL_MASTER" System="Technologies"/>
+		<Row ListType="ALICE2Wonders" LeaderType="TRAIT_LEADER_DOLL_MASTER" System="Buildings"/>
+		<Row ListType="ALICE2Civics" LeaderType="TRAIT_LEADER_DOLL_MASTER" System="Civics"/>
+		<Row ListType="ALICE2Techs" LeaderType="TRAIT_LEADER_DOLL_MASTER" System="Technologies"/>
 	</AiLists>
 	<!-- 将civ和tec做相应修改 -->
 	<AiFavoredItems>
-		<Row ListType="ALICEWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
-		<Row ListType="ALICEWonders" Item="BUILDING_VENETIAN_ARSENAL"/>
-		<Row ListType="ALICEWonders" Item="BUILDING_FORBIDDEN_CITY"/>
-		<Row ListType="ALICEWonders" Item="BUILDING_POTALA_PALACE"/>
-		<Row ListType="ALICEWonders" Item="BUILDING_RUHR_VALLEY"/>
-		<Row ListType="ALICEWonders" Item="BUILDING_BIG_BEN"/>
-		<Row ListType="ALICEWonders" Item="BUILDING_EIFFEL_TOWER"/>
-		<Row ListType="ALICECivics" Item="CIVIC_CRAFTSMANSHIP"/>
-		<Row ListType="ALICECivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
-		<Row ListType="ALICECivics" Item="CIVIC_CIVIL_ENGINEERING"/>
-		<Row ListType="ALICECivics" Item="CIVIC_CLASS_STRUGGLE"/>
-		<Row ListType="ALICETechs" Item="TECH_ASTROLOGY"/>
-		<Row ListType="ALICETechs" Item="TECH_WRITING"/>
-		<Row ListType="ALICETechs" Item="TECH_BRONZE_WORKING"/>
-		<Row ListType="ALICETechs" Item="TECH_APPRENTICESHIP"/>
-		<Row ListType="ALICETechs" Item="TECH_ENGINEERING"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_VENETIAN_ARSENAL"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_FORBIDDEN_CITY"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_POTALA_PALACE"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_BIG_BEN"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_EIFFEL_TOWER"/>
+		<Row ListType="ALICE2Civics" Item="CIVIC_CRAFTSMANSHIP"/>
+		<Row ListType="ALICE2Civics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="ALICE2Civics" Item="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ListType="ALICE2Civics" Item="CIVIC_CLASS_STRUGGLE"/>
+		<Row ListType="ALICE2Techs" Item="TECH_ASTROLOGY"/>
+		<Row ListType="ALICE2Techs" Item="TECH_WRITING"/>
+		<Row ListType="ALICE2Techs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="ALICE2Techs" Item="TECH_APPRENTICESHIP"/>
+		<Row ListType="ALICE2Techs" Item="TECH_ENGINEERING"/>
 	</AiFavoredItems>
 </GameData>

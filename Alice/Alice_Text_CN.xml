@@ -21,7 +21,7 @@
 		<Replace Tag="LOC_TRAIT_MAGIC_POWER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>你的所有单位移动时无视雨林和丛林的影响。
 			[NEWLINE][NEWLINE]树林和雨林为市中心提供不同的相邻加成(+1 [ICON_PRODUCTION] 产能 / [ICON_FOOD] 食物)。
-			[NEWLINE][NEWLINE]蘑菇：一种特殊的资源(提供6宜居度)，只有魔法之森的爱丽丝才可以看到它。可以在上面种植园改良设施，同时也是解锁【魔理沙和6个蘑菇】项目的必要条件。
+			[NEWLINE][NEWLINE]蘑菇：一种特殊的资源，提供6 [ICON_Amenities] 宜居，只有魔法之森的爱丽丝才可以看到它。可以在上面种植园改良设施，同时也是解锁【魔理沙和6个蘑菇】项目的必要条件。
 			</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_JUNGLE_1_FOOD" Language="zh_Hans_CN">
@@ -34,14 +34,14 @@
 			<Text>操纵人偶的能力</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建造或占领城市时，获得一个上海人偶。上海人偶每次晋升后，提升5点 [ICON_Strength] 战斗力。完成特定人文后，解锁军营区特殊项目【人偶战争】以提升人偶 [ICON_Strength] 战斗力。</Text>
+			<Text>建造或占领城市时，获得一个上海人偶。上海人偶每次晋升后，提升5点 [ICON_Strength] 战斗力。(完成特定人文后，解锁军营区特殊项目【人偶战争】以提升人偶 [ICON_Strength] 战斗力)</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHANGHAI_NAME" Language="zh_Hans_CN">
 			<Text>上海人形</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_SHANGHAI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>爱丽丝的贴身人偶之一，拥有独特的升级树，免疫近战单位作战时的克制 [ICON_Strength] 战斗力加成。可建造改良设施和清除地形。特别擅长团队作战。</Text>
+			<Text>爱丽丝的贴身人偶之一，拥有独特的升级树，可建造改良设施和清除地形。特别擅长团队作战。(免疫近战单位作战时的克制 [ICON_Strength] 战斗力加成)</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_CLASS_SHANGHAI_NAME" Language="zh_Hans_CN">
@@ -58,7 +58,7 @@
 
 
 		<Replace Tag="LOC_SHANGHAI_IN_FORMATION_BONUS" Language="zh_Hans_CN">
-			<Text>护卫{1_Amount} </Text>
+			<Text>护卫+{1_Amount} </Text>
 		</Replace>
 
 		<Replace Tag="LOC_SHANGHAI_IN_FOREST_BONUS" Language="zh_Hans_CN">
@@ -138,8 +138,8 @@
 		</Replace>
 
 		<Replace Tag="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>初始提供2 [ICON_PRODUCTION] 产能，2 [ICON_CULTURE] 文化，2 [ICON_SCIENCE] 科技。专家额外产出1大工点数和1 [ICON_PRODUCTION] 产能。为周围的1格范围的地块提供1 [ICON_PRODUCTION] 产能，该效果会随着时代的推移而扩大范围（最多扩展到3格）。
-			[NEWLINE][NEWLINE]满足条件后，可以在该区域内执行一些特殊项目。招募特殊伟人神绮和魔理沙，并提升其能力。
+			<Text>替代工业区。初始提供2 [ICON_PRODUCTION] 产能，2 [ICON_CULTURE] 文化，2 [ICON_SCIENCE] 科技。专家额外产出1 [ICON_GreatEngineer]大工程师点数和1 [ICON_PRODUCTION] 产能。为周围的1格范围的地块提供1 [ICON_PRODUCTION] 产能，该效果会随着时代的推移而扩大范围（最多扩展到3格）。
+			[NEWLINE][NEWLINE](满足特定条件后，可以在该区域内执行一些特殊项目。招募特殊伟人神绮和魔理沙，并提升其能力)。
 			</Text>
 		</Replace>
 
@@ -265,7 +265,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L2L_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>对所有文明的可见度+1，获得一条贸易路线和商人，每次学习外交技能后，可以获得更多贸易路线和商人。</Text>
+			<Text>对所有文明的可见度+1，获得额外 [ICON_TradeRoute] 商路和商人，每次学习外交技能后，获得更多 [ICON_TradeRoute] 商路和商人。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L3L_NAME" Language="zh_Hans_CN">
@@ -297,7 +297,7 @@
 		</Replace>		
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L3R_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>在首都生成【大盗魔理沙】，该间谍自带偷窃金钱，偷窃巨作和逃跑的提升。</Text>
+			<Text>在首都生成【大盗魔理沙】，该间谍自带偷窃金钱，偷窃巨作和逃跑的晋升。</Text>
 		</Replace>	
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L4_NAME" Language="zh_Hans_CN">
@@ -305,7 +305,7 @@
 		</Replace>		
 
 		<Replace Tag="LOC_PROMOTION_MARISA_L4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>国内贸易额外提供2 [ICON_FOOD] 食物，2 [ICON_PRODUCTION] 产能，国外贸易路线额外提供2 [ICON_CULTURE] 文化，2 [ICON_SCIENCE] 科研，5 [ICON_GOLD] 金币。</Text>
+			<Text>国内贸易额外提供2 [ICON_FOOD] 食物，2 [ICON_PRODUCTION] 产能，国外商路额外提供2 [ICON_CULTURE] 文化，2 [ICON_SCIENCE] 科研，5 [ICON_GOLD] 金币。</Text>
 		</Replace>	
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L1_NAME" Language="zh_Hans_CN">
@@ -321,7 +321,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>你同时获得3个神明（天空之神，大地女神，海洋之神）的祝福。</Text>
+			<Text>你同时获得3个神明(天空之神，大地女神，海洋之神)的祝福。</Text>
 		</Replace>	
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L3_NAME" Language="zh_Hans_CN">
@@ -329,7 +329,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>从每个公民获得0.5信仰，从信仰你的主流宗教的公民身上额外获得0.5信仰和1金钱</Text>
+			<Text>从每个公民获得0.5 [ICON_FAITH] 信仰，从信仰你的主流宗教的公民身上额外获得0.5 [ICON_FAITH] 信仰和1 [ICON_GOLD] 金钱</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_SHINKI_L4_NAME" Language="zh_Hans_CN">

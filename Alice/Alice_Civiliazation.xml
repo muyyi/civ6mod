@@ -3,7 +3,7 @@
 	<LoadingInfo>
 		<!-- Alice Margatroid -->
 		<!-- BackgroundImage = top left / ForegroundImage = middle right -->
-		<Row LeaderType="LEADER_ALICE_BY_MUYYI" ForegroundImage="LEADER_ALICE_NEUTRAL2" PlayDawnOfManAudio="0"/>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" ForegroundImage="LEADER_ALICE_NEUTRAL1" PlayDawnOfManAudio="0"/>
 	</LoadingInfo>
 	<DiplomacyInfo>
 		<Row Type="LEADER_ALICE_BY_MUYYI" BackgroundImage="BG_ALICE"/>
