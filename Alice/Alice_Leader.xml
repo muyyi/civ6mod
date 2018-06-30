@@ -60,10 +60,10 @@
 		<Row AgendaType="AGENDA_DUSHIPAI" TraitType="TRAIT_AGENDA_DUSHIPAI"/>
 	</AgendaTraits>
 	<ExclusiveAgendas>
-		<Row AgendaOne="AGENDA_DUSHIPAI" AgendaTwo="AGENDA_FLOWER_OF_SCOTLAND"/>
+		<Row AgendaOne="AGENDA_DUSHIPAI" AgendaTwo="AGENDA_CULTURED"/>
 	</ExclusiveAgendas>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_AGENDA_DUSHIPAI" ModifierId="AGENDA_IRON_CONFEDERACY_MANY_ALLIANCES"/>
+		<Row TraitType="TRAIT_AGENDA_DUSHIPAI" ModifierId="AGENDA_MODIFIER_NOT_WARMONGER"/>
 		<Row TraitType="TRAIT_AGENDA_DUSHIPAI" ModifierId="AGENDA_MODIFIER_WARMONGER"/>
 	</TraitModifiers>
 		

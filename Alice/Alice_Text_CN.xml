@@ -20,8 +20,9 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MAGIC_POWER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>你的所有单位移动时无视雨林和丛林的影响。
-			[NEWLINE][NEWLINE]树林和雨林为市中心提供不同的相邻加成(+1 [ICON_PRODUCTION] 产能 / [ICON_FOOD] 食物)。
+			[NEWLINE][NEWLINE]市中心从树林和雨林获得标准相邻加成，树林提供1 [ICON_PRODUCTION] 产能，雨林提供1 [ICON_FOOD] 食物。
 			[NEWLINE][NEWLINE]蘑菇：一种特殊的资源，提供6 [ICON_Amenities] 宜居，只有魔法之森的爱丽丝才可以看到它。可以在上面种植园改良设施，同时也是解锁【魔理沙和6个蘑菇】项目的必要条件。
+			[NEWLINE][NEWLINE]文明关联树林和雨林。
 			</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_JUNGLE_1_FOOD" Language="zh_Hans_CN">
@@ -452,10 +453,10 @@
 			<Text>七色的人偶使</Text>
 		</Replace>
 		<Replace Tag="LOC_AGENDA_DUSHIPAI_NAME" Language="zh_Hans_CN">
-			<Text>魔理沙最高</Text>
+			<Text>都市派</Text>
 		</Replace>
 		<Replace Tag="LOC_AGENDA_DUSHIPAI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>喜欢与其它国家和睦相处，并广交盟友的文明。讨厌战争贩子。</Text>
+			<Text>喜欢高文化，爱好和平的文明。讨厌战争贩子。</Text>
 		</Replace>
 		<!-- Leader Dialog -->
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ALICE_BY_MUYYI_ANY">

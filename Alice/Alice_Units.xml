@@ -37,7 +37,6 @@
 	</UnitUpgrades> -->
 	<Units>
 		<!-- 不可主动生产，不可购买 -->
-		<!-- <Row UnitType="UNIT_SHANGHAI" BuildCharges="3" BaseMoves="2" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SHANGHAI_NAME" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" PurchaseYield="YIELD_GOLD" Maintenance="1" Combat="25" TraitType="TRAIT_LEADER_UNIT_SHANGHAI" PrereqTech="TECH_FUTURE_TECH" PromotionClass="PROMOTION_CLASS_SHANGHAI"/> -->
 		<Row UnitType="UNIT_SHANGHAI" PrereqPopulation="100" BuildCharges="3" BaseMoves="2" Cost="9999"  AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SHANGHAI_NAME" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" Maintenance="1" Combat="25" TraitType="TRAIT_LEADER_UNIT_SHANGHAI" PromotionClass="PROMOTION_CLASS_SHANGHAI"/>
 	</Units>
 	<Tags>
