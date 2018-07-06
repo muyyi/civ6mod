@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>  
+  <LocalizedText>
+    <!-- The name of the building. -->
+    <Row Tag="LOC_BUILDING_HF_HOSPITAL_NAME" Language="zh_Hans_CN">
+      <Text>医院</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HF_HOSPITAL_NAME" Language="en_US">
+      <Text>Hospital</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HF_MED_LAB_NAME" Language="zh_Hans_CN">
+      <Text>医学实验室</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HF_MED_LAB_NAME" Language="en_US">
+      <Text>Medical Laboratory </Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HF_HYDROPOWER_STATION_NAME" Language="zh_Hans_CN">
+      <Text>水电站</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HF_HYDROPOWER_STATION_NAME" Language="en_US">
+      <Text>Hydropower Station</Text>
+    </Row>
+
+    <!-- The description of the building, used in various places. -->
+    <Row Tag="LOC_BUILDING_HF_HOSPITAL_DESCRIPITON" Language="zh_Hans_CN">
+      <Text>+20%城市增长率</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HF_HOSPITAL_DESCRIPITON" Language="en_US">
+      <Text>xxx</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HF_MED_LAB_DESCRIPITON" Language="zh_Hans_CN">
+      <Text>增加新 [ICON_Citizen] 市民后保留25% [ICON_FOOD]食物 储备以加速成长</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HF_MED_LAB_DESCRIPITON" Language="en_US">
+      <Text>xxx</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HF_HYDROPOWER_STATION_DESCRIPITON" Language="zh_Hans_CN">
+      <Text>为沿河地块+1 [ICON_Production] 产能，并为城市提供 5% 的 [ICON_Production] 产能提升</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_HF_HYDROPOWER_STATION_DESCRIPITON" Language="en_US">
+      <Text>+1 [ICON_Production] Production for riverside plots and  increase 5% for city's [ICON_Production] Production</Text>
+    </Row>
+
+    <!-- Pedia text (historical context) about the new building. -->
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HF_HYDROPOWER_STATION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>水电站是一种能将水能转换为电能的综合工程设施。一般包括由挡水、泄水建筑物形成的水库和水电站引水系统、发电厂房、机电设备等。水库的高水位水经引水系统流入厂房推动水轮发电机组发出电能，再经升压变压器、开关站和输电线路输入电网。</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HF_HYDROPOWER_STATION_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>A hydropower station is a comprehensive engineering facility that can convert water energy into electricity. It generally includes reservoirs and water diversion systems, powerhouses, and electromechanical equipment, which are formed by water retaining and discharge structures. The reservoir's high-level water flows into the plant through the diversion system to promote the turbine generator unit to send power, and then through the step-up transformer, switchgear station and transmission line to enter the grid.</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

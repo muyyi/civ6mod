@@ -178,15 +178,16 @@ VALUES ('RESOURCE_ALUMINUM','TERRAIN_PLAINS_HILLS');
 INSERT INTO Resource_YieldChanges
 VALUES ('RESOURCE_ALUMINUM','YIELD_PRODUCTION', 1);
 
--- 制图学后可以移除礁石
+-- 天文导航后可以移除礁石
 UPDATE Features
-SET RemoveTech = 'TECH_CARTOGRAPHY', Removable = 1
+SET RemoveTech = 'TECH_CELESTIAL_NAVIGATION', Removable = 1
 WHERE FeatureType = 'FEATURE_REEF';
 
 INSERT INTO Feature_Removes
 VALUES ('FEATURE_REEF','YIELD_PRODUCTION', 20);
 
-
+-- 打野可以获得的经验上限。默认为3
+UPDATE GlobalParameters SET Value='3' WHERE Name='EXPERIENCE_BARB_SOFT_CAP' ; 
 
 
 

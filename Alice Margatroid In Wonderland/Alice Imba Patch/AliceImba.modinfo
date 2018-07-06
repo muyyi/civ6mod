@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="db7b7fb2-df94-418b-b063-7b3137537e2a" version="1">
+  <Properties>
+    <Name>Alice Imba patch</Name>
+    <Description>A patch to unclock more content of Alice mod.</Description>
+    <Teaser>A patch to unclock more content of Alice mod.</Teaser>
+    <Authors>muyyisama</Authors>
+  </Properties>
+  <Dependencies>
+    <Mod id="bf4bc2c7-cd95-4c7d-82ab-cc85efe5ad27" title="Alice" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>Alice_Projects.xml</File>
+      <File>Modifier_IMBA.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Alice_Projects.xml</File>
+    <File>Modifier_IMBA.sql</File>
+  </Files>
+</Mod>

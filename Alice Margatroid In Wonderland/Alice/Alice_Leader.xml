@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ALICE_Leader -->
+<!-- Author: Muyyi -->
+<!-- Updated: 18/05/09 -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_ALICE_BY_MUYYI" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_DOLL_MASTER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_SHANGHAI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_KIRISAME_MARISA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_GOD_SHINKI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_DISTRICT_DOLL_HOME" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_DUSHIPAI" Kind="KIND_TRAIT"/>
+		<Row Type="MODIFIER_ALICE_PLAYER_CITIES_GRANT_UNIT" Kind="KIND_MODIFIER"/>
+	</Types>
+
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_ALICE_PLAYER_CITIES_GRANT_UNIT</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_GRANT_UNIT_IN_CITY</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_ALICE_BY_MUYYI</LeaderType>
+			<Name>LOC_LEADER_ALICE_BY_MUYYI_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<Sex>Female</Sex>
+			<SceneLayers>LEADER_DEFAULT</SceneLayers>
+		</Row>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" TraitType="TRAIT_LEADER_DOLL_MASTER"/>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" TraitType="TRAIT_LEADER_UNIT_SHANGHAI"/>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME"/>
+	</LeaderTraits>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" Quote="LOC_LEADER_ALICE_BY_MUYYI_QUOTE"/>
+	</LeaderQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_DOLL_MASTER" Name="LOC_TRAIT_LEADER_DOLL_MASTER_NAME" Description="LOC_TRAIT_LEADER_DOLL_MASTER_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_SHANGHAI" Name="LOC_UNIT_SHANGHAI_NAME" Description="LOC_UNIT_SHANGHAI_DESCRIPTION" />
+		<Row TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME" Name="LOC_DISTRICT_DOLL_HOME_NAME" Description="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" />
+		<Row TraitType="TRAIT_LEADER_UNIT_KIRISAME_MARISA" Name="LOC_UNIT_KIRISAME_MARISA_NAME" Description="LOC_UNIT_KIRISAME_MARISA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_GOD_SHINKI" Name="LOC_UNIT_GOD_SHINKI_NAME" Description="LOC_UNIT_GOD_SHINKI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_DUSHIPAI" Name="LOC_AGENDA_DUSHIPAI_NAME" Description="LOC_AGENDA_DUSHIPAI_DESCRIPTION"/>
+	</Traits>
+
+	<!-- Agendas Info-->
+	<Agendas>
+		<Row AgendaType="AGENDA_DUSHIPAI" Name="LOC_AGENDA_DUSHIPAI_NAME" Description="LOC_AGENDA_DUSHIPAI_DESCRIPTION"/>
+	</Agendas>
+	<!-- 领袖和议程关联 -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" AgendaType="AGENDA_DUSHIPAI"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_DUSHIPAI" TraitType="TRAIT_AGENDA_DUSHIPAI"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_DUSHIPAI" AgendaTwo="AGENDA_CULTURED"/>
+	</ExclusiveAgendas>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_DUSHIPAI" ModifierId="AGENDA_MODIFIER_NOT_WARMONGER"/>
+		<Row TraitType="TRAIT_AGENDA_DUSHIPAI" ModifierId="AGENDA_MODIFIER_WARMONGER"/>
+	</TraitModifiers>
+		
+	<!-- Ai Info -->
+	<AiListTypes>
+		<Row ListType="ALICE2Wonders"/>
+		<Row ListType="ALICE2Civics"/>
+		<Row ListType="ALICE2Techs"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- 这里的LeaderType为什么是这个？ -->
+		<Row ListType="ALICE2Wonders" LeaderType="TRAIT_LEADER_DOLL_MASTER" System="Buildings"/>
+		<Row ListType="ALICE2Civics" LeaderType="TRAIT_LEADER_DOLL_MASTER" System="Civics"/>
+		<Row ListType="ALICE2Techs" LeaderType="TRAIT_LEADER_DOLL_MASTER" System="Technologies"/>
+	</AiLists>
+	<!-- 将civ和tec做相应修改 -->
+	<AiFavoredItems>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_VENETIAN_ARSENAL"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_FORBIDDEN_CITY"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_POTALA_PALACE"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_BIG_BEN"/>
+		<Row ListType="ALICE2Wonders" Item="BUILDING_EIFFEL_TOWER"/>
+		<Row ListType="ALICE2Civics" Item="CIVIC_CRAFTSMANSHIP"/>
+		<Row ListType="ALICE2Civics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="ALICE2Civics" Item="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ListType="ALICE2Civics" Item="CIVIC_CLASS_STRUGGLE"/>
+		<Row ListType="ALICE2Techs" Item="TECH_ASTROLOGY"/>
+		<Row ListType="ALICE2Techs" Item="TECH_WRITING"/>
+		<Row ListType="ALICE2Techs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="ALICE2Techs" Item="TECH_APPRENTICESHIP"/>
+		<Row ListType="ALICE2Techs" Item="TECH_ENGINEERING"/>
+	</AiFavoredItems>
+</GameData>

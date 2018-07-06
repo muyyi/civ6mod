@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_ALICE_LD_24"/>
+			<m_ObjectName text="ICON_ALICE_LD_24"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALICE_LD_32"/>
+			<m_ObjectName text="ICON_ALICE_LD_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALICE_LD_45"/>
+			<m_ObjectName text="ICON_ALICE_LD_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALICE_LD_48"/>
+			<m_ObjectName text="ICON_ALICE_LD_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALICE_LD_50"/>
+			<m_ObjectName text="ICON_ALICE_LD_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALICE_LD_64"/>
+			<m_ObjectName text="ICON_ALICE_LD_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALICE_LD_80"/>
+			<m_ObjectName text="ICON_ALICE_LD_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHANGHAI_256"/>
+			<m_ObjectName text="ICON_SHANGHAI_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHANGHAI_22"/>
+			<m_ObjectName text="ICON_SHANGHAI_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHANGHAI_32"/>
+			<m_ObjectName text="ICON_SHANGHAI_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHANGHAI_38"/>
+			<m_ObjectName text="ICON_SHANGHAI_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHANGHAI_50"/>
+			<m_ObjectName text="ICON_SHANGHAI_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHANGHAI_80"/>
+			<m_ObjectName text="ICON_SHANGHAI_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHANGHAI_PORTRAIT_35"/>
+			<m_ObjectName text="ICON_SHANGHAI_PORTRAIT_35"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALICE_LD_256"/>
+			<m_ObjectName text="ICON_ALICE_LD_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALICE_LD_128"/>
+			<m_ObjectName text="ICON_ALICE_LD_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHANGHAI_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_SHANGHAI_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHANGHAI_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_SHANGHAI_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHANGHAI_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_SHANGHAI_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALICE_LD_55"/>
+			<m_ObjectName text="ICON_ALICE_LD_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_PORTRAIT_35"/>
+			<m_ObjectName text="ICON_MARISA_PORTRAIT_35"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_MARISA_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_MARISA_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_MARISA_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_MARISA_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_MARISA_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_22"/>
+			<m_ObjectName text="ICON_PENGLAI_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_32"/>
+			<m_ObjectName text="ICON_PENGLAI_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_38"/>
+			<m_ObjectName text="ICON_PENGLAI_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_50"/>
+			<m_ObjectName text="ICON_PENGLAI_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_80"/>
+			<m_ObjectName text="ICON_PENGLAI_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_256"/>
+			<m_ObjectName text="ICON_PENGLAI_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_PORTRAIT_35"/>
+			<m_ObjectName text="ICON_PENGLAI_PORTRAIT_35"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_PENGLAI_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_PENGLAI_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_PENGLAI_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_PENGLAI_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PENGLAI_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_PENGLAI_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_PORTRAIT_35"/>
+			<m_ObjectName text="ICON_SHINKI_PORTRAIT_35"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_SHINKI_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_SHINKI_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_SHINKI_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_SHINKI_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_SHINKI_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_ALICE_BY_MUYYI_CIV_256"/>
+			<m_ObjectName text="ICON_ALICE_CIV_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_ALICE_BY_MUYYI_CIV_128"/>
+			<m_ObjectName text="ICON_ALICE_CIV_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_ALICE_BY_MUYYI_CIV_80"/>
+			<m_ObjectName text="ICON_ALICE_CIV_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_ALICE_BY_MUYYI_CIV_64"/>
+			<m_ObjectName text="ICON_ALICE_CIV_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_ALICE_BY_MUYYI_CIV_55"/>
+			<m_ObjectName text="ICON_ALICE_CIV_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_ALICE_BY_MUYYI_CIV_50"/>
+			<m_ObjectName text="ICON_ALICE_CIV_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_ALICE_BY_MUYYI_CIV_48"/>
+			<m_ObjectName text="ICON_ALICE_CIV_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_ALICE_BY_MUYYI_CIV_45"/>
+			<m_ObjectName text="ICON_ALICE_CIV_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_ALICE_BY_MUYYI_CIV_32"/>
+			<m_ObjectName text="ICON_ALICE_CIV_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_ALICE_BY_MUYYI_CIV_24"/>
+			<m_ObjectName text="ICON_ALICE_CIV_24"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MUSHROOM_22"/>
+			<m_ObjectName text="ICON_ATLAS_MUSHROOM_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MUSHROOM_38"/>
+			<m_ObjectName text="ICON_ATLAS_MUSHROOM_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MUSHROOM_50"/>
+			<m_ObjectName text="ICON_ATLAS_MUSHROOM_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MUSHROOM_64"/>
+			<m_ObjectName text="ICON_ATLAS_MUSHROOM_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MUSHROOM_256"/>
+			<m_ObjectName text="ICON_ATLAS_MUSHROOM_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MUSHROOM_FOW"/>
+			<m_ObjectName text="ICON_ATLAS_MUSHROOM_FOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_22"/>
+			<m_ObjectName text="ICON_MARISA_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_32"/>
+			<m_ObjectName text="ICON_MARISA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_38"/>
+			<m_ObjectName text="ICON_MARISA_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_50"/>
+			<m_ObjectName text="ICON_MARISA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_80"/>
+			<m_ObjectName text="ICON_MARISA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MARISA_256"/>
+			<m_ObjectName text="ICON_MARISA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_22"/>
+			<m_ObjectName text="ICON_SHINKI_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_32"/>
+			<m_ObjectName text="ICON_SHINKI_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_38"/>
+			<m_ObjectName text="ICON_SHINKI_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_50"/>
+			<m_ObjectName text="ICON_SHINKI_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_80"/>
+			<m_ObjectName text="ICON_SHINKI_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SHINKI_256"/>
+			<m_ObjectName text="ICON_SHINKI_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BG_ALICE"/>
+			<m_ObjectName text="BG_ALICE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_DOLL_HOME"/>
+			<m_ObjectName text="MOMENT_DOLL_HOME"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_SHANGHAI_DOLL"/>
+			<m_ObjectName text="MOMENT_SHANGHAI_DOLL"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

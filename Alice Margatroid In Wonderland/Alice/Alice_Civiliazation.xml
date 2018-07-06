@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LoadingInfo>
+		<!-- Alice Margatroid -->
+		<!-- BackgroundImage = top left / ForegroundImage = middle right -->
+		<Row LeaderType="LEADER_ALICE_BY_MUYYI" ForegroundImage="LEADER_ALICE_NEUTRAL1" PlayDawnOfManAudio="0"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_ALICE_BY_MUYYI" BackgroundImage="BG_ALICE"/>
+	</DiplomacyInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_ALICE_PRIMARY</Type>
+			<Color>229,23,23,255</Color>
+
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_ALICE_SECONDARY</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_ALICE_TEXT</Type>
+			<Color>243,124,92,255</Color>
+			<!-- <Color>246,204,205,255</Color> -->
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_ALICE_BY_MUYYI</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_ALICE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_ALICE_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_ALICE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_DOLL_HOME" Texture="MOMENT_DOLL_HOME"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_SHANGHAI" Texture="MOMENT_SHANGHAI_DOLL"/>
+	</MomentIllustrations>
+	
+	<Types>
+		<!-- 待改名 -->
+		<Row Type="CIVILIZATION_FOREST_OF_MAGIC" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_MAGIC_POWER" Kind="KIND_TRAIT"/>
+		<!-- <Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_FLOWER" Kind="KIND_TRAIT"/> -->
+		<Row Type="MODIFIER_ALICE_PLAYER_CITIES_RESOURCE_HARVEST_BONUS" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_ALICE_PLAYER_UNITS_ADJUST_ENTER_FOREIGN_LANDS" Kind="KIND_MODIFIER"/>
+	</Types>
+
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_ALICE_PLAYER_CITIES_RESOURCE_HARVEST_BONUS</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_RESOURCE_HARVEST_BONUS</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_ALICE_PLAYER_UNITS_ADJUST_ENTER_FOREIGN_LANDS</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_IGNORE_TERRAIN_COST</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" Name="LOC_CIVILIZATION_FOREST_OF_MAGIC_NAME" Description="LOC_CIVILIZATION_FOREST_OF_MAGIC_DESCRIPTION" Adjective="LOC_CIVILIZATION_FOREST_OF_MAGIC_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="1"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" LeaderType="LEADER_ALICE_BY_MUYYI" CapitalName="LOC_CITY_NAME_FOREST_OF_MAGIC"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_MAGIC_POWER" Name="LOC_TRAIT_MAGIC_POWER_NAME" Description="LOC_TRAIT_MAGIC_POWER_DESCRIPTION" />
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" TraitType="TRAIT_MAGIC_POWER"/>
+	</CivilizationTraits>
+	<TraitModifiers>
+		<!-- 清理地貌和收获资源的产出增加 -->
+		<!-- <Row TraitType="TRAIT_MAGIC_POWER" ModifierId="MAGIC_POWER_BONUS_HARVEST_YIELDS" /> -->
+		<!-- 单位无视森林/雨林地形 -->
+		<Row TraitType="TRAIT_MAGIC_POWER" ModifierId="MAGIC_POWER_MOVE_FASTER_IN_FOREST" />
+	</TraitModifiers>
+	<Modifiers>
+<!-- 		<Row>
+			<ModifierId>MAGIC_POWER_BONUS_HARVEST_YIELDS</ModifierId>
+			<ModifierType>MODIFIER_ALICE_PLAYER_CITIES_RESOURCE_HARVEST_BONUS</ModifierType>
+		</Row> -->
+		<Row>
+			<ModifierId>MAGIC_POWER_MOVE_FASTER_IN_FOREST</ModifierId>
+			<ModifierType>MODIFIER_ALICE_PLAYER_UNITS_ADJUST_ENTER_FOREIGN_LANDS</ModifierType>
+		</Row>
+	</Modifiers>
+		
+	<ModifierArguments>
+		<!-- 清理地貌和收获资源的产出增加50%  -->
+<!-- 		<Row>
+			<ModifierId>MAGIC_POWER_BONUS_HARVEST_YIELDS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row> -->
+		<Row>
+			<ModifierId>MAGIC_POWER_MOVE_FASTER_IN_FOREST</ModifierId>
+			<Name>Ignore</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIC_POWER_MOVE_FASTER_IN_FOREST</ModifierId>
+			<Name>Type</Name>
+			<Value>FOREST</Value>
+		</Row>
+<!-- 		<Row>
+			<ModifierId>MAGIC_POWER_ALICE_CAN_SEE_MUSHROOM</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_MAGIC_MASHROOM</Value>
+		</Row> -->
+	</ModifierArguments>
+
+	<!-- 城市名：待定 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_1"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_2"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_3"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_4"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_5"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_6"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_7"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_8"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_9"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_10"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_11"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_12"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_13"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_14"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_15"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_16"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_17"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_18"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_19"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_20"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_21"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_22"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_23"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" CityName="LOC_CIVLIZATION_FOREST_OF_MAGIC_CITY_24"/>
+	</CityNames>
+
+	<!-- 文明关联树林和森林 -->
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" FeatureType="FEATURE_JUNGLE" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_FOREST_OF_MAGIC" FeatureType="FEATURE_FOREST" Tier="5"/>
+	</StartBiasFeatures>
+</GameData>

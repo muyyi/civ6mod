@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DISTRICT_DOLL_HOME -->
+<!-- Author: muyyi -->
+<!-- Update: 2018/5/8 10:35 AM-->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_DOLL_HOME" Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_DOLL_HOME" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_DOLL_HOME" Name="LOC_DISTRICT_DOLL_HOME_NAME" Description="LOC_DISTRICT_DOLL_HOME_DESCRIPTION" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="40" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="0" CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_DOLL_HOME" PrereqCivic="CIVIC_CRAFTSMANSHIP"/>
+	</Districts>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="Mine_Production"/>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="Quarry_Production"/>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="District_Production"/>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldChangeId="Government_Production"/>
+	</District_Adjacencies>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_DOLL_HOME" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+	</District_CitizenYieldChanges>
+	<District_CitizenGreatPersonPoints>
+		<Row DistrictType="DISTRICT_DOLL_HOME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</District_CitizenGreatPersonPoints>
+</GameData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- For simplicity, reuse an existing icon. -->
+	<IconDefinitions>
+		<Row Name="BUILDING_HF_HOSPITAL" Atlas="ICON_ATLAS_UNITS" Index="65"/>
+		<Row Name="BUILDING_HF_MED_LAB" Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
+		<Row Name="BUILDING_HF_HYDROPOWER_STATION" Atlas="ICON_ATLAS_BUILDINGS" Index="27"/>
+	</IconDefinitions>
+</GameData>
